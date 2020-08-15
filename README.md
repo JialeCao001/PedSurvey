@@ -5,8 +5,8 @@
 
 <table>
     <tr>
-        <td ><center><img src="imgs/fig-mr.png" height="220"> </center></td>
-        <td ><center><img src="imgs/fig-mr.png" height="220" > </center></td>
+        <td ><center><img src="imgs/fig-mr.png" height="210"> </center></td>
+        <td ><center><img src="imgs/fig-mr.png" height="210" > </center></td>
     </tr>
 </table>
 <table>
