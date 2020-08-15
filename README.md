@@ -1,12 +1,12 @@
 ## From Handcrafted to Deep Features for Pedestrian Detection: A Survey
 
 - This project provides a paper list about pedestrian detection following the taxonomy in our survey paper. 
-- If you find a new paper about pedestrian detection, please feel free to contact us.  
+- If you find a new paper about pedestrian detection, please feel free to contact us for adding it.  
 
 <table>
     <tr>
-        <td ><center><img src="imgs/fig-mr.png" height="210"> </center></td>
-        <td ><center><img src="imgs/fig-mr.png" height="210" > </center></td>
+        <td ><center><img src="imgs/fig-mr.png" height="200"> </center></td>
+        <td ><center><img src="imgs/fig-mr.png" height="200" > </center></td>
     </tr>
 </table>
 <table>
