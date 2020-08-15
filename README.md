@@ -40,8 +40,6 @@
     5.1 [Scale variance](#5.1)  
     5.2 [Occlusion](#5.2)  
     5.3 [Domain adaptation](#5.3)  
-       
-[toc] 
 
 ## 1. Detection pipeline <a name="1"></a>
 - **1.1. Proposal generation** <a name="1.1"></a>
