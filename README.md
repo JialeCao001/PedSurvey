@@ -23,7 +23,11 @@
     1.4 [Post processing](#1.4)  
 2. [Single-spectral pedestrian detection](#2)  
     2.1 [Handcrafted features based pedestrian detection](#2.1)  
-    2.2 [Deep features based pedestrian detection](#2.2)    
+        2.1.1 [Decision forests based methods](#2.1.1)  
+        2.1.2 [Deformable part based methods](#2.1.2)  
+    2.2 [Deep features based pedestrian detection](#2.2)  
+        2.2.1 [Hybrid methods](#2.2.1)  
+        2.2.2 [Pure CNN based methods](#2.2.2)        
 3. [Multispectral pedestrian detection](#3)  
     3.1 [Deep feature fusion](#3.1)  
     3.2 [Data processing](#3.2)  
@@ -80,7 +84,7 @@
 
 #### 2.1. Handcrafted features based pedestrian detection <a name="2.1"></a>
 
-- **Decision forests based methods**
+- **2.1.1. Decision forests based methods**  <a name="2.1.1"></a>
   - Robust real-time face detection, IJCV 2004. [[Paper]](https://www.face-rec.org/algorithms/Boosting-Ensemble/16981346.pdf)
   - Integral channel features, BMVC 2009. [[Paper]](https://pdollar.github.io/files/papers/DollarBMVC09ChnFtrsAbstract.pdf)
   - New features and insights for pedestrian detection, CVPR 2010. [[Paper]](https://ethz.ch/content/dam/ethz/special-interest/baug/igp/photogrammetry-remote-sensing-dam/documents/pdf/walk10cvpr.pdf)
@@ -107,7 +111,7 @@
   - Pedestrian proposal and refining based on the shared pixel differential feature, TITS 2019. [[Paper]](https://ieeexplore.ieee.org/document/8443439)
   - Group cost-sensitive boostlr with vector form decorrelated filters for pedestrian detection, TITS 2019. [[Paper]](https://ieeexplore.ieee.org/document/8880687/)
   - Pedestrian detection using pixel difference matrix projection, TITS 2020. [[paper]](https://ieeexplore.ieee.org/document/8703888)
-- **Deformable part based methods**
+- **2.1.2. Deformable part based methods**  <a name="2.1.2"></a>
   - Histograms of oriented gradients for human detection, CVPR 2005. [[Paper]](https://lear.inrialpes.fr/people/triggs/pubs/Dalal-cvpr05.pdf)
   - Object detection with discriminatively trained partbased models, CVPR 2009/TPAMI 2010. [[Paper]] [[Paper]](http://cs.brown.edu/people/pfelzens/papers/lsvm-pami.pdf)
   - Cascade object detection with deformable part models, CVPR 2010. [[Paper]](http://rogerioferis.com/VisualRecognitionAndSearch2013/material/Class4DPM2.pdf)
@@ -120,8 +124,8 @@
   - A pedestrian detection system accelerated by kernelized proposals, TITS 2020. [[paper]](https://ieeexplore.ieee.org/document/8681730)
 
 #### 2.2. Deep features based pedestrian detection <a name="2.2"></a>
-- **Hybrid pedestrian detection methods**
-  - **CNN as feature**
+- **Hybrid pedestrian detection methods**  <a name="2.2.1"></a>
+  - **2.2.1. CNN as feature**
     - Convolutional channel features, ICCV 2015. [[Paper]](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Yang_Convolutional_Channel_Features_ICCV_2015_paper.pdf)
     - Learning complexity-aware cascades for deep pedestrian detection, ICCV 2015. [[Paper]](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Cai_Learning_Complexity-Aware_Cascades_ICCV_2015_paper.pdf)  
     - Is faster r-cnn doing well for pedestrian detection? ECCV 2016. [[Paper]](https://arxiv.org/pdf/1607.07032.pdf)
@@ -144,7 +148,7 @@
     - S-cnn: Subcategory-aware convolutional networks for object detection, TPAMI 2018. [[Paper]](https://ieeexplore.ieee.org/document/8051100)
     - Jointly learning deep features, deformable parts, occlusion and classification for pedestrian detection, TPAMI 2018. [[Paper]](https://wlouyang.github.io/Papers/Ouyang2017JoingCNNPed.pdf)
 
-- **Pure CNN based pedestrian detection methods**
+- **2.2.2. Pure CNN based pedestrian detection methods**  <a name="2.2.2"></a>
   - **Scale-aware methods**
     - Exploit all the layers: Fast and accurate cnn object detector with scale dependent pooling and cascaded rejection classifiers, CVPR 2016. [[Paper]](https://openaccess.thecvf.com/content_cvpr_2016/papers/Yang_Exploit_All_the_CVPR_2016_paper.pdf)
     - A unified multi-scale deep convolutional neural network for fast object detection, ECCV 2016. [[Paper]](https://arxiv.org/pdf/1607.07155.pdf)
