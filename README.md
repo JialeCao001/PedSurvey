@@ -4,8 +4,8 @@
 - If you find a new paper about pedestrian detection, please feel free to contact us.  
 - If this project help your research, please consider to cite our paper:
 ```
-@ARTICLE{Cao_PDR_arXiv_2020,
-         author = {Kemal Oksuz and Baris Can Cam and Sinan Kalkan and Emre Akbas},
+@ARTICLE{Cao_PDS_arXiv_2020,
+         author = {Jiale Cao and Yanwei Pang and Jin Xie Fahad Shahbaz Khan and Ling Shao},
          title = "{From Handcrafted to Deep Features for Pedestrian Detection: A Survey}",
          journal = {arXiv},
          year = "2020"
@@ -19,8 +19,8 @@
     1.3 [Proposal classification](#1.3)  
     1.4 [Post processing](#1.4)  
 2. [Single-spectral pedestrian detection](#2)  
-    2.1 [Handcrafted features based method](#2.1)  
-    2.2 [Deep features based method](#2.2)    
+    2.1 [Handcrafted features based pedestrian detection](#2.1)  
+    2.2 [Deep features based pedestrian detection](#2.2)    
 3. [Multispectral pedestrian detection](#3)  
     3.1 [Deep feature fusion](#3.1)  
     3.2 [Data processing](#3.2)  
@@ -36,39 +36,45 @@
         
 ## 1. Detection pipeline <a name="1"></a>
 
-- Proposal generation <a name="1.1"></a>
+- **1.1. Proposal generation** <a name="1.1"></a>
   - Sliding windows
+  - Particle windows
+    - Multistage particle windows for fast and accurate object detection, PAMI 2011. [[Paper]](https://ieeexplore.ieee.org/document/6109271)
+    - Learning sampling distributions for efficient object detection, TIP 2017. [[Paper]](https://arxiv.org/pdf/1508.05581.pdf)
   - Objectness methods
-    - Selective search for object recognition, IJCV 2016.
-    - What makes for effective detection proposals, PAMI 2016. 
-    - Bing: Binarized normed gradients for objectness estimation at 300fps, CVPR 2014. 
-    - Edge boxes: Locating object proposals from edges, ECCV 2014.
+    - Edge boxes: Locating object proposals from edges, ECCV 2014. [[Paper]](https://pdollar.github.io/files/papers/ZitnickDollarECCV14edgeBoxes.pdf)
+    - Bing: Binarized normed gradients for objectness estimation at 300fps, CVPR 2014. [[Paper]](http://www.robots.ox.ac.uk/~tvg/publications/2019/Cheng_BING_Binarized_Normed_2014_CVPR_paper.pdf)
+    - What makes for effective detection proposals, PAMI 2016. [[Paper]](https://arxiv.org/pdf/1502.05082.pdf)
+    - Selective search for object recognition, IJCV 2016. [[Paper]](http://www.huppelen.nl/publications/selectiveSearchDraft.pdf)
   - Region proposal networks  
-    - Faster rcnn: Towards real-time object detection with region proposal networks, NIPS 2015.
-    - Region proposal by guided anchoring, CVPR 2019.
-    - A unified multi-scale deep convolutional neural network for fast object detection, ECCV 2016.
-- Feature extraction  <a name="1.2"></a>
+    - Faster rcnn: Towards real-time object detection with region proposal networks, NIPS 2015. [[Paper]](https://arxiv.org/pdf/1506.01497.pdf)
+    - A unified multi-scale deep convolutional neural network for fast object detection, ECCV 2016. [[Paper]](https://arxiv.org/pdf/1607.07155.pdf)
+    - Region proposal by guided anchoring, CVPR 2019. [[Paper]](https://arxiv.org/pdf/1901.03278.pdf)
+    
+- **1.2. Feature extraction**  <a name="1.2"></a>
   - Handcrafted features
-    - Robust real-time face detection, IJCV 2004.
-    - Histograms of oriented gradients for human detection, CVPR 2005.
-    - Integral channel features, BMVC 2009.
-    - Object detection with discriminatively trained partbased models, PAMI 2010.
+    - Robust real-time face detection, IJCV 2004. [[Paper]](https://www.face-rec.org/algorithms/Boosting-Ensemble/16981346.pdf)
+    - Histograms of oriented gradients for human detection, CVPR 2005. [[Paper]](http://vision.stanford.edu/teaching/cs231b_spring1213/papers/CVPR05_DalalTriggs.pdf)
+    - Integral channel features, BMVC 2009. [[Paper]](https://pdollar.github.io/files/papers/DollarBMVC09ChnFtrsAbstract.pdf)
+    - Object detection with discriminatively trained partbased models, PAMI 2010. [[Paper]](http://cs.brown.edu/people/pfelzens/papers/lsvm-pami.pdf)
   - Deep features
-    - Imagenet classification with deep convolutional neural networks, NIPS 2012.
-    - Very deep convolutional networks for large-scale image recognition, arXiv 2014.
-    - Deep residual learning for image recognition, CVPR 2016.
-    - Densely connected convolutional networks, CVPR 2017.
-- 1.3. Proposal classification/regression  <a name="1.3"></a>
-  - Support-vector networks, ML 1995.
-  - A decision-theoretic generalization of on-line learning and an application to boosting, JCSS 1997.
+    - Imagenet classification with deep convolutional neural networks, NIPS 2012. [[Paper]](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf)
+    - Very deep convolutional networks for large-scale image recognition, arXiv 2014. [[Paper]](https://arxiv.org/pdf/1409.1556.pdf)
+    - Deep residual learning for image recognition, CVPR 2016. [[Paper]](https://arxiv.org/pdf/1512.03385.pdf)
+    - Densely connected convolutional networks, CVPR 2017. [[Paper]](https://arxiv.org/pdf/1608.06993.pdf)
+      
+- **1.3. Proposal classification/regression**  <a name="1.3"></a>
+  - Support-vector networks, ML 1995. [[Paper]](https://link.springer.com/content/pdf/10.1023%2FA%3A1022627411411.pdf)
+  - A decision-theoretic generalization of on-line learning and an application to boosting, JCSS 1997. [[Paper]](http://cseweb.ucsd.edu/~yfreund/papers/adaboost.pdf)
   - Softmax layer, Sigmoid layer, Smooth L1 layer     
-- Post processing  <a name="1.4"></a>
+  
+- **1.4. Post processing**  <a name="1.4"></a>
   - Greedy NMS
-  - Soft-nms–improving object detection with one line of code., ICCV 2017.
-  - Learning nonmaximum suppression, CVPR 2017.
-  - Relation networks for object detection, CVPR 2018.
-  - Learning to separate: Detecting heavily-occluded objects in urban scenes, arXiv 2019.
-  - Adaptive nms: Refining pedestrian detection in a crowd, CVPR 2020.
+  - Soft-nms–improving object detection with one line of code, ICCV 2017. [[Paper]](https://arxiv.org/pdf/1704.04503.pdf)
+  - Learning nonmaximum suppression, CVPR 2017. [[Paper]](https://arxiv.org/pdf/1705.02950.pdf)
+  - Relation networks for object detection, CVPR 2018. [[Paper]](https://arxiv.org/pdf/1711.11575.pdf)
+  - Learning to separate: Detecting heavily-occluded objects in urban scenes, arXiv 2019. [[Paper]](https://arxiv.org/pdf/1912.01674.pdf)
+  - Adaptive nms: Refining pedestrian detection in a crowd, CVPR 2020. [[Paper]](https://arxiv.org/pdf/1904.03629.pdf)
 
    
 ## 2. Single-spectral pedestrian detection <a name="2"></a>
@@ -76,64 +82,65 @@
 #### 2.1. Handcrafted features based pedestrian detection <a name="2.1"></a>
 
 - Decision forests based methods
-  - Robust real-time face detection, IJCV 2004.
-  - Integral channel features, BMVC 2009.
-  - Seeking the strongest rigid detector, CVPR 2013.
-  - Pedestrian detection inspired by appearance constancy and shape symmetry, CVPR 2016/TIP 2016.
-  - Semantic channels for fast pedestrian detection, CVPR 2016.
-  - Fast boosting based detection using scale invariant multimodal multiresolution filtered features, CVPR 2017.
-  - Fast feature pyramids for object detection, BMVC 2010/PAMI 2014.
-  - Pedestrian detection by feature selected self-similarity features, IEEE Access 2018.
-  - Crosstalk cascades for frame-rate pedestrian detection, ECCV 2012.
-  - Local decorrelation for improved pedestrian detection, NIPS 2014.
-  - Local co-occurrence selection via partial least squares for pedestrian detection, TITS 2019.
-  - Learning sampling distributions for efficient object detection, TIP 2017.
-  - Exploring weak stabilization for motion feature extraction, CVPR 2013.
-  - Looking at pedestrians at different scales: A multiresolution approach and evaluations, TITS 2016.
-  - Pedestrian detection with spatially pooled features and structured ensemble learning, ECCV 2016/PAMI 2017.
-  - Lbp channels for pedestrian detection, WACV 2018.
-  - New features and insights for pedestrian detection, CVPR 2010.
-  - A novel pixel neighborhood differential statistic feature for pedestrian and face detection, PR 2017.
-  - Pedestrian proposal and refining based on the shared pixel differential feature, TITS 2019.
-  - An extended filtered channel framework for pedestrian detection, TITS 2018.
-  - Informed haar-like features improve pedestrian detection, CVPR 2014.
-  - Exploring human vision driven features for pedestrian detection, TCSVT 2015.
-  - How far are we from solving pedestrian detection? CVPR 2016
-  - Filtered channel features for pedestrian detection, CVPR 2015.
-  - Group cost-sensitive boostlr with vector form decorrelated filters for pedestrian detection, TITS 2019.
-  - Discriminative latent semantic feature learning for pedestrian detection, Neurocomputing 2017.
+  - Robust real-time face detection, IJCV 2004. [[Paper]](https://www.face-rec.org/algorithms/Boosting-Ensemble/16981346.pdf)
+  - Integral channel features, BMVC 2009. [[Paper]](https://pdollar.github.io/files/papers/DollarBMVC09ChnFtrsAbstract.pdf)
+  - New features and insights for pedestrian detection, CVPR 2010. [[Paper]](https://ethz.ch/content/dam/ethz/special-interest/baug/igp/photogrammetry-remote-sensing-dam/documents/pdf/walk10cvpr.pdf)
+  - Fast feature pyramids for object detection, BMVC 2010/PAMI 2014. [[Paper]](https://vision.cornell.edu/se3/wp-content/uploads/2014/09/DollarPAMI14pyramids_0.pdf)
+  - Crosstalk cascades for frame-rate pedestrian detection, ECCV 2012. [[Paper]](http://www.vision.caltech.edu/publications/DollarECCV12crosstalkCascades.pdf)
+  - Seeking the strongest rigid detector, CVPR 2013. [[Paper]](https://rodrigob.github.io/documents/2013_cvpr_roerei_with_supplementary_material.pdf)
+  - Exploring weak stabilization for motion feature extraction, CVPR 2013. [[Paper]](https://www.cs.cmu.edu/~deva/papers/motionftrs.pdf)
+  - Informed haar-like features improve pedestrian detection, CVPR 2014. [[Paper]](https://ieeexplore.ieee.org/document/6909521)
+  - Local decorrelation for improved pedestrian detection, NIPS 2014. [[Paper]](https://papers.nips.cc/paper/5419-local-decorrelation-for-improved-pedestrian-detection.pdf)
+  - Exploring human vision driven features for pedestrian detection, TCSVT 2015. [[Paper]](https://ieeexplore.ieee.org/document/7027791)
+  - Filtered channel features for pedestrian detection, CVPR 2015. [[Paper]](https://arxiv.org/abs/1501.05759.pdf)
+  - Looking at pedestrians at different scales: A multiresolution approach and evaluations, TITS 2016. [[Paper]](https://eshed1.github.io/papers/Multires_Peds.pdf)
+  - Semantic channels for fast pedestrian detection, CVPR 2016. [[Paper]](https://openaccess.thecvf.com/content_cvpr_2016/papers/Costea_Semantic_Channels_for_CVPR_2016_paper.pdf)
+  - How far are we from solving pedestrian detection? CVPR 2016. [[Paper]](https://arxiv.org/pdf/1602.01237.pdf)
+  - Pedestrian detection inspired by appearance constancy and shape symmetry, CVPR 2016/TIP 2016. [[Paper]](https://openaccess.thecvf.com/content_cvpr_2016/papers/Cao_Pedestrian_Detection_Inspired_CVPR_2016_paper.pdf)
+  - Pedestrian detection with spatially pooled features and structured ensemble learning, ECCV 2016/PAMI 2017. [[Paper]](https://arxiv.org/pdf/1409.5209.pdf)
+  - Discriminative latent semantic feature learning for pedestrian detection, Neurocomputing 2017. [[Paper]](https://www.sciencedirect.com/science/article/abs/pii/S0925231217301170)
+  - A novel pixel neighborhood differential statistic feature for pedestrian and face detection, PR 2017. [[Paper]](https://www.sciencedirect.com/science/article/abs/pii/S0031320316302710)
+  - Local co-occurrence selection via partial least squares for pedestrian detection, TITS 2017. [[Paper]](https://ieeexplore.ieee.org/document/7589013)
+  - Fast boosting based detection using scale invariant multimodal multiresolution filtered features, CVPR 2017. [[Paper]](https://openaccess.thecvf.com/content_cvpr_2017/papers/Costea_Fast_Boosting_Based_CVPR_2017_paper.pdf)
+  - Pedestrian detection by feature selected self-similarity features, IEEE Access 2018. [[Paper]](https://ieeexplore.ieee.org/abstract/document/8286891)
+  - An extended filtered channel framework for pedestrian detection, TITS 2018. [[Paper]](https://ieeexplore.ieee.org/document/8310009)
+  - Lbp channels for pedestrian detection, WACV 2018. [[Paper]](https://hal.inria.fr/hal-01849431/document)
+  - Pedestrian proposal and refining based on the shared pixel differential feature, TITS 2019. [[Paper]](https://ieeexplore.ieee.org/document/8443439)
+  - Group cost-sensitive boostlr with vector form decorrelated filters for pedestrian detection, TITS 2019. [[Paper]](https://ieeexplore.ieee.org/document/8880687/)
+  - Pedestrian detection using pixel difference matrix projection, TITS 2020. [[paper]](https://ieeexplore.ieee.org/document/8703888)
 - Deformable part based methods
-  - Object detection with discriminatively trained partbased models, TPAMI 2010.
-  - Histograms of oriented gradients for human detection, CVPR 2015.
-  - A pedestrian detection system accelerated by kernelized proposals, TITS 2019.
+  - Histograms of oriented gradients for human detection, CVPR 2005.
+  - Object detection with discriminatively trained partbased models, CVPR 2009/TPAMI 2010.
   - Cascade object detection with deformable part models, CVPR 2010.
-  - Real-time rgb-d based template matching pedestrian detection, ICRA 2016.
-  - Pedestrian detection using pixel difference matrix projection, TITS 2019.
-  - Single-pedestrian detection aided by multi-pedestrian detection, CVPR 2013/TPAMI 2015.
   - Multiresolution models for object detection, ECCV 2010.
-  - Pedestrian detection in crowded scenes via scale and occlusion analysis, ICIP 2016.
   - Robust multi-resolution pedestrian detection in traffic scenes, CVPR 2013.
+  - Single-pedestrian detection aided by multi-pedestrian detection, CVPR 2013/TPAMI 2015.
+  - Pedestrian detection in crowded scenes via scale and occlusion analysis, ICIP 2016. [[paper]](https://faculty.ucmerced.edu/mhyang/papers/icip16_mot.pdf)
+  - Real-time rgb-d based template matching pedestrian detection, ICRA 2016. [[paper]](https://arxiv.org/pdf/1610.00748.pdf)-----
+  - A pedestrian detection system accelerated by kernelized proposals, TITS 2020. [[paper]](https://ieeexplore.ieee.org/document/8681730)
+
 #### 2.2. Deep features based pedestrian detection <a name="2.2"></a>
 - Hybrid pedestrian detection methods
-  - Real-time pedestrian detection with deep network cascades, BMVC 2015.
-  - Learning complexity-aware cascades for deep pedestrian detection, ICCV 2015.
-  - Learning multilayer channel features for pedestrian detection, TIP 2017.
-  - S-cnn: Subcategory-aware convolutional networks for object detection, TPAMI 2018.
-  - Taking a deeper look at pedestrians, CVPR 2015.
-  - Deep network aided by guiding network for pedestrian detection, PRL 2017.
-  - Scale-aware fast r-cnn for pedestrian detection, TMM 2018.
-  - Neural features for pedestrian detection, Neurocomputing 2017.
-  - Switchable deep network for pedestrian detection, CVPR 2014.
   - Joint deep learning for pedestrian detection, ICCV 2013.
-  - Jointly learning deep features, deformable parts, occlusion and classification for pedestrian detection, TPAMI 2018.
-  - Improving the performance of pedestrian detectors using convolutional learning, PR 2017.
-  - Filtered shallow-deep feature channels for pedestrian detection, Neurocomputing 2017.
-  - Deep learning strong parts for pedestrian detection, ICCV 2015.
-  - Hybrid channel based pedestrian detection, Neurocomputing 2017.
-  - Pushing the limits of deep cnns for pedestrian detection, TCSVT 2018.
-  - Fast pedestrian detection with attention-enhanced multi-scale rpn and soft-cascaded decision trees, TITS 2019.
+  - Switchable deep network for pedestrian detection, CVPR 2014.
+  - Taking a deeper look at pedestrians, CVPR 2015.
+  - Real-time pedestrian detection with deep network cascades, BMVC 2015.
   - Convolutional channel features, ICCV 2015.
+  - Deep learning strong parts for pedestrian detection, ICCV 2015.
+  - Learning complexity-aware cascades for deep pedestrian detection, ICCV 2015.
   - Is faster r-cnn doing well for pedestrian detection? ECCV 2016.
+  - Deep network aided by guiding network for pedestrian detection, PRL 2017.
+  - Neural features for pedestrian detection, Neurocomputing 2017.
+  - Hybrid channel based pedestrian detection, Neurocomputing 2017.
+  - Filtered shallow-deep feature channels for pedestrian detection, Neurocomputing 2017.
+  - Improving the performance of pedestrian detectors using convolutional learning, PR 2017.
+  - Learning multilayer channel features for pedestrian detection, TIP 2017.
+  - Scale-aware fast r-cnn for pedestrian detection, TMM 2018.
+  - Pushing the limits of deep cnns for pedestrian detection, TCSVT 2018.
+  - S-cnn: Subcategory-aware convolutional networks for object detection, TPAMI 2018.
+  - Jointly learning deep features, deformable parts, occlusion and classification for pedestrian detection, TPAMI 2018.
+  - Fast pedestrian detection with attention-enhanced multi-scale rpn and soft-cascaded decision trees, TITS 2019. [[paper]](https://ieeexplore.ieee.org/document/8883216/)
+  
 -  Pure CNN based pedestrian detection methods
   - Scale-aware methods
     - Fpn++: A simple baseline for pedestrian detection, ICME 2019.
@@ -312,4 +319,3 @@
 
 ## Contact 
 Please contact us for your questions about this webpage.
-
