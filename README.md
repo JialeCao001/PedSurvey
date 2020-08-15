@@ -38,46 +38,42 @@
     5.3 [Domain adaptation](#5.3)  
         
 ## 1. Detection pipeline <a name="1"></a>
-
 - **1.1. Proposal generation** <a name="1.1"></a>
-  - Sliding windows
-  - Particle windows
+  - **Sliding windows**
+  - **Particle windows**
     - Multistage particle windows for fast and accurate object detection, PAMI 2011. [[Paper]](https://ieeexplore.ieee.org/document/6109271)
     - Learning sampling distributions for efficient object detection, TIP 2017. [[Paper]](https://arxiv.org/pdf/1508.05581.pdf)
-  - Objectness methods
+  - **Objectness methods**
     - Edge boxes: Locating object proposals from edges, ECCV 2014. [[Paper]](https://pdollar.github.io/files/papers/ZitnickDollarECCV14edgeBoxes.pdf)
     - Bing: Binarized normed gradients for objectness estimation at 300fps, CVPR 2014. [[Paper]](http://www.robots.ox.ac.uk/~tvg/publications/2019/Cheng_BING_Binarized_Normed_2014_CVPR_paper.pdf)
     - What makes for effective detection proposals, PAMI 2016. [[Paper]](https://arxiv.org/pdf/1502.05082.pdf)
     - Selective search for object recognition, IJCV 2016. [[Paper]](http://www.huppelen.nl/publications/selectiveSearchDraft.pdf)
-  - Region proposal networks  
+  - **Region proposal networks**  
     - Faster rcnn: Towards real-time object detection with region proposal networks, NIPS 2015. [[Paper]](https://arxiv.org/pdf/1506.01497.pdf)
     - A unified multi-scale deep convolutional neural network for fast object detection, ECCV 2016. [[Paper]](https://arxiv.org/pdf/1607.07155.pdf)
     - Region proposal by guided anchoring, CVPR 2019. [[Paper]](https://arxiv.org/pdf/1901.03278.pdf)
-    
 - **1.2. Feature extraction**  <a name="1.2"></a>
-  - Handcrafted features
+  - **Handcrafted features**
     - Robust real-time face detection, IJCV 2004. [[Paper]](https://www.face-rec.org/algorithms/Boosting-Ensemble/16981346.pdf)
     - Histograms of oriented gradients for human detection, CVPR 2005. [[Paper]](http://vision.stanford.edu/teaching/cs231b_spring1213/papers/CVPR05_DalalTriggs.pdf)
     - Integral channel features, BMVC 2009. [[Paper]](https://pdollar.github.io/files/papers/DollarBMVC09ChnFtrsAbstract.pdf)
     - Object detection with discriminatively trained partbased models, CVPR 2009/PAMI 2010. [[Paper]](http://cs.brown.edu/people/pfelzens/papers/lsvm-pami.pdf)
-  - Deep features
+  - **Deep features**
     - Imagenet classification with deep convolutional neural networks, NIPS 2012. [[Paper]](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf)
     - Very deep convolutional networks for large-scale image recognition, arXiv 2014. [[Paper]](https://arxiv.org/pdf/1409.1556.pdf)
     - Deep residual learning for image recognition, CVPR 2016. [[Paper]](https://arxiv.org/pdf/1512.03385.pdf)
     - Densely connected convolutional networks, CVPR 2017. [[Paper]](https://arxiv.org/pdf/1608.06993.pdf)
-      
 - **1.3. Proposal classification/regression**  <a name="1.3"></a>
-  - Support-vector networks, ML 1995. [[Paper]](https://link.springer.com/content/pdf/10.1023%2FA%3A1022627411411.pdf)
-  - A decision-theoretic generalization of on-line learning and an application to boosting, JCSS 1997. [[Paper]](http://cseweb.ucsd.edu/~yfreund/papers/adaboost.pdf)
-  - Softmax layer, Sigmoid layer, Smooth L1 layer     
-  
+    - Support-vector networks, ML 1995. [[Paper]](https://link.springer.com/content/pdf/10.1023%2FA%3A1022627411411.pdf)
+    - A decision-theoretic generalization of on-line learning and an application to boosting, JCSS 1997. [[Paper]](http://cseweb.ucsd.edu/~yfreund/papers/adaboost.pdf)
+    - Softmax layer, Sigmoid layer, Smooth L1 layer     
 - **1.4. Post processing**  <a name="1.4"></a>
-  - Greedy NMS
-  - Soft-nms–improving object detection with one line of code, ICCV 2017. [[Paper]](https://arxiv.org/pdf/1704.04503.pdf)
-  - Learning nonmaximum suppression, CVPR 2017. [[Paper]](https://arxiv.org/pdf/1705.02950.pdf)
-  - Relation networks for object detection, CVPR 2018. [[Paper]](https://arxiv.org/pdf/1711.11575.pdf)
-  - Learning to separate: Detecting heavily-occluded objects in urban scenes, arXiv 2019. [[Paper]](https://arxiv.org/pdf/1912.01674.pdf)
-  - Adaptive nms: Refining pedestrian detection in a crowd, CVPR 2020. [[Paper]](https://arxiv.org/pdf/1904.03629.pdf)
+    - Greedy NMS
+    - Soft-nms–improving object detection with one line of code, ICCV 2017. [[Paper]](https://arxiv.org/pdf/1704.04503.pdf)
+    - Learning nonmaximum suppression, CVPR 2017. [[Paper]](https://arxiv.org/pdf/1705.02950.pdf)
+    - Relation networks for object detection, CVPR 2018. [[Paper]](https://arxiv.org/pdf/1711.11575.pdf)
+    - Learning to separate: Detecting heavily-occluded objects in urban scenes, arXiv 2019. [[Paper]](https://arxiv.org/pdf/1912.01674.pdf)
+    - Adaptive nms: Refining pedestrian detection in a crowd, CVPR 2020. [[Paper]](https://arxiv.org/pdf/1904.03629.pdf)
 
    
 ## 2. Single-spectral pedestrian detection <a name="2"></a>
