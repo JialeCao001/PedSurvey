@@ -3,6 +3,18 @@
 - This project provides a paper list about pedestrian detection following the taxonomy in our survey paper. 
 - If you find a new paper about pedestrian detection, please feel free to contact us.  
 
+<table>
+    <tr>
+        <td ><center><img src="imgs/fig-pipeline.png" height="180"> </center></td>
+    </tr>
+</table>
+<table>
+    <tr>
+        <td ><center><img src="imgs/fig-mr.pdf" height="150"> </center></td>
+        <td ><center><img src="imgs/fig-mr.pdf" height="150" > </center></td>
+    </tr>
+</table>
+
 ## Table of Contents
 1. [Detection pipeline](#1)  
     1.1 [Proposal generation](#1.1)  
@@ -135,7 +147,8 @@
     - Deepid-net: Object detection with deformable part based convolutional neural networks, TPAMI 2017. [[Paper]](https://wang-zhe.me/welcome_files/papers/ouyangZWpami16.pdf)
     - S-cnn: Subcategory-aware convolutional networks for object detection, TPAMI 2018. [[Paper]](https://ieeexplore.ieee.org/document/8051100)
     - Jointly learning deep features, deformable parts, occlusion and classification for pedestrian detection, TPAMI 2018. [[Paper]](https://wlouyang.github.io/Papers/Ouyang2017JoingCNNPed.pdf)
--  **Pure CNN based pedestrian detection methods**
+
+- **Pure CNN based pedestrian detection methods**
   - **Scale-aware methods**
     - Exploit all the layers: Fast and accurate cnn object detector with scale dependent pooling and cascaded rejection classifiers, CVPR 2016. [[Paper]](https://openaccess.thecvf.com/content_cvpr_2016/papers/Yang_Exploit_All_the_CVPR_2016_paper.pdf)
     - A unified multi-scale deep convolutional neural network for fast object detection, ECCV 2016. [[Paper]](https://arxiv.org/pdf/1607.07155.pdf)
