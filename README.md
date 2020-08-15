@@ -10,8 +10,8 @@
 </table>
 <table>
     <tr>
-        <td ><center><img src="imgs/fig-mr.png" height="150"> </center></td>
-        <td ><center><img src="imgs/fig-mr.png" height="150" > </center></td>
+        <td ><center><img src="imgs/fig-mr.png" height="200"> </center></td>
+        <td ><center><img src="imgs/fig-mr.png" height="200" > </center></td>
     </tr>
 </table>
 
