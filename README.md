@@ -23,11 +23,11 @@
     1.4 [Post processing](#1.4)  
 2. [Single-spectral pedestrian detection](#2)  
     2.1 [Handcrafted features based pedestrian detection](#2.1)  
-        2.1.1 [Decision forests based methods](#2.1.1)  
-        2.1.2 [Deformable part based methods](#2.1.2)  
+         *2.1.1 [Decision forests based methods](#2.1.1)*    
+         *2.1.2 [Deformable part based methods](#2.1.2)*  
     2.2 [Deep features based pedestrian detection](#2.2)  
-        2.2.1 [Hybrid methods](#2.2.1)  
-        2.2.2 [Pure CNN based methods](#2.2.2)        
+         *2.2.1 [Hybrid methods](#2.2.1)*  
+         *2.2.2 [Pure CNN based methods](#2.2.2)*
 3. [Multispectral pedestrian detection](#3)  
     3.1 [Deep feature fusion](#3.1)  
     3.2 [Data processing](#3.2)  
@@ -40,7 +40,9 @@
     5.1 [Scale variance](#5.1)  
     5.2 [Occlusion](#5.2)  
     5.3 [Domain adaptation](#5.3)  
-        
+       
+[toc] 
+
 ## 1. Detection pipeline <a name="1"></a>
 - **1.1. Proposal generation** <a name="1.1"></a>
   - **Sliding windows**
