@@ -72,7 +72,7 @@
 
 #### 2.1. Handcrafted features based pedestrian detection <a name="2.1"></a>
 
-- Decision forests based methods
+- **Decision forests based methods**
   - Robust real-time face detection, IJCV 2004. [[Paper]](https://www.face-rec.org/algorithms/Boosting-Ensemble/16981346.pdf)
   - Integral channel features, BMVC 2009. [[Paper]](https://pdollar.github.io/files/papers/DollarBMVC09ChnFtrsAbstract.pdf)
   - New features and insights for pedestrian detection, CVPR 2010. [[Paper]](https://ethz.ch/content/dam/ethz/special-interest/baug/igp/photogrammetry-remote-sensing-dam/documents/pdf/walk10cvpr.pdf)
@@ -99,7 +99,7 @@
   - Pedestrian proposal and refining based on the shared pixel differential feature, TITS 2019. [[Paper]](https://ieeexplore.ieee.org/document/8443439)
   - Group cost-sensitive boostlr with vector form decorrelated filters for pedestrian detection, TITS 2019. [[Paper]](https://ieeexplore.ieee.org/document/8880687/)
   - Pedestrian detection using pixel difference matrix projection, TITS 2020. [[paper]](https://ieeexplore.ieee.org/document/8703888)
-- Deformable part based methods
+- **Deformable part based methods**
   - Histograms of oriented gradients for human detection, CVPR 2005. [[Paper]](https://lear.inrialpes.fr/people/triggs/pubs/Dalal-cvpr05.pdf)
   - Object detection with discriminatively trained partbased models, CVPR 2009/TPAMI 2010. [[Paper]] [[Paper]](http://cs.brown.edu/people/pfelzens/papers/lsvm-pami.pdf)
   - Cascade object detection with deformable part models, CVPR 2010. [[Paper]](http://rogerioferis.com/VisualRecognitionAndSearch2013/material/Class4DPM2.pdf)
@@ -112,8 +112,8 @@
   - A pedestrian detection system accelerated by kernelized proposals, TITS 2020. [[paper]](https://ieeexplore.ieee.org/document/8681730)
 
 #### 2.2. Deep features based pedestrian detection <a name="2.2"></a>
-- Hybrid pedestrian detection methods
-  - CNN as feature
+- **Hybrid pedestrian detection methods**
+  - **CNN as feature**
     - Convolutional channel features, ICCV 2015. [[Paper]](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Yang_Convolutional_Channel_Features_ICCV_2015_paper.pdf)
     - Learning complexity-aware cascades for deep pedestrian detection, ICCV 2015. [[Paper]](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Cai_Learning_Complexity-Aware_Cascades_ICCV_2015_paper.pdf)  
     - Is faster r-cnn doing well for pedestrian detection? ECCV 2016. [[Paper]](https://arxiv.org/pdf/1607.07032.pdf)
@@ -123,7 +123,7 @@
     - Pushing the limits of deep cnns for pedestrian detection, TCSVT 2018. [[Paper]](https://arxiv.org/pdf/1603.04525.pdf)
     - Fast pedestrian detection with attention-enhanced multi-scale rpn and soft-cascaded decision trees, TITS 2019. [[paper]](https://ieeexplore.ieee.org/document/8883216/)
     - Hybrid channel based pedestrian detection, Neurocomputing 2020. [[Paper]](https://arxiv.org/pdf/1912.12431.pdf)   
-  - CNN as classifier
+  - **CNN as classifier**
     - Joint deep learning for pedestrian detection, ICCV 2013. [[Paper]](https://ieeexplore.ieee.org/document/6751366)
     - Switchable deep network for pedestrian detection, CVPR 2014. [[Paper]](https://www.cv-foundation.org/openaccess/content_cvpr_2014/papers/Luo_Switchable_Deep_Network_2014_CVPR_paper.pdf)
     - Taking a deeper look at pedestrians, CVPR 2015. [[Paper]](https://arxiv.org/pdf/1501.05790.pdf)
@@ -135,15 +135,14 @@
     - Deepid-net: Object detection with deformable part based convolutional neural networks, TPAMI 2017. [[Paper]](https://wang-zhe.me/welcome_files/papers/ouyangZWpami16.pdf)
     - S-cnn: Subcategory-aware convolutional networks for object detection, TPAMI 2018. [[Paper]](https://ieeexplore.ieee.org/document/8051100)
     - Jointly learning deep features, deformable parts, occlusion and classification for pedestrian detection, TPAMI 2018. [[Paper]](https://wlouyang.github.io/Papers/Ouyang2017JoingCNNPed.pdf)
-
--  Pure CNN based pedestrian detection methods
-  - Scale-aware methods
+-  **Pure CNN based pedestrian detection methods**
+  - **Scale-aware methods**
     - Exploit all the layers: Fast and accurate cnn object detector with scale dependent pooling and cascaded rejection classifiers, CVPR 2016. [[Paper]](https://openaccess.thecvf.com/content_cvpr_2016/papers/Yang_Exploit_All_the_CVPR_2016_paper.pdf)
     - A unified multi-scale deep convolutional neural network for fast object detection, ECCV 2016. [[Paper]](https://arxiv.org/pdf/1607.07155.pdf)
     - Scale-adaptive deconvolutional regression network for pedestrian detection, ACCV 2016. [[Paper]](https://link.springer.com/chapter/10.1007/978-3-319-54184-6_26)
     - Sam-rcnn: Scaleaware multi-resolution multi-channel pedestrian detection, BMVC 2018. [[Paper]](https://arxiv.org/pdf/1808.02246.pdf)
     - Fpn++: A simple baseline for pedestrian detection, ICME 2019. [[Paper]](https://svip-lab.github.io/paper/icme2019_hujh.pdf)
-  - Part-based methods
+  - **Part-based methods**
     - Joint holistic and partial cnn for pedestrian detection, BMVC 2018. [[Paper]](http://www.bmva.org/bmvc/2018/contents/papers/0261.pdf)
     - Occlusion-aware r-cnn: Detecting pedestrians in a crowd, ECCV 2018. [[Paper]](https://openaccess.thecvf.com/content_ECCV_2018/papers/Shifeng_Zhang_Occlusion-aware_R-CNN_Detecting_ECCV_2018_paper.pdf)
     - Bi-box regression for pedestrian detection and occlusion estimation, ECCV 2018. [[Paper]](https://openaccess.thecvf.com/content_ECCV_2018/papers/CHUNLUAN_ZHOU_Bi-box_Regression_for_ECCV_2018_paper.pdf)
@@ -152,7 +151,7 @@
     - Semantic head enhanced pedestrian detection in a crowd, arXiv 2019. [[Paper]](https://arxiv.org/pdf/1911.11985.pdf)
     - Semantic part rcnn for real-world pedestrian detection, CVPRW 2019. [[Paper]](https://openaccess.thecvf.com/content_CVPRW_2019/papers/Weakly%20Supervised%20Learning%20for%20Real-World%20Computer%20Vision%20Applications/Xu_Semantic_Part_RCNN_for_Real-World_Pedestrian_Detection_CVPRW_2019_paper.pdf)
     - Mask-guided attention network for occluded pedestrian detection, ICCV 2019. [[Paper]](https://openaccess.thecvf.com/content_ICCV_2019/papers/Pang_Mask-Guided_Attention_Network_for_Occluded_Pedestrian_Detection_ICCV_2019_paper.pdf)
-  - Attention-based methods
+  - **Attention-based methods**
     - Illuminating pedestrians via simultaneous detection and segmentation, ICCV 2017. [[Paper]](http://openaccess.thecvf.com/content_ICCV_2017/papers/Brazil_Illuminating_Pedestrians_via_ICCV_2017_paper.pdf)
     - Vis-hud: Using visual saliency to improve human detection with convolutional neural networks, CVPRW 2018. [[Paper]](https://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w39/Gajjar_ViS-HuD_Using_Visual_CVPR_2018_paper.pdf)
     - Graininessaware deep feature learning for pedestrian detection, ECCV 2018. [[Paper]](https://openaccess.thecvf.com/content_ECCV_2018/papers/Chunze_Lin_Graininess-Aware_Deep_Feature_ECCV_2018_paper.pdf)
@@ -161,7 +160,7 @@
     - Part-level convolutional neural networks for pedestrian detection using saliency and boundary box alignment, IEEE Access 2019. [[Paper]](https://ieeexplore.ieee.org/iel7/6287639/6514899/08641120.pdf)
     - Multi-grained deep feature learning for robust pedestrian detection, TCSVT 2019. [[Paper]](http://ivg.au.tsinghua.edu.cn/people/Chunze_Lin/TCSVT18_Multi-grained%20Deep%20Feature%20Learning%20for%20Robust%20Pedestrian%20Detection.pdf)
     - Attention guided neural network models for occluded pedestrian detection, PR 2020. [[Paper]](https://www.sciencedirect.com/science/article/abs/pii/S0167865519303733)
-  - Feature-fused methods
+  - **Feature-fused methods**
     - Direct multi-scale dual-stream network for pedestrian detection, ICIP 2017. [[Paper]](https://ieeexplore.ieee.org/document/8296262)
     - Accurate single stage detector using recurrent rolling convolution, CVPR 2017. [[Paper]](http://openaccess.thecvf.com/content_cvpr_2017/papers/Ren_Accurate_Single_Stage_CVPR_2017_paper.pdf)
     - Object detection based on multilayer convolution feature fusion and online hard example mining, IEEE Access 2018. [[Paper]](https://ieeexplore.ieee.org/iel7/6287639/8274985/08314823.pdf)    
@@ -173,18 +172,18 @@
     - Coupled network for robust pedestrian detection with gated multi-layer feature extraction and deformable occlusion handling Cascade-based methods, arXiv 2019. [[Paper]](https://arxiv.org/pdf/1912.08661.pdf)
     - Object detection with location-aware deformable convolution and backward attention filtering, CVPR 2019. [[Paper]](https://openaccess.thecvf.com/content_CVPR_2019/papers/Zhang_Object_Detection_With_Location-Aware_Deformable_Convolution_and_Backward_Attention_Filtering_CVPR_2019_paper.pdf)
     - Temporal-context enhanced detection of heavily occluded pedestrians, CVPR 2020. [[Paper]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Wu_Temporal-Context_Enhanced_Detection_of_Heavily_Occluded_Pedestrians_CVPR_2020_paper.pdf)
-  - Cascade-based methods
+  - **Cascade-based methods**
     - Fused dnn: A deep neural network fusion approach to fast and robust pedestrian detection, WACV 2017. [[Paper]](https://arxiv.org/pdf/1610.03466.pdf)
     - Learning efficient single-stage pedestrian detectors by asymptotic localization fitting, ECCV 2018. [[Paper]](https://openaccess.thecvf.com/content_ECCV_2018/papers/Wei_Liu_Learning_Efficient_Single-stage_ECCV_2018_paper.pdf)
     - Circlenet: Reciprocating feature adaptation for robust pedestrian detection, TITS 2019. [[Paper]](https://ieeexplore.ieee.org/abstract/document/8848847/)
     - Pedestrian detection with autoregressive network phases, CVPR 2019. [[Paper]](https://openaccess.thecvf.com/content_CVPR_2019/papers/Brazil_Pedestrian_Detection_With_Autoregressive_Network_Phases_CVPR_2019_paper.pdf)
     - Pedestrian detection: The elephant in the room, arXiv 2020. [[Paper]](https://arxiv.org/pdf/2003.08799.pdf)
     - A one-and-half stage pedestrian detector, WACV 2020. [[Paper]](https://openaccess.thecvf.com/content_WACV_2020/papers/Ujjwal_A_one-and-half_stage_pedestrian_detector_WACV_2020_paper.pdf)
-  - Anchor-free methods
+  - **Anchor-free methods**
     - Small-scale pedestrian detection based on topological line localization and temporal feature aggregation, ECCV 2018. [[Paper]](https://openaccess.thecvf.com/content_ECCV_2018/papers/Tao_Song_Small-scale_Pedestrian_Detection_ECCV_2018_paper.pdf)
     - High-level semantic feature detection: A new perspective for pedestrian detection, CVPR 2019. [[Paper]](https://openaccess.thecvf.com/content_CVPR_2019/papers/Liu_High-Level_Semantic_Feature_Detection_A_New_Perspective_for_Pedestrian_Detection_CVPR_2019_paper.pdf)
     - Attribute-aware pedestrian detection in a crowd, arXiv 2019. [[Paper]](https://arxiv.org/pdf/1910.09188.pdf)
-  - Data-augmentation methods
+  - **Data-augmentation methods**
     - Synthesizing a scene-specific pedestrian detector and pose estimator for static video surveillance, IJCV 2018. [[Paper]](http://hal.cse.msu.edu/assets/pdfs/papers/2018-ijcv-visual-compiler.pdf)
     - Training cascade compact cnn with region-iou for accurate pedestrian detection, TITS 2019. [[Paper]](https://ieeexplore.ieee.org/abstract/document/8796403/)
     - A shape transformation-based dataset augmentation framework for pedestrian detection, arXiv 2019. [[Paper]](https://arxiv.org/pdf/1912.07010.pdf)
@@ -192,7 +191,7 @@
     - Pmc-gans: Generating multi-scale high-quality pedestrian with multimodal cascaded gans, BMVC 2019. [[Paper]](https://arxiv.org/pdf/1912.12799.pdf)
     - Pedhunter: Occlusion robust pedestrian detector in crowded scenes, AAAI 2020. [[Paper]](https://www.aaai.org/Papers/AAAI/2020GB/AAAI-ChiC.961.pdf)
     - Where, what, whether: Multi-modal learning meets pedestrian detection, CVPR 2020. [[Paper]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Luo_Where_What_Whether_Multi-Modal_Learning_Meets_Pedestrian_Detection_CVPR_2020_paper.pdf)
-  - Loss-driven methods
+  - **Loss-driven methods**
     - Perceptual generative adversarial networks for small object detection, CVPR 2017. [[Paper]](https://openaccess.thecvf.com/content_cvpr_2017/papers/Li_Perceptual_Generative_Adversarial_CVPR_2017_paper.pdf)
     - Mimicking very efficient network for object detection, CVPR 2017. [[Paper]](https://openaccess.thecvf.com/content_cvpr_2017/papers/Li_Mimicking_Very_Efficient_CVPR_2017_paper.pdf)
     - Fused discriminative metric learning for low resolution pedestrian detection, ICIP 2017. [[Paper]](https://ieeexplore.ieee.org/abstract/document/8451791/)
@@ -201,7 +200,7 @@
     - Repulsion loss: Detecting pedestrians in a crowd, CVPR 2018. [[Paper]](https://openaccess.thecvf.com/content_cvpr_2018/papers/Wang_Repulsion_Loss_Detecting_CVPR_2018_paper.pdf)
     - Learning lightweight pedestrian detector with hierarchical knowledge distillation, ICIP 2019. [[Paper]](https://arxiv.org/pdf/1909.09325.pdf)
     - Discriminative feature transformation for occluded pedestrian detection, ICCV 2019. [[Paper]](https://openaccess.thecvf.com/content_ICCV_2019/papers/Zhou_Discriminative_Feature_Transformation_for_Occluded_Pedestrian_Detection_ICCV_2019_paper.pdf)
-  - Post-processing methods
+  - **Post-processing methods**
     - End-to-end people detection in crowded scenes, CVPR 2016. [[Paper]](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Stewart_End-To-End_People_Detection_CVPR_2016_paper.pdf)
     - Led: Localization-quality estimation embedded detector, ICIP 2018. [[Paper]](http://resources.dbgns.com/study/ObjectDetection/NMS-LED.pdf)
     - Learning to separate: Detecting heavily-occluded objects in urban scenes, arXiv 2019. [[Paper]](https://arxiv.org/pdf/1912.01674.pdf)
@@ -209,14 +208,14 @@
     - Adaptive nms: Refining pedestrian detection in a crowd, CVPR 2019. [[Paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Liu_Adaptive_NMS_Refining_Pedestrian_Detection_in_a_Crowd_CVPR_2019_paper.pdf)
     - S3d: Scalable pedestrian detection via score scale surface discrimination, TCSVT 2020. [[Paper]](https://www.researchgate.net/profile/Xiao_Wang336/publication/332650146_S3D_Scalable_Pedestrian_Detection_via_Score_Scale_Surface_Discrimination/links/5e1e8b6a299bf136303ac9b9/S3D-Scalable-Pedestrian-Detection-via-Score-Scale-Surface-Discrimination.pdf)
     - Nms by representative region: Towards crowded pedestrian detection by proposal pairing, CVPR 2020. [[Paper]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Huang_NMS_by_Representative_Region_Towards_Crowded_Pedestrian_Detection_by_Proposal_CVPR_2020_paper.pdf)
-  - Multi-task methods
+  - **Multi-task methods**
     - What can help pedestrian detection? CVPR 2017. [[Paper]](https://openaccess.thecvf.com/content_cvpr_2017/papers/Mao_What_Can_Help_CVPR_2017_paper.pdf)
     - Accurate pedestrian detection by human pose regression, TIP 2019. [[Paper]](https://ieeexplore.ieee.org/abstract/document/8850309/)
     - Human detection aided by deeply learned semantic masks, TCSVT 2019. [[Paper]](https://ieeexplore.ieee.org/abstract/document/8746171/)
     - Cluenet: A deep framework for occluded pedestrian pose estimation, BMVC 2019. [[Paper]](https://www.researchgate.net/profile/Sudip_Das12/publication/337831088_ClueNet_A_Deep_Framework_for_Occluded_Pedestrian_Pose_Estimation/links/5dee00bf4585159aa46e8d05/ClueNet-A-Deep-Framework-for-Occluded-Pedestrian-Pose-Estimation.pdf)
     - Semantic part rcnn for real-world pedestrian detection, CVPRW 2019. [[Paper]](https://openaccess.thecvf.com/content_CVPRW_2019/papers/Weakly%20Supervised%20Learning%20for%20Real-World%20Computer%20Vision%20Applications/Xu_Semantic_Part_RCNN_for_Real-World_Pedestrian_Detection_CVPRW_2019_paper.pdf)
     - Re-id driven localization refinement for person search, ICCV 2019. [[Paper]](https://openaccess.thecvf.com/content_ICCV_2019/papers/Han_Re-ID_Driven_Localization_Refinement_for_Person_Search_ICCV_2019_paper.pdf)
-  - others
+  - **others**
     - Exploiting target data to learn deep convolutional networks for scene-adapted human detection, TIP 2018. [[Paper]](https://ieeexplore.ieee.org/abstract/document/8125769/)
     - Deep learning approaches on pedestrian detection in hazy weather, TIE 2019. [[Paper]](https://ieeexplore.ieee.org/abstract/document/8880634/)
     - Pedestrian detection from thermal images using saliency maps, CVPRW 2019. [[Paper]](https://openaccess.thecvf.com/content_CVPRW_2019/papers/PBVS/Ghose_Pedestrian_Detection_in_Thermal_Images_Using_Saliency_Maps_CVPRW_2019_paper.pdf)
@@ -226,7 +225,6 @@
     - Semi-supervised human detection via region proposal networks aided by verification, TIP 2020. [[Paper]](https://ieeexplore.ieee.org/abstract/document/8858040/)
 
 ## 3. Multispectral pedestrian detection <a name="3"></a>
-
 #### 3.1. Deep feature fusion <a name="3.1"></a>
   - Multispectral deep neural networks for pedestrian detection, BMVC 2016. [[Paper]](https://arxiv.org/pdf/1611.02644.pdf)
   - Fully convolutional region proposal networks for multispectral person detection, CVPR 2017. [[Paper]](https://openaccess.thecvf.com/content_cvpr_2017_workshops/w3/papers/Konig_Fully_Convolutional_Region_CVPR_2017_paper.pdf)
@@ -234,19 +232,15 @@
   - Fusion of multispectral data through illuminationaware deep neural networks for pedestrian detection, IF 2019. [[Paper]](https://arxiv.org/pdf/1802.09972.pdf)
   - Illuminationaware faster r-cnn for robust multispectral pedestrian detection, PR 2019. [[Paper]](https://arxiv.org/pdf/1803.05347.pdf)
   - Cross-modality interactive attention network for multispectral pedestrian detection, IF 2019. [[Paper]](https://www.researchgate.net/profile/Shifeng_Zhang4/publication/327885485_Cross-Modality_Interactive_Attention_Network_for_Multispectral_Pedestrian_Detection/links/5c718c8f458515831f699042/Cross-Modality-Interactive-Attention-Network-for-Multispectral-Pedestrian-Detection.pdf)
-  
-#### 3.1. Data processing <a name="3.1"></a>
+#### 3.2. Data processing <a name="3.2"></a>
   - Multispectral pedestrian detection via simultaneous detection and segmentation, BMVC 2018. [[Paper]](https://arxiv.org/pdf/1808.04818.pdf)
   - Weakly aligned cross-modal learning for multispectral pedestrian detection, ICCV 2019. [[Paper]](https://openaccess.thecvf.com/content_ICCV_2019/papers/Zhang_Weakly_Aligned_Cross-Modal_Learning_for_Multispectral_Pedestrian_Detection_ICCV_2019_paper.pdf)
-
-#### 3.1. Domain adaptation <a name="3.1"></a>
+#### 3.3. Domain adaptation <a name="3.3"></a>
   - Learning cross-modal deep representations for robust pedestrian detection, CVPR 2017. [[Paper]](https://openaccess.thecvf.com/content_cvpr_2017/papers/Xu_Learning_Cross-Modal_Deep_CVPR_2017_paper.pdf)
   - Unsupervised domain adaptation for multispectral pedestrian detection, CVPRW 2019. [[Paper]](https://openaccess.thecvf.com/content_CVPRW_2019/papers/MULA/Guan_Unsupervised_Domain_Adaptation_for_Multispectral_Pedestrian_Detection_CVPRW_2019_paper.pdf)
   - Pedestrian detection with unsupervised multispectral feature learning using deep neural networks, IF 2019. [[Paper]](https://www.sciencedirect.com/science/article/abs/pii/S1566253517305948)
 
-
 ## 4. Datasets <a name="4"></a>
-
 #### 4.1. Earlier pedestrian datasets <a name="4.1"></a>
    - A trainable system for object detection, IJCV 2000. [[Paper]](https://link.springer.com/article/10.1023/A:1008162616689)
    - Histograms of oriented gradients for human detection, CVPR 2005. [[Paper]](https://hal.inria.fr/docs/00/54/85/12/PDF/hog_cvpr2005.pdf)
@@ -254,7 +248,6 @@
    - Multi-cue onboard pedestrian detection, CVPR 2009. [[Paper]](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.716.9022&rep=rep1&type=pdf)
    - Monocular pedestrian detection: Survey and experiments, TPAMI 2009. [[Paper]](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.701.599&rep=rep1&type=pdf
 )
-   
 #### 4.1. Modern pedestrian datasets <a name="4.2"></a>
    - Pedestrian detection: An evaluation of the state of the art, PAMI 2010. [[Paper]](https://wiki.epfl.ch/edicpublic/documents/Candidacy%20exam/01Ped.pdf)
    - Are we ready for autonomous driving? the kitti vision benchmark suite, CVPR 2012. [[Paper]](http://www.webmail.cvlibs.net/publications/Geiger2012CVPR.pdf)
@@ -269,7 +262,6 @@
    - Pedestrian detection at day/night time with visible and fir cameras: A comparison, PR 2016. [[Paper]](https://www.mdpi.com/1424-8220/16/6/820)
 
 ## 5. Challenges <a name="5"></a>
-
 #### 5.1. Scale variance <a name="5.1"></a>
    - A unified multi-scale deep convolutional neural network for fast object detection, ECCV 2016. [[Paper]](https://arxiv.org/pdf/1607.07155.pdf)
    - Exploit all the layers: Fast and accurate cnn object detector with scale dependent pooling and cascaded rejection classifiers, CVPR 2016. [[Paper]](https://openaccess.thecvf.com/content_cvpr_2016/papers/Yang_Exploit_All_the_CVPR_2016_paper.pdf)
@@ -282,7 +274,6 @@
    - Jcs-net: Joint classification and super-resolution network for small-scale pedestrian detection in surveillance images, TIFS 2019. [[Paper]](https://ieeexplore.ieee.org/abstract/document/8714071/)
    - Multi-resolution generative adversarial networks for tinyscale pedestrian detection, ICIP 2019. [[Paper]](https://ieeexplore.ieee.org/abstract/document/8803030/)
    - Scale match for tiny person detection, WACV 2020. [[Paper]](https://openaccess.thecvf.com/content_WACV_2020/papers/Yu_Scale_Match_for_Tiny_Person_Detection_WACV_2020_paper.pdf)
-   
 #### 5.2. Occlusion <a name="5.2"></a>
    - An hog-lbp human detector with partial occlusion handling, ICCV 2010. [[Paper]](https://www.researchgate.net/profile/Tony_Han3/publication/224135946_An_HOG-LBP_human_detector_with_partial_occlusion_handling/links/0046351affdef73b37000000.pdf)
    - Handling occlusions with franken-classifiers, CVPR 2013. [[Paper]](https://openaccess.thecvf.com/content_iccv_2013/papers/Mathias_Handling_Occlusions_with_2013_ICCV_paper.pdf)
@@ -299,7 +290,6 @@
    - Detection in crowded scenes: One proposal, multiple predictions, CVPR 2020. [[Paper]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Chu_Detection_in_Crowded_Scenes_One_Proposal_Multiple_Predictions_CVPR_2020_paper.pdf)
    - Pedhunter: Occlusion robust pedestrian detector in crowded scenes, AAAI 2020. [[Paper]](https://www.aaai.org/Papers/AAAI/2020GB/AAAI-ChiC.961.pdf)
    - Relational learning for joint head and human detection, AAAI 2020. [[Paper]](https://arxiv.org/pdf/1909.10674.pdf)
-
 #### 5.3. Domain adaptation <a name="5.3"></a>
    - Domain adaptive faster r-cnn for object detection in the wild, CVPR 2018. [[Paper]](http://openaccess.thecvf.com/content_cvpr_2018/papers/Chen_Domain_Adaptive_Faster_CVPR_2018_paper.pdf)
    - Progressive domain adaptation for object detection, CVPRW 2018. [[Paper]](https://openaccess.thecvf.com/content_WACV_2020/papers/Hsu_Progressive_Domain_Adaptation_for_Object_Detection_WACV_2020_paper.pdf)
