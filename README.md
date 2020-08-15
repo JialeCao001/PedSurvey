@@ -261,7 +261,7 @@
    - Multi-cue onboard pedestrian detection, CVPR 2009. [[Paper]](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.716.9022&rep=rep1&type=pdf)
    - Monocular pedestrian detection: Survey and experiments, TPAMI 2009. [[Paper]](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.701.599&rep=rep1&type=pdf
 )
-#### 4.1. Modern pedestrian datasets <a name="4.2"></a>
+#### 4.2. Modern pedestrian datasets <a name="4.2"></a>
    - Pedestrian detection: An evaluation of the state of the art, PAMI 2010. [[Paper]](https://wiki.epfl.ch/edicpublic/documents/Candidacy%20exam/01Ped.pdf)
    - Are we ready for autonomous driving? the kitti vision benchmark suite, CVPR 2012. [[Paper]](http://www.webmail.cvlibs.net/publications/Geiger2012CVPR.pdf)
    - Citypersons: A diverse dataset for pedestrian detection, CVPR 2017. [[Paper]](https://openaccess.thecvf.com/content_cvpr_2017/papers/Zhang_CityPersons_A_Diverse_CVPR_2017_paper.pdf)
