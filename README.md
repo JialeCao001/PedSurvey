@@ -83,7 +83,6 @@
 ## 2. Single-spectral pedestrian detection <a name="2"></a>
 
 #### 2.1. Handcrafted features based pedestrian detection <a name="2.1"></a>
-
 - **2.1.1. Decision forests based methods**  <a name="2.1.1"></a>
   - Robust real-time face detection, IJCV 2004. [[Paper]](https://www.face-rec.org/algorithms/Boosting-Ensemble/16981346.pdf)
   - Integral channel features, BMVC 2009. [[Paper]](https://pdollar.github.io/files/papers/DollarBMVC09ChnFtrsAbstract.pdf)
@@ -124,7 +123,7 @@
   - A pedestrian detection system accelerated by kernelized proposals, TITS 2020. [[paper]](https://ieeexplore.ieee.org/document/8681730)
 
 #### 2.2. Deep features based pedestrian detection <a name="2.2"></a>
-- **Hybrid pedestrian detection methods**  <a name="2.2.1"></a>
+- **Hybrid methods**  <a name="2.2.1"></a>
   - **2.2.1. CNN as feature**
     - Convolutional channel features, ICCV 2015. [[Paper]](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Yang_Convolutional_Channel_Features_ICCV_2015_paper.pdf)
     - Learning complexity-aware cascades for deep pedestrian detection, ICCV 2015. [[Paper]](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Cai_Learning_Complexity-Aware_Cascades_ICCV_2015_paper.pdf)  
@@ -148,7 +147,7 @@
     - S-cnn: Subcategory-aware convolutional networks for object detection, TPAMI 2018. [[Paper]](https://ieeexplore.ieee.org/document/8051100)
     - Jointly learning deep features, deformable parts, occlusion and classification for pedestrian detection, TPAMI 2018. [[Paper]](https://wlouyang.github.io/Papers/Ouyang2017JoingCNNPed.pdf)
 
-- **2.2.2. Pure CNN based pedestrian detection methods**  <a name="2.2.2"></a>
+- **2.2.2. Pure CNN based methods**  <a name="2.2.2"></a>
   - **Scale-aware methods**
     - Exploit all the layers: Fast and accurate cnn object detector with scale dependent pooling and cascaded rejection classifiers, CVPR 2016. [[Paper]](https://openaccess.thecvf.com/content_cvpr_2016/papers/Yang_Exploit_All_the_CVPR_2016_paper.pdf)
     - A unified multi-scale deep convolutional neural network for fast object detection, ECCV 2016. [[Paper]](https://arxiv.org/pdf/1607.07155.pdf)
