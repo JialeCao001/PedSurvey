@@ -112,7 +112,7 @@
   - Pedestrian detection using pixel difference matrix projection, TITS 2020. [[paper]](https://ieeexplore.ieee.org/document/8703888)
 - **2.1.2. Deformable part based methods**  <a name="2.1.2"></a>
   - Histograms of oriented gradients for human detection, CVPR 2005. [[Paper]](https://lear.inrialpes.fr/people/triggs/pubs/Dalal-cvpr05.pdf)
-  - Object detection with discriminatively trained partbased models, CVPR 2009/TPAMI 2010. [[Paper]] [[Paper]](http://cs.brown.edu/people/pfelzens/papers/lsvm-pami.pdf)
+  - Object detection with discriminatively trained partbased models, CVPR 2009/TPAMI 2010. [[Paper]](http://cs.brown.edu/people/pfelzens/papers/lsvm-pami.pdf)
   - Cascade object detection with deformable part models, CVPR 2010. [[Paper]](http://rogerioferis.com/VisualRecognitionAndSearch2013/material/Class4DPM2.pdf)
   - Multiresolution models for object detection, ECCV 2010. [[Paper]](https://vision.ics.uci.edu/papers/ParkRF_ECCV_2010/ParkRF_ECCV_2010.pdf)
   - Robust multi-resolution pedestrian detection in traffic scenes, CVPR 2013. [[Paper]](https://yan-junjie.github.io/publication/dblp-confcvpr-yan-zlll-13/dblp-confcvpr-yan-zlll-13.pdf)
@@ -264,7 +264,7 @@
    - Pedestrian detection: An evaluation of the state of the art, PAMI 2010. [[Paper]](https://wiki.epfl.ch/edicpublic/documents/Candidacy%20exam/01Ped.pdf)
    - Are we ready for autonomous driving? the kitti vision benchmark suite, CVPR 2012. [[Paper]](http://www.webmail.cvlibs.net/publications/Geiger2012CVPR.pdf)
    - Citypersons: A diverse dataset for pedestrian detection, CVPR 2017. [[Paper]](https://openaccess.thecvf.com/content_cvpr_2017/papers/Zhang_CityPersons_A_Diverse_CVPR_2017_paper.pdf)
-   - Nightowls: A pedestrians at night dataset, ACCV 2018. [[Paper]] [[Paper]](https://ora.ox.ac.uk/objects/uuid:48f374c8-eac3-4a98-8628-92039a76c17b/download_file?file_format=pdf&safe_filename=neumann18b.pdf&type_of_work=Conference+item)
+   - Nightowls: A pedestrians at night dataset, ACCV 2018. [[Paper]](https://ora.ox.ac.uk/objects/uuid:48f374c8-eac3-4a98-8628-92039a76c17b/download_file?file_format=pdf&safe_filename=neumann18b.pdf&type_of_work=Conference+item)
    - Crowdhuman: A benchmark for detecting human in a crowd, arXiv 2018. [[Paper]](https://arxiv.org/pdf/1805.00123.pdf)
    - Eurocity persons: A novel benchmark for person detection in traffic scenes, PAMI 2019. [[Paper]](https://www.researchgate.net/profile/Dariu_Gavrila/publication/330891380_EuroCity_Persons_A_Novel_Benchmark_for_Person_Detection_in_Traffic_Scenes/links/5d395fdb299bf1995b487c21/EuroCity-Persons-A-Novel-Benchmark-for-Person-Detection-in-Traffic-Scenes.pdf)
    - Widerperson: A diverse dataset for dense pedestrian detection in the wild, TMM 2020. [[Paper]](https://arxiv.org/pdf/1909.12118.pdf)
