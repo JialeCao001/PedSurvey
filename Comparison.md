@@ -19,7 +19,7 @@
 |  LDCF           | NIPS2014   | no  |  24.8 |   81.3  |   37.7     |     71.2       | [Paper](https://papers.nips.cc/paper/5419-local-decorrelation-for-improved-pedestrian-detection.pdf)|
 |  Katamari       | ECCV2014   | no  |  22.5 |   84.4  |    36.2     |     71.3       | [Paper](https://arxiv.org/pdf/1411.4304.pdf)|
 |  DeepCascade    | BMVC2015   | yes  |  31.1 |   81.7  |    42.4     |     74.1       |  [Paper](https://static.googleusercontent.com/media/research.google.com/zh-CN//pubs/archive/43850.pdf) |
-|  SCCPriors      | BMVC2015   | no  |  21.9 |   80.9  |    35.1     |     70.3       | [Paper](http://www.bmva.org/bmvc/2015/papers/paper176/paper176.pdf)---  |
+|  SCCPriors      | BMVC2015   | no  |  21.9 |   80.9  |    35.1     |     70.3       | [Paper](http://www.bmva.org/bmvc/2015/papers/paper176/paper176.pdf)  |
 |  TA-CNN         | CVPR2015   | no  |  20.9 |   70.4  |   33.3    |     71.2       | [Paper](https://www.ee.cuhk.edu.hk/~xgwang/papers/tianLWTcvpr15.pdf)  |
 |  CCF            | ICCV2015   | yes |  18.7 |   72.4  |    30.6     |     66.7       | [Paper](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Yang_Convolutional_Channel_Features_ICCV_2015_paper.pdf)  |
 |  Checkerboards  | ICCV2015   | yes  | 18.5 |   77.5  |    31.8     |     68.7      |  [Paper](https://arxiv.org/abs/1501.05759.pdf) |
@@ -28,7 +28,7 @@
 |  MS-CNN         | ECCV2016   | yes  |  10.0 |  59.9  |    21.5     |     60.9       | [Paper](https://arxiv.org/pdf/1607.07155.pdf)  |
 |  RPN+BF         | ECCV2016   | yes  |  9.6 |   74.3  |    24.0     |    64.7       | [Paper](https://arxiv.org/pdf/1607.07032.pdf)  |
 |  F-DNN          | WACV2017   | yes  |  8.6 |  55.1  |    19.3     |     50.6       | [Paper](https://arxiv.org/pdf/1610.03466.pdf)  |
-|  PCN            | BMVC2017   | yes  |  8.4 |   55.8  |    19.2    |     61.9     | [Paper](https://arxiv.org/pdf/1804.04483.pdf)---  |
+|  PCN            | BMVC2017   | yes  |  8.4 |   55.8  |    19.2    |     61.9     | [Paper](https://arxiv.org/pdf/1804.04483.pdf)  |
 |  PDOE           | ECCV2018   | yes  |  7.6|   44.4  |    -     |     -       | [Paper](https://openaccess.thecvf.com/content_ECCV_2018/papers/CHUNLUAN_ZHOU_Bi-box_Regression_for_ECCV_2018_paper.pdf)  |
 |  UDN+           | PAMI2018   | yes  |  11.5 |   70.3  |    24.7     |     64.8       |  [Paper](https://wlouyang.github.io/Papers/Ouyang2017JoingCNNPed.pdf) |
 |  FRCNN+ATT      | CVPR2018   | yes  |  10.3 |   45.2  |    18.2     |     54.5       | [Paper](https://openaccess.thecvf.com/content_cvpr_2018/papers/Zhang_Occluded_Pedestrian_Detection_CVPR_2018_paper.pdf)  |
