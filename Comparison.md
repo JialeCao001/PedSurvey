@@ -13,7 +13,7 @@
 #### Caltech test set <a name="1"></a>
    
 |    Method       | publication  | CNN |  **R**  | **HO** | **R+HO** | **A**| link |
-| :--------:      | :-----: | :-----: | :-------: | :-----: | :------: | :------: | :------: |
+| :--------      | :-----: | :-----: | :-------: | :-----: | :------: | :------: | :------: |
 |  ACF            | PAMI2014   | no  |  44.2 |   90.2  |    54.6     |     79.6       | [Paper](https://vision.cornell.edu/se3/wp-content/uploads/2014/09/DollarPAMI14pyramids_0.pdf) |
 |  SpatialPooling | ECCV2014   | no  |  29.2 |   84.1  |    41.7.6     |     74.0       | [Paper](https://arxiv.org/pdf/1409.5209.pdf)|
 |  LDCF           | NIPS2014   | no  |  24.8 |   81.3  |   37.7     |     71.2       | [Paper](https://papers.nips.cc/paper/5419-local-decorrelation-for-improved-pedestrian-detection.pdf)|
@@ -40,6 +40,9 @@
 |  FRCNN+A+DT     | ICCV2019   | yes  |  8.0 |   37.9  |   -    |     -      | [Paper](https://openaccess.thecvf.com/content_ICCV_2019/papers/Zhou_Discriminative_Feature_Transformation_for_Occluded_Pedestrian_Detection_ICCV_2019_paper.pdf)  |
 |  MGAN           | ICCV2019   | yes  |  6.8 |   38.1  |    13.8     |     -      |  [Paper](https://openaccess.thecvf.com/content_ICCV_2019/papers/Pang_Mask-Guided_Attention_Network_for_Occluded_Pedestrian_Detection_ICCV_2019_paper.pdf) |
 |  TFAN           | CVPR2020   | yes  |  6.7 |   30.9  |    12.4     |     -       | [Paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Wu_Temporal-Context_Enhanced_Detection_of_Heavily_Occluded_Pedestrians_CVPR_2020_paper.pdf)  |
+
+|    Method       | publication  | CNN |  **R**  | **HO** | **R+HO** | **A**| link |
+| :--------      | :-----: | :-----: | :-------: | :-----: | :------: | :------: | :------: |
 |  HyperLearner   | CVPR2017   | yes  |  5.5 |   - |    -     |     -       | [Paper](https://openaccess.thecvf.com/content_cvpr_2017/papers/Mao_What_Can_Help_CVPR_2017_paper.pdf)  |
 |  RepLoss        | CVPR2018   | yes  |  4.0 |   - |    -    |    -       | [Paper](https://openaccess.thecvf.com/content_cvpr_2018/papers/Wang_Repulsion_Loss_Detecting_CVPR_2018_paper.pdf)  |
 |  ALFNet         | ECCV2018   | yes  |  4.5 |  - |    -    |     -       | [Paper](https://openaccess.thecvf.com/content_ECCV_2018/papers/Wei_Liu_Learning_Efficient_Single-stage_ECCV_2018_paper.pdf)  |
@@ -47,43 +50,45 @@
 |  JointDet       | AAAI2020   | yes  |  3.0 |  -  |    -     |     -       | [Paper](https://arxiv.org/pdf/1909.10674.pdf)  |
 |  PedHutter      | AAAI2020   | yes  |  2.3 |   - |    -     |     -       | [Paper](https://www.aaai.org/Papers/AAAI/2020GB/AAAI-ChiC.961.pdf)  |
 
+- The top table uses the original annotations, while the bottom table uses the new annotations.
+- CNN indicates whether or not deep features are used.
 
 
 #### Citypersons validation set <a name="2"></a>
 
-   
 |    Method       | publication  | scale |  **R**  | **HO** | link |
-| :--------:      | :-----: | :-----: | :-------: | :-----: | :-----: |
+| :--------      | :-----: | :-----: | :-------: | :-----: | :-----: |
 |  Adapted FRCNN  | CVPR2017   | 1.0x  | 15.4|   -  |  [Paper](https://openaccess.thecvf.com/content_cvpr_2017/papers/Zhang_CityPersons_A_Diverse_CVPR_2017_paper.pdf)   |  
-|  RepLoss       | CVPR2018   | 1.0x  |  13.7 |   56.9  | [Paper](https://openaccess.thecvf.com/content_cvpr_2018/papers/Wang_Repulsion_Loss_Detecting_CVPR_2018_paper.pdf)  |  
+|  RepLoss       | CVPR2018   | 1.0x  |  13.7 |   56.9†  | [Paper](https://openaccess.thecvf.com/content_cvpr_2018/papers/Wang_Repulsion_Loss_Detecting_CVPR_2018_paper.pdf)  |  
 |  FRCNN+ATT           | CVPR2018   |  1.0x | 16.0 |   56.7  | [Paper](https://openaccess.thecvf.com/content_cvpr_2018/papers/Zhang_Occluded_Pedestrian_Detection_CVPR_2018_paper.pdf)   |  
-|  TLL+MRF       | ECCV2018   | 1.0x  |  14.4 |   52.0  |  [Paper](https://openaccess.thecvf.com/content_ECCV_2018/papers/Tao_Song_Small-scale_Pedestrian_Detection_ECCV_2018_paper.pdf)   |  
-|  OR-CNN    | ECCV2018   | 1.0x  |  12.8 |   55.7  |  [Paper](https://openaccess.thecvf.com/content_ECCV_2018/papers/Shifeng_Zhang_Occlusion-aware_R-CNN_Detecting_ECCV_2018_paper.pdf)   |  
-|  ALFNet      | ECCV2018   | 1.0x  |  12.0 |  51.9  | [Paper](https://openaccess.thecvf.com/content_ECCV_2018/papers/Wei_Liu_Learning_Efficient_Single-stage_ECCV_2018_paper.pdf)  |  
+|  TLL+MRF       | ECCV2018   | 1.0x  |  14.4 |   52.0†  |  [Paper](https://openaccess.thecvf.com/content_ECCV_2018/papers/Tao_Song_Small-scale_Pedestrian_Detection_ECCV_2018_paper.pdf)   |  
+|  OR-CNN    | ECCV2018   | 1.0x  |  12.8 |   55.7†  |  [Paper](https://openaccess.thecvf.com/content_ECCV_2018/papers/Shifeng_Zhang_Occlusion-aware_R-CNN_Detecting_ECCV_2018_paper.pdf)   |  
+|  ALFNet      | ECCV2018   | 1.0x  |  12.0 |  51.9†  | [Paper](https://openaccess.thecvf.com/content_ECCV_2018/papers/Wei_Liu_Learning_Efficient_Single-stage_ECCV_2018_paper.pdf)  |  
 |  Cascade RCNN        | CVPR2018   | 1.0x  |  12.0 |   49.4  |  [Paper](https://arxiv.org/abs/1712.00726.pdf)  |  
-|  CSP            | CVPR2019   | 1.0x |  11.0 |   49.3  |  [Paper](https://openaccess.thecvf.com/content_CVPR_2019/papers/Liu_High-Level_Semantic_Feature_Detection_A_New_Perspective_for_Pedestrian_Detection_CVPR_2019_paper.pdf)   |  
-|  Adaptive-NMS  | CVPR2019   | 1.0x  | 11.9 |   55.2  | [Paper](http://openaccess.thecvf.com/content_CVPR_2019/papers/Liu_Adaptive_NMS_Refining_Pedestrian_Detection_in_a_Crowd_CVPR_2019_paper.pdf)  |  
+|  CSP            | CVPR2019   | 1.0x |  11.0 |   49.3†  |  [Paper](https://openaccess.thecvf.com/content_CVPR_2019/papers/Liu_High-Level_Semantic_Feature_Detection_A_New_Perspective_for_Pedestrian_Detection_CVPR_2019_paper.pdf)   |  
+|  Adaptive-NMS  | CVPR2019   | 1.0x  | 11.9 |   55.2 † | [Paper](http://openaccess.thecvf.com/content_CVPR_2019/papers/Liu_Adaptive_NMS_Refining_Pedestrian_Detection_in_a_Crowd_CVPR_2019_paper.pdf)  |  
 |  MGAN      | ICCV2019   | 1.0x  |  11.3|   42.0 |  [Paper](https://openaccess.thecvf.com/content_ICCV_2019/papers/Pang_Mask-Guided_Attention_Network_for_Occluded_Pedestrian_Detection_ICCV_2019_paper.pdf)   |  
-|  R2NMS   | CVPR2020   | 1.0x  |  11.1 |   53.3  |  [Paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Huang_NMS_by_Representative_Region_Towards_Crowded_Pedestrian_Detection_by_Proposal_CVPR_2020_paper.pdf)  |  
+|  R2NMS   | CVPR2020   | 1.0x  |  11.1 |   53.3†  |  [Paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Huang_NMS_by_Representative_Region_Towards_Crowded_Pedestrian_Detection_by_Proposal_CVPR_2020_paper.pdf)  |  
 |  Adapted FRCNN  | CVPR2017   |  1.3x |  12.8 |   - |  [Paper](https://openaccess.thecvf.com/content_cvpr_2017/papers/Zhang_CityPersons_A_Diverse_CVPR_2017_paper.pdf)  |  
-|  RepLoss       | CVPR2018   |  1.3x |  11.6 |   55.3  |  [Paper](https://openaccess.thecvf.com/content_cvpr_2018/papers/Wang_Repulsion_Loss_Detecting_CVPR_2018_paper.pdf) |  
-|  OR-CNN    | ECCV2018   | 1.3x  |  11.0 |   51.3  |  [Paper](https://openaccess.thecvf.com/content_ECCV_2018/papers/Shifeng_Zhang_Occlusion-aware_R-CNN_Detecting_ECCV_2018_paper.pdf)   |  
+|  RepLoss       | CVPR2018   |  1.3x |  11.6 |   55.3†  |  [Paper](https://openaccess.thecvf.com/content_cvpr_2018/papers/Wang_Repulsion_Loss_Detecting_CVPR_2018_paper.pdf) |  
+|  OR-CNN    | ECCV2018   | 1.3x  |  11.0 |   51.3†  |  [Paper](https://openaccess.thecvf.com/content_ECCV_2018/papers/Shifeng_Zhang_Occlusion-aware_R-CNN_Detecting_ECCV_2018_paper.pdf)   |  
 |  PDOE      | ECCV2018   | 1.3x  |  11.2 |   44.2  | [Paper](https://openaccess.thecvf.com/content_ECCV_2018/papers/CHUNLUAN_ZHOU_Bi-box_Regression_for_ECCV_2018_paper.pdf)   |  
-|  Adaptive-NMS  | CVPR2019   | 1.3x  | 10.8 |   54.2  | [Paper](http://openaccess.thecvf.com/content_CVPR_2019/papers/Liu_Adaptive_NMS_Refining_Pedestrian_Detection_in_a_Crowd_CVPR_2019_paper.pdf)  |  
-|  IoU+Sign  | CVPR2019   | 1.3x  | 10.8 |   54.3  | [Paper](https://arxiv.org/abs/1911.11449.pdf)  |  
+|  Adaptive-NMS  | CVPR2019   | 1.3x  | 10.8 |   54.2 † | [Paper](http://openaccess.thecvf.com/content_CVPR_2019/papers/Liu_Adaptive_NMS_Refining_Pedestrian_Detection_in_a_Crowd_CVPR_2019_paper.pdf)  |  
+|  IoU+Sign  | CVPR2019   | 1.3x  | 10.8 |   54.3†  | [Paper](https://arxiv.org/abs/1911.11449.pdf)  |  
 |  FRCNN+A+DT  | CVPR2019   | 1.3x  | 11.1 |   44.3  | [Paper](https://openaccess.thecvf.com/content_ICCV_2019/papers/Zhou_Discriminative_Feature_Transformation_for_Occluded_Pedestrian_Detection_ICCV_2019_paper.pdf)  |  
 |  MGAN      | ICCV2019   | 1.3x  |  10.5|  39.4  |  [Paper](https://openaccess.thecvf.com/content_ICCV_2019/papers/Pang_Mask-Guided_Attention_Network_for_Occluded_Pedestrian_Detection_ICCV_2019_paper.pdf)   |  
 |  JointDet  | CVPR2019   | 1.3x  | 10.2 |   -  |  [Paper](https://arxiv.org/pdf/1909.10674.pdf) |  
 |  0.5-stage  | CVPR2019   | 1.3x  | 8.1 |   -  | [Paper](https://openaccess.thecvf.com/content_WACV_2020/papers/Ujjwal_A_one-and-half_stage_pedestrian_detector_WACV_2020_paper.pdf)  |  
-|  PedHutter  | AAAI2020   | 1.3x  | 8.3 |   43.5  | [Paper](https://www.aaai.org/Papers/AAAI/2020GB/AAAI-ChiC.961.pdf)  |  
+|  PedHutter  | AAAI2020   | 1.3x  | 8.3 |   43.5†  | [Paper](https://www.aaai.org/Papers/AAAI/2020GB/AAAI-ChiC.961.pdf)  |  
 
-
+- Usually, **HO** represents pedestrians over 50 pixels in height with 35-80% occlusion. 
+- † indicates the pedestrians over 50 pixels in height with more than 35% occlusion. Thus, † suggest higher difficulty.
 
 #### Citypersons test set <a name="3"></a>
 
    
 |    Method       | publication  |  **R**  | **RS** | **HO** | **A**| link |
-| :--------:      | :-----:  | :-------: | :-----: | :------: | :------: | :------: |
+| :--------      | :-----:  | :-------: | :-----: | :------: | :------: | :------: |
 |  MS-CNN         | ECCV2016    |  13.32 |   15.86  |    51.88     |     39.94   |  [Paper](https://arxiv.org/pdf/1607.07155.pdf)   |
 |  Adapted FRCNN  | CVPR2017    |  12.97 |   37.24  |    50.47     |     43.86   |  [Paper](https://openaccess.thecvf.com/content_cvpr_2017/papers/Zhang_CityPersons_A_Diverse_CVPR_2017_paper.pdf)   |
 |  Cascade MS-CNN  | CVPR2018    |  11.62 |   13.64  |    47.14     |     37.63   |  [Paper](https://arxiv.org/abs/1712.00726.pdf)    |
@@ -98,13 +103,14 @@
 |  APD | arXiv2019    |  8.27 |   11.03  |    35.45     |     35.65   | [Paper](https://arxiv.org/pdf/1910.09188.pdf)  |
 |  Pedestron  | arXiv2020    |  11.32 |   14.19  |    51.43     |     40.19   |  [Paper](https://arxiv.org/pdf/2003.08799.pdf)  |
 
-
+- **RS** represents the pedestrians over 50 pixels and under 75 pixels with less than 0.35 occlusion, while **A** the pedestrians over 20 pixels with
+less than 0.8 occlusion.
 
 #### KITTI test set <a name="4"></a>
 
    
 |    Method       | publication  | Medium |  Easy  | Hard | link |
-| :--------:      | :-----: | :-----: | :-------: | :-----: | :-----: |
+| :--------      | :-----: | :-----: | :-------: | :-----: | :-----: |
 |  ACF              | PAMI2014   | 39.81  | 44.49|   37.21  |  [Paper](https://vision.cornell.edu/se3/wp-content/uploads/2014/09/DollarPAMI14pyramids_0.pdf) |
 |  Checkerboards       | CVPR2015   | 56.75  |  67.65|   51.12  |  [Paper](https://arxiv.org/abs/1501.05759.pdf) |
 |  DeepParts           | ICCV2015   |  58.67 | 70.49 |   52.78 |   [Paper](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Tian_Deep_Learning_Strong_ICCV_2015_paper.pdf) |
