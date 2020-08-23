@@ -65,6 +65,7 @@
 |  OR-CNN    | ECCV2018   | 1.0x  |  12.8 |   55.7†  |  [Paper](https://openaccess.thecvf.com/content_ECCV_2018/papers/Shifeng_Zhang_Occlusion-aware_R-CNN_Detecting_ECCV_2018_paper.pdf)   |  
 |  ALFNet      | ECCV2018   | 1.0x  |  12.0 |  51.9†  | [Paper](https://openaccess.thecvf.com/content_ECCV_2018/papers/Wei_Liu_Learning_Efficient_Single-stage_ECCV_2018_paper.pdf)  |  
 |  Cascade RCNN        | CVPR2018   | 1.0x  |  12.0 |   49.4  |  [Paper](https://arxiv.org/abs/1712.00726.pdf)  |  
+|  LBST      | TIP2019   | 1.0x  |  12.6 |  48.7  | [Paper](https://ieeexplore.ieee.org/abstract/document/8931263/)  |  
 |  CSP            | CVPR2019   | 1.0x |  11.0 |   49.3†  |  [Paper](https://openaccess.thecvf.com/content_CVPR_2019/papers/Liu_High-Level_Semantic_Feature_Detection_A_New_Perspective_for_Pedestrian_Detection_CVPR_2019_paper.pdf)   |  
 |  Adaptive-NMS  | CVPR2019   | 1.0x  | 11.9 |   55.2 † | [Paper](http://openaccess.thecvf.com/content_CVPR_2019/papers/Liu_Adaptive_NMS_Refining_Pedestrian_Detection_in_a_Crowd_CVPR_2019_paper.pdf)  |  
 |  MGAN      | ICCV2019   | 1.0x  |  11.3|   42.0 |  [Paper](https://openaccess.thecvf.com/content_ICCV_2019/papers/Pang_Mask-Guided_Attention_Network_for_Occluded_Pedestrian_Detection_ICCV_2019_paper.pdf)   |  
@@ -73,6 +74,7 @@
 |  RepLoss       | CVPR2018   |  1.3x |  11.6 |   55.3†  |  [Paper](https://openaccess.thecvf.com/content_cvpr_2018/papers/Wang_Repulsion_Loss_Detecting_CVPR_2018_paper.pdf) |  
 |  OR-CNN    | ECCV2018   | 1.3x  |  11.0 |   51.3†  |  [Paper](https://openaccess.thecvf.com/content_ECCV_2018/papers/Shifeng_Zhang_Occlusion-aware_R-CNN_Detecting_ECCV_2018_paper.pdf)   |  
 |  PDOE      | ECCV2018   | 1.3x  |  11.2 |   44.2  | [Paper](https://openaccess.thecvf.com/content_ECCV_2018/papers/CHUNLUAN_ZHOU_Bi-box_Regression_for_ECCV_2018_paper.pdf)   |  
+|  LBST      | TIP2019   | 1.3x  |  11.4 |  45.2  | [Paper](https://ieeexplore.ieee.org/abstract/document/8931263/)  |  
 |  Adaptive-NMS  | CVPR2019   | 1.3x  | 10.8 |   54.2 † | [Paper](http://openaccess.thecvf.com/content_CVPR_2019/papers/Liu_Adaptive_NMS_Refining_Pedestrian_Detection_in_a_Crowd_CVPR_2019_paper.pdf)  |  
 |  IoU+Sign  | CVPR2019   | 1.3x  | 10.8 |   54.3†  | [Paper](https://arxiv.org/abs/1911.11449.pdf)  |  
 |  FRCNN+A+DT  | CVPR2019   | 1.3x  | 11.1 |   44.3  | [Paper](https://openaccess.thecvf.com/content_ICCV_2019/papers/Zhou_Discriminative_Feature_Transformation_for_Occluded_Pedestrian_Detection_ICCV_2019_paper.pdf)  |  
@@ -95,6 +97,7 @@
 |  RepLoss  | CVPR2018    |  11.48 |   15.67  |    52.59     |     39.17   |  [Paper](https://openaccess.thecvf.com/content_cvpr_2018/papers/Wang_Repulsion_Loss_Detecting_CVPR_2018_paper.pdf)   |
 |  Adaptive-NMS  | CVPR2019    |  11.40 |   13.64  |    46.99     |     38.89   |  [Paper](http://openaccess.thecvf.com/content_CVPR_2019/papers/Liu_Adaptive_NMS_Refining_Pedestrian_Detection_in_a_Crowd_CVPR_2019_paper.pdf)   |
 |  OR-CNN  | ECCV2018    |  11.32 |   14.19  |    51.43     |     40.19   |  [Paper](https://openaccess.thecvf.com/content_ECCV_2018/papers/Shifeng_Zhang_Occlusion-aware_R-CNN_Detecting_ECCV_2018_paper.pdf)  |
+|  MHN  | TMM2019    |  12.92 |   17.24  |    46.72     |     39.16   |  [Paper](https://ieeexplore.ieee.org/abstract/document/8887288/)  |
 |  HBA-RCNN | -    |  11.26 |   15.68  |    39.54     |     38.77   |  - |
 |  DVRNet  |  -    |  10.99 |   15.68  |    43.77     |     41.48   |  - |
 |  MGAN  | ICCV2019    |  9.29 |   11.38  |    40.97     |     38.86   | [Paper](https://openaccess.thecvf.com/content_ICCV_2019/papers/Pang_Mask-Guided_Attention_Network_for_Occluded_Pedestrian_Detection_ICCV_2019_paper.pdf)
