@@ -25,8 +25,10 @@
 |  Checkerboards  | ICCV2015   | yes  | 18.5 |   77.5  |    31.8     |     68.7      |  [Paper](https://arxiv.org/abs/1501.05759.pdf) |
 |  DeepParts      | ICCV2015   | yes  |  11.9|   60.4  |    22.8     |     64.8       | [Paper](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Tian_Deep_Learning_Strong_ICCV_2015_paper.pdf)   |
 |  CompACT-Deep   | BMVC2015   | yes  |  11.7 |   65.8  |    24.6     |     64.4       | [Paper](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Cai_Learning_Complexity-Aware_Cascades_ICCV_2015_paper.pdf)  |
+|  NNNF           | CVPR2016   | no  |  16.2 |  74.9  |    -     |     -       | [Paper](https://arxiv.org/pdf/1511.08058.pdf)  |
 |  MS-CNN         | ECCV2016   | yes  |  10.0 |  59.9  |    21.5     |     60.9       | [Paper](https://arxiv.org/pdf/1607.07155.pdf)  |
 |  RPN+BF         | ECCV2016   | yes  |  9.6 |   74.3  |    24.0     |    64.7       | [Paper](https://arxiv.org/pdf/1607.07032.pdf)  |
+|  MCF            | TIP2017    | yes  |  10.4 |  66.7  |    -     |     -       | [Paper](https://arxiv.org/abs/1603.00124.pdf)  |
 |  F-DNN          | WACV2017   | yes  |  8.6 |  55.1  |    19.3     |     50.6       | [Paper](https://arxiv.org/pdf/1610.03466.pdf)  |
 |  PCN            | BMVC2017   | yes  |  8.4 |   55.8  |    19.2    |     61.9     | [Paper](https://arxiv.org/pdf/1804.04483.pdf)  |
 |  PDOE           | ECCV2018   | yes  |  7.6|   44.4  |    -     |     -       | [Paper](https://openaccess.thecvf.com/content_ECCV_2018/papers/CHUNLUAN_ZHOU_Bi-box_Regression_for_ECCV_2018_paper.pdf)  |
