@@ -196,6 +196,7 @@
     - Pedestrian detection with autoregressive network phases, CVPR 2019. [[Paper]](https://openaccess.thecvf.com/content_CVPR_2019/papers/Brazil_Pedestrian_Detection_With_Autoregressive_Network_Phases_CVPR_2019_paper.pdf)
     - Pedestrian detection: The elephant in the room, arXiv 2020. [[Paper]](https://arxiv.org/pdf/2003.08799.pdf)
     - A one-and-half stage pedestrian detector, WACV 2020. [[Paper]](https://openaccess.thecvf.com/content_WACV_2020/papers/Ujjwal_A_one-and-half_stage_pedestrian_detector_WACV_2020_paper.pdf)
+    - Progressive Refinement Network for Occluded Pedestrian Detection, ECCV 2020. [[Paper]](http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123680035.pdf)
   - **Anchor-free methods**
     - Small-scale pedestrian detection based on topological line localization and temporal feature aggregation, ECCV 2018. [[Paper]](https://openaccess.thecvf.com/content_ECCV_2018/papers/Tao_Song_Small-scale_Pedestrian_Detection_ECCV_2018_paper.pdf)
     - High-level semantic feature detection: A new perspective for pedestrian detection, CVPR 2019. [[Paper]](https://openaccess.thecvf.com/content_CVPR_2019/papers/Liu_High-Level_Semantic_Feature_Detection_A_New_Perspective_for_Pedestrian_Detection_CVPR_2019_paper.pdf)
@@ -217,6 +218,7 @@
     - Repulsion loss: Detecting pedestrians in a crowd, CVPR 2018. [[Paper]](https://openaccess.thecvf.com/content_cvpr_2018/papers/Wang_Repulsion_Loss_Detecting_CVPR_2018_paper.pdf)
     - Learning lightweight pedestrian detector with hierarchical knowledge distillation, ICIP 2019. [[Paper]](https://arxiv.org/pdf/1909.09325.pdf)
     - Discriminative feature transformation for occluded pedestrian detection, ICCV 2019. [[Paper]](https://openaccess.thecvf.com/content_ICCV_2019/papers/Zhou_Discriminative_Feature_Transformation_for_Occluded_Pedestrian_Detection_ICCV_2019_paper.pdf)
+    - Count- and Similarity-aware R-CNN for Pedestrian Detection, ECCV 2020. [[Paper]](http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123620086.pdf)
   - **Post-processing methods**
     - End-to-end people detection in crowded scenes, CVPR 2016. [[Paper]](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Stewart_End-To-End_People_Detection_CVPR_2016_paper.pdf)
     - Led: Localization-quality estimation embedded detector, ICIP 2018. [[Paper]](http://resources.dbgns.com/study/ObjectDetection/NMS-LED.pdf)
@@ -240,6 +242,7 @@
     - Spatial focal loss for pedestrian detection in fisheye imagery, WACV 2019.[[Paper]](https://ieeexplore.ieee.org/abstract/document/8658951/)
     - Oriented spatial transformer network for pedestrian detection using fish-eye camera, TMM 2020. [[Paper]](https://ieeexplore.ieee.org/abstract/document/8772168/)
     - Semi-supervised human detection via region proposal networks aided by verification, TIP 2020. [[Paper]](https://ieeexplore.ieee.org/abstract/document/8858040/)
+    - Task-conditioned Domain Adaptation for Pedestrian Detection in Thermal Imagery, ECCV 2020. [[Paper]](http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123670545.pdf)
 
 ## 3. Multispectral pedestrian detection <a name="3"></a>
 #### 3.1. Deep feature fusion <a name="3.1"></a>
@@ -249,6 +252,7 @@
   - Fusion of multispectral data through illuminationaware deep neural networks for pedestrian detection, IF 2019. [[Paper]](https://arxiv.org/pdf/1802.09972.pdf)
   - Illuminationaware faster r-cnn for robust multispectral pedestrian detection, PR 2019. [[Paper]](https://arxiv.org/pdf/1803.05347.pdf)
   - Cross-modality interactive attention network for multispectral pedestrian detection, IF 2019. [[Paper]](https://www.researchgate.net/profile/Shifeng_Zhang4/publication/327885485_Cross-Modality_Interactive_Attention_Network_for_Multispectral_Pedestrian_Detection/links/5c718c8f458515831f699042/Cross-Modality-Interactive-Attention-Network-for-Multispectral-Pedestrian-Detection.pdf)
+  - Improving Multispectral Pedestrian Detection by Addressing Modality Imbalance Problems, ECCV 2020. [[Paper]](http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123630766.pdf)
 #### 3.2. Data processing <a name="3.2"></a>
   - Multispectral pedestrian detection via simultaneous detection and segmentation, BMVC 2018. [[Paper]](https://arxiv.org/pdf/1808.04818.pdf)
   - Weakly aligned cross-modal learning for multispectral pedestrian detection, ICCV 2019. [[Paper]](https://openaccess.thecvf.com/content_ICCV_2019/papers/Zhang_Weakly_Aligned_Cross-Modal_Learning_for_Multispectral_Pedestrian_Detection_ICCV_2019_paper.pdf)
