@@ -71,7 +71,9 @@
 |  CSP            | CVPR2019   | 1.0x |  11.0 |   49.3†  |  [Paper](https://openaccess.thecvf.com/content_CVPR_2019/papers/Liu_High-Level_Semantic_Feature_Detection_A_New_Perspective_for_Pedestrian_Detection_CVPR_2019_paper.pdf)   |  
 |  Adaptive-NMS  | CVPR2019   | 1.0x  | 11.9 |   55.2 † | [Paper](http://openaccess.thecvf.com/content_CVPR_2019/papers/Liu_Adaptive_NMS_Refining_Pedestrian_Detection_in_a_Crowd_CVPR_2019_paper.pdf)  |  
 |  MGAN      | ICCV2019   | 1.0x  |  11.3|   42.0 |  [Paper](https://openaccess.thecvf.com/content_ICCV_2019/papers/Pang_Mask-Guided_Attention_Network_for_Occluded_Pedestrian_Detection_ICCV_2019_paper.pdf)   |  
-|  R2NMS   | CVPR2020   | 1.0x  |  11.1 |   53.3†  |  [Paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Huang_NMS_by_Representative_Region_Towards_Crowded_Pedestrian_Detection_by_Proposal_CVPR_2020_paper.pdf)  |  
+|  R2NMS   | CVPR2020   | 1.0x  |  11.1 |   53.3†  |  [Paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Huang_NMS_by_Representative_Region_Towards_Crowded_Pedestrian_Detection_by_Proposal_CVPR_2020_paper.pdf)  | 
+|  PRNet   | ECCV2020   | 1.0x  |  10.8 |   42.0  |  [Paper](http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123680035.pdf)  | 
+|  CaSe   | ECCV2020   | 1.0x  |  10.5 |   40.5  |  [Paper](http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123620086.pdf)  | 
 |  Adapted FRCNN  | CVPR2017   |  1.3x |  12.8 |   - |  [Paper](https://openaccess.thecvf.com/content_cvpr_2017/papers/Zhang_CityPersons_A_Diverse_CVPR_2017_paper.pdf)  |  
 |  RepLoss       | CVPR2018   |  1.3x |  11.6 |   55.3†  |  [Paper](https://openaccess.thecvf.com/content_cvpr_2018/papers/Wang_Repulsion_Loss_Detecting_CVPR_2018_paper.pdf) |  
 |  OR-CNN    | ECCV2018   | 1.3x  |  11.0 |   51.3†  |  [Paper](https://openaccess.thecvf.com/content_ECCV_2018/papers/Shifeng_Zhang_Occlusion-aware_R-CNN_Detecting_ECCV_2018_paper.pdf)   |  
@@ -89,7 +91,6 @@
 - † indicates the pedestrians over 50 pixels in height with more than 35% occlusion. Thus, † suggest higher difficulty.
 
 #### Citypersons test set <a name="3"></a>
-
    
 |    Method       | publication  |  **R**  | **RS** | **HO** | **A**| link |
 | :--------      | :-----:  | :-------: | :-----: | :------: | :------: | :------: |
