@@ -79,7 +79,7 @@
     - Learning nonmaximum suppression, CVPR 2017. [[Paper]](https://arxiv.org/pdf/1705.02950.pdf)
     - Relation networks for object detection, CVPR 2018. [[Paper]](https://arxiv.org/pdf/1711.11575.pdf)
     - Learning to separate: Detecting heavily-occluded objects in urban scenes, arXiv 2019. [[Paper]](https://arxiv.org/pdf/1912.01674.pdf)
-    - Adaptive nms: Refining pedestrian detection in a crowd, CVPR 2020. [[Paper]](https://arxiv.org/pdf/1904.03629.pdf)
+    - Adaptive nms: Refining pedestrian detection in a crowd, CVPR 2019. [[Paper]](https://arxiv.org/pdf/1904.03629.pdf)
 
    
 ## 2. Single-spectral pedestrian detection <a name="2"></a>
