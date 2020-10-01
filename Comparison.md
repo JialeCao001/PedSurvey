@@ -42,6 +42,8 @@
 |  FRCNN+A+DT     | ICCV2019   | yes  |  8.0 |   37.9  |   -    |     -      | [Paper](https://openaccess.thecvf.com/content_ICCV_2019/papers/Zhou_Discriminative_Feature_Transformation_for_Occluded_Pedestrian_Detection_ICCV_2019_paper.pdf)  |
 |  MGAN           | ICCV2019   | yes  |  6.8 |   38.1  |    13.8     |     -      |  [Paper](https://openaccess.thecvf.com/content_ICCV_2019/papers/Pang_Mask-Guided_Attention_Network_for_Occluded_Pedestrian_Detection_ICCV_2019_paper.pdf) |
 |  TFAN           | CVPR2020   | yes  |  6.7 |   30.9  |    12.4     |     -       | [Paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Wu_Temporal-Context_Enhanced_Detection_of_Heavily_Occluded_Pedestrians_CVPR_2020_paper.pdf)  |
+
+
 |    Method       | publication  | CNN |  **R**  | **HO** | **R+HO** | **A**| link |
 | :--------      | :-----: | :-----: | :-------: | :-----: | :------: | :------: | :------: |
 |  HyperLearner   | CVPR2017   | yes  |  5.5 |   - |    -     |     -       | [Paper](https://openaccess.thecvf.com/content_cvpr_2017/papers/Mao_What_Can_Help_CVPR_2017_paper.pdf)  |
