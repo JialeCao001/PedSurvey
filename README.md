@@ -1,7 +1,7 @@
 ## From Handcrafted to Deep Features for Pedestrian Detection: A Survey
 
 - This project provides a paper list about pedestrian detection following the taxonomy in [our survey paper](https://arxiv.org/pdf/2010.00456.pdf). 
-- The performance of some methods on different datasets are shown in [Comparison.md](Comparison.md).
+- The performance of some methods on different datasets are shown in [Leaderboard](Comparison.md).
 - If you find a new paper about pedestrian detection, please feel free to contact us for adding it.  
 
 <table>
