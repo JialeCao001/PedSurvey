@@ -1,4 +1,4 @@
-## Performance comparison on various pedestrian detection
+## Leaderboard on various pedestrian detection
 - If you find a new paper about pedestrian detection, please feel free to contact us for adding it.  
 
 
