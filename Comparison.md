@@ -1,4 +1,4 @@
-## Leaderboard on various pedestrian detection
+## Leaderboard on various pedestrian datasets
 - If you find a new paper about pedestrian detection, please feel free to contact us for adding it.  
 
 
