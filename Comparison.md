@@ -8,7 +8,7 @@
 2. [Citypersons validation set](#2)  
 3. [Citypersons test set](#3)  
 4. [KITTI test set](#4)  
-
+5. [KAIST test set](#5)
 
 #### Caltech test set <a name="1"></a>
    
@@ -145,4 +145,17 @@ less than 0.8 occlusion.
 |  MHN  | TCSVT2019   | 75.99  | 87.21 |   69.50  | [Paper](https://ieeexplore.ieee.org/abstract/document/8887288/)
 |  Aston-EAS  | TITS2019   | 76.07  | 86.71 |   70.02  |   [Paper](https://ieeexplore.ieee.org/document/8694965) 
 |  AR-Ped  | CVPR2019   | 73.44  | 83.66 |   68.12  |   [Paper](https://openaccess.thecvf.com/content_CVPR_2019/papers/Brazil_Pedestrian_Detection_With_Autoregressive_Network_Phases_CVPR_2019_paper.pdf)  | 
+
+#### KAIST test set <a name="4"></a>
+
+   
+|    Method       | publication  | MR(All)|MR(Day)| MR(Nighy)| link |
+|ACF | CVPR2015 |47.32 |42.57|56.17|[Paper](https://www.cvfoundation.org/openaccess/content_cvpr_2015/papers/Hwang_Multispectral_Pedestrian_Detection_2015_CVPR_paper.pdf)|
+|Halfway Fusion | BMVC2016 |25.75 |24.88|26.59|[Paper](https://webpages.uncc.edu/~szhang16/paper/BMVC16_multispectral.pdf)|
+|IAF-RCNN|PR2019|15.73|14.55|18.26|[Paper](https://www.sciencedirect.com/science/article/pii/S0031320318303030)|
+|IATDNN+IAMSS|IF2019|14.95|14.67|15.72|[Paper](https://www.sciencedirect.com/science/article/pii/S1566253517308138)|
+|CIAN|IF2019|14.12|14.77|11.13|[Paper](https://www.sciencedirect.com/science/article/pii/S1566253518304111)|
+|MSDS-RCNN|BMVC2018|11.34|10.53|12.94|[Paper](https://arxiv.org/abs/1808.04818)|
+|AR-CNN|ICCV2019|9.34|9.94|8.38|[Paper](https://arxiv.org/abs/1901.02645)|
+|MBNet|ECCV2020|8.13|8.28|7.86|[Paper](https://arxiv.org/abs/2008.03043)|
 
