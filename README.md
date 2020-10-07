@@ -1,6 +1,7 @@
 ## From Handcrafted to Deep Features for Pedestrian Detection: A Survey
 
 - This project provides a paper list about pedestrian detection following the taxonomy in [our survey paper](https://arxiv.org/pdf/2010.00456.pdf). 
+- This survey includes single-spectral pedestrian detection and multispectral pedestrian detection.
 - The performance of some methods on different datasets are shown in [Leaderboard](Comparison.md).
 - If you find a new paper about pedestrian detection, please feel free to contact us for adding it.  
 
@@ -15,6 +16,11 @@
         <td ><center><img src="imgs/fig-pipeline.png" height="180"> </center></td>
     </tr>
 </table>
+
+## News
+- Adding the comparison of multispectral pedestrian detection to leaderboard [Oct. 7, 2020]. 
+- Adding ECCV2020 methods to leaderboard [Oct. 1, 2020]. 
+
 
 ## Table of Contents
 1. [Detection pipeline](#1)  
