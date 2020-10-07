@@ -146,10 +146,11 @@ less than 0.8 occlusion.
 |  Aston-EAS  | TITS2019   | 76.07  | 86.71 |   70.02  |   [Paper](https://ieeexplore.ieee.org/document/8694965) 
 |  AR-Ped  | CVPR2019   | 73.44  | 83.66 |   68.12  |   [Paper](https://openaccess.thecvf.com/content_CVPR_2019/papers/Brazil_Pedestrian_Detection_With_Autoregressive_Network_Phases_CVPR_2019_paper.pdf)  | 
 
-#### KAIST test set <a name="4"></a>
+#### KAIST test set <a name="5"></a>
 
    
 |    Method       | publication  | MR(All)|MR(Day)| MR(Nighy)| link |
+| :--------      | :-----: | :-----: | :-------: | :-----: | :-----: |
 |ACF | CVPR2015 |47.32 |42.57|56.17|[Paper](https://www.cvfoundation.org/openaccess/content_cvpr_2015/papers/Hwang_Multispectral_Pedestrian_Detection_2015_CVPR_paper.pdf)|
 |Halfway Fusion | BMVC2016 |25.75 |24.88|26.59|[Paper](https://webpages.uncc.edu/~szhang16/paper/BMVC16_multispectral.pdf)|
 |IAF-RCNN|PR2019|15.73|14.55|18.26|[Paper](https://www.sciencedirect.com/science/article/pii/S0031320318303030)|
