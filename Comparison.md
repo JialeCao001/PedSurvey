@@ -49,7 +49,9 @@
 |  HyperLearner   | CVPR2017   | yes  |  5.5 |   - |    -     |     -       | [Paper](https://openaccess.thecvf.com/content_cvpr_2017/papers/Mao_What_Can_Help_CVPR_2017_paper.pdf)  |
 |  RepLoss        | CVPR2018   | yes  |  4.0 |   - |    -    |    -       | [Paper](https://openaccess.thecvf.com/content_cvpr_2018/papers/Wang_Repulsion_Loss_Detecting_CVPR_2018_paper.pdf)  |
 |  ALFNet         | ECCV2018   | yes  |  4.5 |  - |    -    |     -       | [Paper](https://openaccess.thecvf.com/content_ECCV_2018/papers/Wei_Liu_Learning_Efficient_Single-stage_ECCV_2018_paper.pdf)  |
+|  BGRNet   | ACM-MM2020   | yes  |  4.5 |   - |    -    |     -      |  [Paper](https://dl.acm.org/doi/pdf/10.1145/3394171.3413989)  | 
 |  OR-CNN         | ECCV2018   | yes  |  4.1 |   -  |    -     |     -       | [Paper](https://openaccess.thecvf.com/content_ECCV_2018/papers/Shifeng_Zhang_Occlusion-aware_R-CNN_Detecting_ECCV_2018_paper.pdf)  |
+|  HGPD  |  ACM-MM2020    |  yes |   3.78  |     -    |      -     |     -      |  [Paper](https://dl.acm.org/doi/pdf/10.1145/3394171.3413983) |
 |  SML        | ACMMM2020   | yes  | 3.7 |   -  |    -     |     -       | [Paper](https://cse.buffalo.edu/~jsyuan/papers/2020/SML.pdf)  |
 |  JointDet       | AAAI2020   | yes  |  3.0 |  -  |    -     |     -       | [Paper](https://arxiv.org/pdf/1909.10674.pdf)  |
 |  PedHutter      | AAAI2020   | yes  |  2.3 |   - |    -     |     -       | [Paper](https://www.aaai.org/Papers/AAAI/2020GB/AAAI-ChiC.961.pdf)  |
@@ -76,13 +78,16 @@
 |  R2NMS   | CVPR2020   | 1.0x  |  11.1 |   53.3†  |  [Paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Huang_NMS_by_Representative_Region_Towards_Crowded_Pedestrian_Detection_by_Proposal_CVPR_2020_paper.pdf)  | 
 |  PRNet   | ECCV2020   | 1.0x  |  10.8 |   42.0  |  [Paper](http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123680035.pdf)  | 
 |  CaSe   | ECCV2020   | 1.0x  |  10.5 |   40.5  |  [Paper](http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123620086.pdf)  | 
+|  BGRNet   | ACM-MM2020   | 1.0x  |  9.4 |   45.9†  |  [Paper](https://dl.acm.org/doi/pdf/10.1145/3394171.3413989)  | 
 |  Adapted FRCNN  | CVPR2017   |  1.3x |  12.8 |   - |  [Paper](https://openaccess.thecvf.com/content_cvpr_2017/papers/Zhang_CityPersons_A_Diverse_CVPR_2017_paper.pdf)  |  
 |  RepLoss       | CVPR2018   |  1.3x |  11.6 |   55.3†  |  [Paper](https://openaccess.thecvf.com/content_cvpr_2018/papers/Wang_Repulsion_Loss_Detecting_CVPR_2018_paper.pdf) |  
 |  OR-CNN    | ECCV2018   | 1.3x  |  11.0 |   51.3†  |  [Paper](https://openaccess.thecvf.com/content_ECCV_2018/papers/Shifeng_Zhang_Occlusion-aware_R-CNN_Detecting_ECCV_2018_paper.pdf)   |  
-|  PDOE      | ECCV2018   | 1.3x  |  11.2 |   44.2  | [Paper](https://openaccess.thecvf.com/content_ECCV_2018/papers/CHUNLUAN_ZHOU_Bi-box_Regression_for_ECCV_2018_paper.pdf)   |  
+|  PDOE      | ECCV2018   | 1.3x  |  11.2 |   44.2  | [Paper](https://openaccess.thecvf.com/content_ECCV_2018/papers/CHUNLUAN_ZHOU_Bi-box_Regression_for_ECCV_2018_paper.pdf)   | 
 |  LBST      | TIP2019   | 1.3x  |  11.4 |  45.2  | [Paper](https://ieeexplore.ieee.org/abstract/document/8931263/)  |  
-|  Adaptive-NMS  | CVPR2019   | 1.3x  | 10.8 |   54.2 † | [Paper](http://openaccess.thecvf.com/content_CVPR_2019/papers/Liu_Adaptive_NMS_Refining_Pedestrian_Detection_in_a_Crowd_CVPR_2019_paper.pdf)  |  
+|  Adaptive-NMS  | CVPR2019   | 1.3x  | 10.8 |   54.2 † | [Paper](http://openaccess.thecvf.com/content_CVPR_2019/papers/Liu_Adaptive_NMS_Refining_Pedestrian_Detection_in_a_Crowd_CVPR_2019_paper.pdf)  | 
+|  HGPD  | ACM-MM2020   | 1.3x  | 10.9 |   40.9  | [Paper](https://dl.acm.org/doi/pdf/10.1145/3394171.3413983)  |  
 |  IoU+Sign  | CVPR2019   | 1.3x  | 10.8 |   54.3†  | [Paper](https://arxiv.org/abs/1911.11449.pdf)  |  
+|  NOH-NMS  | ACM-MM2020   | 1.3x  | 10.8 |   53.0†  | [Paper](https://arxiv.org/pdf/2007.13376.pdf)  |  
 |  FRCNN+A+DT  | CVPR2019   | 1.3x  | 11.1 |   44.3  | [Paper](https://openaccess.thecvf.com/content_ICCV_2019/papers/Zhou_Discriminative_Feature_Transformation_for_Occluded_Pedestrian_Detection_ICCV_2019_paper.pdf)  |  
 |  SML      | ACMMM2020   | 1.3x  |  10.6|  -  |  [Paper](https://cse.buffalo.edu/~jsyuan/papers/2020/SML.pdf)   |  
 |  MGAN      | ICCV2019   | 1.3x  |  10.5|  39.4  |  [Paper](https://openaccess.thecvf.com/content_ICCV_2019/papers/Pang_Mask-Guided_Attention_Network_for_Occluded_Pedestrian_Detection_ICCV_2019_paper.pdf)   |  
@@ -107,6 +112,7 @@
 |  MHN  | TMM2019    |  12.92 |   17.24  |    46.72     |     39.16   |  [Paper](https://ieeexplore.ieee.org/abstract/document/8887288/)  |
 |  HBA-RCNN | -    |  11.26 |   15.68  |    39.54     |     38.77   |  - |
 |  DVRNet  |  -    |  10.99 |   15.68  |    43.77     |     41.48   |  - |
+|  HGPD  |  ACM-MM2020    |  10.17 |   -  |     38.65     |      38.24   |  [Paper](https://dl.acm.org/doi/pdf/10.1145/3394171.3413983) |
 |  MGAN  | ICCV2019    |  9.29 |   11.38  |    40.97     |     38.86   | [Paper](https://openaccess.thecvf.com/content_ICCV_2019/papers/Pang_Mask-Guided_Attention_Network_for_Occluded_Pedestrian_Detection_ICCV_2019_paper.pdf)
 |  STNet  | -    |  8.92 |   11.13  |    34.31     |     29.54  | -  |
 |  YT-PedDet | -    |  8.41 |   10.60 |    37.88     |     37.22   |  - |
