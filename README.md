@@ -18,8 +18,9 @@
 </table>
 
 ## News
+- Adding ACM MM2020 methods (BGCNet, NOH-NMS, SML, HGPD) [Oct. 22, 2020]
 - Adding the comparison of multispectral pedestrian detection to leaderboard [Oct. 7, 2020]. 
-- Adding ECCV2020 methods to leaderboard [Oct. 1, 2020]. 
+- Adding ECCV2020 methods [Oct. 1, 2020]. 
 
 
 ## Table of Contents
@@ -174,6 +175,7 @@
     - Semantic head enhanced pedestrian detection in a crowd, arXiv 2019. [[Paper]](https://arxiv.org/pdf/1911.11985.pdf)
     - Semantic part rcnn for real-world pedestrian detection, CVPRW 2019. [[Paper]](https://openaccess.thecvf.com/content_CVPRW_2019/papers/Weakly%20Supervised%20Learning%20for%20Real-World%20Computer%20Vision%20Applications/Xu_Semantic_Part_RCNN_for_Real-World_Pedestrian_Detection_CVPRW_2019_paper.pdf)
     - Mask-guided attention network for occluded pedestrian detection, ICCV 2019. [[Paper]](https://openaccess.thecvf.com/content_ICCV_2019/papers/Pang_Mask-Guided_Attention_Network_for_Occluded_Pedestrian_Detection_ICCV_2019_paper.pdf)
+    - Learning Hierarchical Graph for Occluded Pedestrian Detection, ACM-MM 2020. [[Paper]](https://dl.acm.org/doi/pdf/10.1145/3394171.3413983)
   - **Attention-based methods**
     - Illuminating pedestrians via simultaneous detection and segmentation, ICCV 2017. [[Paper]](http://openaccess.thecvf.com/content_ICCV_2017/papers/Brazil_Illuminating_Pedestrians_via_ICCV_2017_paper.pdf)
     - Vis-hud: Using visual saliency to improve human detection with convolutional neural networks, CVPRW 2018. [[Paper]](https://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w39/Gajjar_ViS-HuD_Using_Visual_CVPR_2018_paper.pdf)
@@ -233,6 +235,7 @@
     - Adaptive nms: Refining pedestrian detection in a crowd, CVPR 2019. [[Paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Liu_Adaptive_NMS_Refining_Pedestrian_Detection_in_a_Crowd_CVPR_2019_paper.pdf)
     - S3d: Scalable pedestrian detection via score scale surface discrimination, TCSVT 2020. [[Paper]](https://www.researchgate.net/profile/Xiao_Wang336/publication/332650146_S3D_Scalable_Pedestrian_Detection_via_Score_Scale_Surface_Discrimination/links/5e1e8b6a299bf136303ac9b9/S3D-Scalable-Pedestrian-Detection-via-Score-Scale-Surface-Discrimination.pdf)
     - Nms by representative region: Towards crowded pedestrian detection by proposal pairing, CVPR 2020. [[Paper]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Huang_NMS_by_Representative_Region_Towards_Crowded_Pedestrian_Detection_by_Proposal_CVPR_2020_paper.pdf)
+    - NOH-NMS: Improving Pedestrian Detection by Nearby Objects Hallucination, ACM-MM 2020. [[Paper]](https://arxiv.org/pdf/2007.13376.pdf)
   - **Multi-task methods**
     - What can help pedestrian detection? CVPR 2017. [[Paper]](https://openaccess.thecvf.com/content_cvpr_2017/papers/Mao_What_Can_Help_CVPR_2017_paper.pdf)
     - Accurate pedestrian detection by human pose regression, TIP 2019. [[Paper]](https://ieeexplore.ieee.org/abstract/document/8850309/)
@@ -303,7 +306,7 @@
    - Multi-resolution generative adversarial networks for tinyscale pedestrian detection, ICIP 2019. [[Paper]](https://ieeexplore.ieee.org/abstract/document/8803030/)
    - Scale match for tiny person detection, WACV 2020. [[Paper]](https://openaccess.thecvf.com/content_WACV_2020/papers/Yu_Scale_Match_for_Tiny_Person_Detection_WACV_2020_paper.pdf)
    - Self-Mimic Learning for Small-scale Pedestrian Detection, ACM-MM 2020. [[Paper]](https://cse.buffalo.edu/~jsyuan/papers/2020/SML.pdf)
-    
+   - Box Guided Convolution for Pedestrian Detection, ACM-MM 2020. [[Paper]](https://dl.acm.org/doi/pdf/10.1145/3394171.3413989)
 #### 5.2. Occlusion <a name="5.2"></a>
    - An hog-lbp human detector with partial occlusion handling, ICCV 2010. [[Paper]](https://www.researchgate.net/profile/Tony_Han3/publication/224135946_An_HOG-LBP_human_detector_with_partial_occlusion_handling/links/0046351affdef73b37000000.pdf)
    - Handling occlusions with franken-classifiers, CVPR 2013. [[Paper]](https://openaccess.thecvf.com/content_iccv_2013/papers/Mathias_Handling_Occlusions_with_2013_ICCV_paper.pdf)
