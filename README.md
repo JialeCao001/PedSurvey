@@ -4,6 +4,7 @@
 - **Single-spectral pedestrian detection** and **multispectral pedestrian detection** are both summarized.
 - The performance of some methods on different datasets are shown in [Leaderboard](Comparison.md).
 - If you find a new paper about pedestrian detection, please feel free to contact us for adding it.  
+- If you find any error about method, please feel free to contact us to fix it.  
 
 <table>
     <tr>
