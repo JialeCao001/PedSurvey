@@ -19,7 +19,7 @@
 </table>
 
 ## News
-- Adding WACV methods ([TinyCityPersons](https://arxiv.org/pdf/2011.02298.pdf)) [Nov. 5, 2020]
+- Adding WACV2021 methods ([TinyCityPersons](https://arxiv.org/pdf/2011.02298.pdf)) [Nov. 5, 2020]
 - Adding ACM MM2020 methods ([BGCNet](https://dl.acm.org/doi/pdf/10.1145/3394171.3413989), [NOH-NMS](https://arxiv.org/pdf/2007.13376.pdf), [SML](https://cse.buffalo.edu/~jsyuan/papers/2020/SML.pdf), [HGPD](https://dl.acm.org/doi/pdf/10.1145/3394171.3413983)) [Oct. 22, 2020]
 - Adding the comparison of multispectral pedestrian detection to leaderboard [Oct. 7, 2020]. 
 - Adding ECCV2020 methods ([PRNet](http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123680035.pdf), [Case](http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123620086.pdf), [TCDet](http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123670545.pdf), [MBNet](https://arxiv.org/abs/2008.03043.pdf)) [Oct. 1, 2020]. 
@@ -309,6 +309,7 @@
    - Scale match for tiny person detection, WACV 2020. [[Paper]](https://openaccess.thecvf.com/content_WACV_2020/papers/Yu_Scale_Match_for_Tiny_Person_Detection_WACV_2020_paper.pdf)
    - Self-Mimic Learning for Small-scale Pedestrian Detection, ACM-MM 2020. [[Paper]](https://cse.buffalo.edu/~jsyuan/papers/2020/SML.pdf)
    - Box Guided Convolution for Pedestrian Detection, ACM-MM 2020. [[Paper]](https://dl.acm.org/doi/pdf/10.1145/3394171.3413989)
+   - Effective Fusion Factor in FPN for Tiny Object Detection, WACV 2021. [[Paper]](https://arxiv.org/pdf/2011.02298.pdf)
 #### 5.2. Occlusion <a name="5.2"></a>
    - An hog-lbp human detector with partial occlusion handling, ICCV 2010. [[Paper]](https://www.researchgate.net/profile/Tony_Han3/publication/224135946_An_HOG-LBP_human_detector_with_partial_occlusion_handling/links/0046351affdef73b37000000.pdf)
    - Handling occlusions with franken-classifiers, CVPR 2013. [[Paper]](https://openaccess.thecvf.com/content_iccv_2013/papers/Mathias_Handling_Occlusions_with_2013_ICCV_paper.pdf)
