@@ -19,6 +19,7 @@
 </table>
 
 ## News
+- Adding A newly built deverse pedestrian detection dataset ([TJU-Ped](https://arxiv.org/pdf/2011.09170.pdf)) [Nov. 19, 2020]
 - Adding WACV2021 methods ([TinyCityPersons](https://arxiv.org/pdf/2011.02298.pdf)) [Nov. 5, 2020]
 - Adding ACM MM2020 methods ([BGCNet](https://dl.acm.org/doi/pdf/10.1145/3394171.3413989), [NOH-NMS](https://arxiv.org/pdf/2007.13376.pdf), [SML](https://cse.buffalo.edu/~jsyuan/papers/2020/SML.pdf), [HGPD](https://dl.acm.org/doi/pdf/10.1145/3394171.3413983)) [Oct. 22, 2020]
 - Adding the comparison of multispectral pedestrian detection to leaderboard [Oct. 7, 2020]. 
@@ -288,7 +289,8 @@
    - Crowdhuman: A benchmark for detecting human in a crowd, arXiv 2018. [[Paper]](https://arxiv.org/pdf/1805.00123.pdf)
    - Eurocity persons: A novel benchmark for person detection in traffic scenes, PAMI 2019. [[Paper]](https://www.researchgate.net/profile/Dariu_Gavrila/publication/330891380_EuroCity_Persons_A_Novel_Benchmark_for_Person_Detection_in_Traffic_Scenes/links/5d395fdb299bf1995b487c21/EuroCity-Persons-A-Novel-Benchmark-for-Person-Detection-in-Traffic-Scenes.pdf)
    - Widerperson: A diverse dataset for dense pedestrian detection in the wild, TMM 2020. [[Paper]](https://arxiv.org/pdf/1909.12118.pdf)
-
+   - TJU-DHD: A Diverse High-Resolution Dataset for Object Detection, TIP 2020. [[Paper]](https://arxiv.org/pdf/2011.09170.pdf)
+   
 #### 4.3. Multispectral pedestrian datasets <a name="4.3"></a>
    - Multispectral pedestrian detection: Benchmark dataset and baseline, CVPR 2015. [[Paper]](https://openaccess.thecvf.com/content_cvpr_2015/papers/Hwang_Multispectral_Pedestrian_Detection_2015_CVPR_paper.pdf)
    - Pedestrian detection at day/night time with visible and fir cameras: A comparison, PR 2016. [[Paper]](https://www.mdpi.com/1424-8220/16/6/820)
