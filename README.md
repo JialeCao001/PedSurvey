@@ -344,9 +344,9 @@ If this project help your research, please consider to cite our survey paper.
 ```
 @article{Cao_PDR_arXiv_2020,
          author = {Jiale Cao and Yanwei Pang and Jin Xie and Fahad Shahbaz Khan and Ling Shao},
-         title = "{From Handcrafted to Deep Features for Pedestrian Detection: A Survey}",
-         journal = {arXiv},
-         year = "2020"
+         title = {From Handcrafted to Deep Features for Pedestrian Detection: A Survey},
+         journal = {arXiv:2010.00456},
+         year = 2020
         }
 ```
 
