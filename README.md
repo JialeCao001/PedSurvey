@@ -18,7 +18,7 @@
 </table>
 
 ## News
-- Some new methods in IEEE Trans. or Conf. [Dec. 5, 2020]
+- Some new methods (e.g., [KGSNet](https://ieeexplore.ieee.org/document/9137724/) [SSAM](https://ieeexplore.ieee.org/document/9186837) [SSD-MR] (https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9197399) [MGAN](https://ieeexplore.ieee.org/document/9282190) [PEN](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9109304) [ADGN](https://ieeexplore.ieee.org/document/9145843) [RSA-YOLO](https://ieeexplore.ieee.org/document/9272650) [CWETM](https://ieeexplore.ieee.org/document/9050835)  [PLM](ttps://ieeexplore.ieee.org/document/8701617) [GRPN](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9091903)) in IEEE Trans. or Conf. [Dec. 5, 2020]
 - A newly built deverse pedestrian detection dataset ([TJU-DHD-Pedestrian](https://arxiv.org/pdf/2011.09170.pdf)) [Nov. 19, 2020]
 - WACV2021 methods ([TinyCityPersons](https://arxiv.org/pdf/2011.02298.pdf)) [Nov. 5, 2020]
 - ACM MM2020 methods ([BGCNet](https://dl.acm.org/doi/pdf/10.1145/3394171.3413989), [NOH-NMS](https://arxiv.org/pdf/2007.13376.pdf), [SML](https://cse.buffalo.edu/~jsyuan/papers/2020/SML.pdf), [HGPD](https://dl.acm.org/doi/pdf/10.1145/3394171.3413983)) [Oct. 22, 2020]
@@ -202,6 +202,7 @@
     - Coupled network for robust pedestrian detection with gated multi-layer feature extraction and deformable occlusion handling Cascade-based methods, arXiv 2019. [[Paper]](https://arxiv.org/pdf/1912.08661.pdf)
     - Object detection with location-aware deformable convolution and backward attention filtering, CVPR 2019. [[Paper]](https://openaccess.thecvf.com/content_CVPR_2019/papers/Zhang_Object_Detection_With_Location-Aware_Deformable_Convolution_and_Backward_Attention_Filtering_CVPR_2019_paper.pdf)
     - Temporal-context enhanced detection of heavily occluded pedestrians, CVPR 2020. [[Paper]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Wu_Temporal-Context_Enhanced_Detection_of_Heavily_Occluded_Pedestrians_CVPR_2020_paper.pdf)
+    - Ground plane context aggregation network for day-and-night on vehicular pedestrian detection, TITS 2020. [[Paper]](https://ieeexplore.ieee.org/document/9091903)    
   - **Cascade-based methods**
     - Fused dnn: A deep neural network fusion approach to fast and robust pedestrian detection, WACV 2017. [[Paper]](https://arxiv.org/pdf/1610.03466.pdf)
     - Learning efficient single-stage pedestrian detectors by asymptotic localization fitting, ECCV 2018. [[Paper]](https://openaccess.thecvf.com/content_ECCV_2018/papers/Wei_Liu_Learning_Efficient_Single-stage_ECCV_2018_paper.pdf)
