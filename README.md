@@ -18,6 +18,7 @@
 </table>
 
 ## News
+- Some new methods in IEEE Trans. or Conf. [Dec. 5, 2020]
 - A newly built deverse pedestrian detection dataset ([TJU-DHD-Pedestrian](https://arxiv.org/pdf/2011.09170.pdf)) [Nov. 19, 2020]
 - WACV2021 methods ([TinyCityPersons](https://arxiv.org/pdf/2011.02298.pdf)) [Nov. 5, 2020]
 - ACM MM2020 methods ([BGCNet](https://dl.acm.org/doi/pdf/10.1145/3394171.3413989), [NOH-NMS](https://arxiv.org/pdf/2007.13376.pdf), [SML](https://cse.buffalo.edu/~jsyuan/papers/2020/SML.pdf), [HGPD](https://dl.acm.org/doi/pdf/10.1145/3394171.3413983)) [Oct. 22, 2020]
@@ -167,6 +168,7 @@
     - Scale-adaptive deconvolutional regression network for pedestrian detection, ACCV 2016. [[Paper]](https://link.springer.com/chapter/10.1007/978-3-319-54184-6_26)
     - Sam-rcnn: Scaleaware multi-resolution multi-channel pedestrian detection, BMVC 2018. [[Paper]](https://arxiv.org/pdf/1808.02246.pdf)
     - Fpn++: A simple baseline for pedestrian detection, ICME 2019. [[Paper]](https://svip-lab.github.io/paper/icme2019_hujh.pdf)
+    - Ratio-and-scale-aware YOLO for pedestrian detection, TIP 2019. [[Paper]](https://ieeexplore.ieee.org/document/9272650)    
   - **Part-based methods**
     - PCN: Part and context information for pedestrian detection with cnns, BMVC 2017. [[Paper]](https://arxiv.org/pdf/1804.04483.pdf)
     - Joint holistic and partial cnn for pedestrian detection, BMVC 2018. [[Paper]](http://www.bmva.org/bmvc/2018/contents/papers/0261.pdf)
@@ -178,6 +180,7 @@
     - Semantic part rcnn for real-world pedestrian detection, CVPRW 2019. [[Paper]](https://openaccess.thecvf.com/content_CVPRW_2019/papers/Weakly%20Supervised%20Learning%20for%20Real-World%20Computer%20Vision%20Applications/Xu_Semantic_Part_RCNN_for_Real-World_Pedestrian_Detection_CVPRW_2019_paper.pdf)
     - Mask-guided attention network for occluded pedestrian detection, ICCV 2019. [[Paper]](https://openaccess.thecvf.com/content_ICCV_2019/papers/Pang_Mask-Guided_Attention_Network_for_Occluded_Pedestrian_Detection_ICCV_2019_paper.pdf)
     - Learning Hierarchical Graph for Occluded Pedestrian Detection, ACM-MM 2020. [[Paper]](https://dl.acm.org/doi/pdf/10.1145/3394171.3413983)
+    - Mask-guided attention network and occlusion-sensitive hard example mining for occluded pedestrian detection, TIP 2020. [[Paper]](https://ieeexplore.ieee.org/document/9282190)    
   - **Attention-based methods**
     - Illuminating pedestrians via simultaneous detection and segmentation, ICCV 2017. [[Paper]](http://openaccess.thecvf.com/content_ICCV_2017/papers/Brazil_Illuminating_Pedestrians_via_ICCV_2017_paper.pdf)
     - Vis-hud: Using visual saliency to improve human detection with convolutional neural networks, CVPRW 2018. [[Paper]](https://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w39/Gajjar_ViS-HuD_Using_Visual_CVPR_2018_paper.pdf)
@@ -219,6 +222,7 @@
     - Pmc-gans: Generating multi-scale high-quality pedestrian with multimodal cascaded gans, BMVC 2019. [[Paper]](https://arxiv.org/pdf/1912.12799.pdf)
     - Pedhunter: Occlusion robust pedestrian detector in crowded scenes, AAAI 2020. [[Paper]](https://www.aaai.org/Papers/AAAI/2020GB/AAAI-ChiC.961.pdf)
     - Where, what, whether: Multi-modal learning meets pedestrian detection, CVPR 2020. [[Paper]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Luo_Where_What_Whether_Multi-Modal_Learning_Meets_Pedestrian_Detection_CVPR_2020_paper.pdf)
+    - Low-illumination image enhancement for night-time uav pedestrian detection, TII 2020. [[Paper]](https://ieeexplore.ieee.org/document/9204832)
   - **Loss-driven methods**
     - Perceptual generative adversarial networks for small object detection, CVPR 2017. [[Paper]](https://openaccess.thecvf.com/content_cvpr_2017/papers/Li_Perceptual_Generative_Adversarial_CVPR_2017_paper.pdf)
     - Mimicking very efficient network for object detection, CVPR 2017. [[Paper]](https://openaccess.thecvf.com/content_cvpr_2017/papers/Li_Mimicking_Very_Efficient_CVPR_2017_paper.pdf)
@@ -245,6 +249,8 @@
     - Cluenet: A deep framework for occluded pedestrian pose estimation, BMVC 2019. [[Paper]](https://www.researchgate.net/profile/Sudip_Das12/publication/337831088_ClueNet_A_Deep_Framework_for_Occluded_Pedestrian_Pose_Estimation/links/5dee00bf4585159aa46e8d05/ClueNet-A-Deep-Framework-for-Occluded-Pedestrian-Pose-Estimation.pdf)
     - Semantic part rcnn for real-world pedestrian detection, CVPRW 2019. [[Paper]](https://openaccess.thecvf.com/content_CVPRW_2019/papers/Weakly%20Supervised%20Learning%20for%20Real-World%20Computer%20Vision%20Applications/Xu_Semantic_Part_RCNN_for_Real-World_Pedestrian_Detection_CVPRW_2019_paper.pdf)
     - Re-id driven localization refinement for person search, ICCV 2019. [[Paper]](https://openaccess.thecvf.com/content_ICCV_2019/papers/Han_Re-ID_Driven_Localization_Refinement_for_Person_Search_ICCV_2019_paper.pdf)
+    - PEN: Pose-embedding network for pedestrian detection, TCSVT 2020. [[Paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9109304) 
+    - A unified multi-task learning architecture for fast and accurate pedestrian detection, TITS 2020. [[Paper]](https://ieeexplore.ieee.org/document/9186837) 
   - **others**
     - Exploiting target data to learn deep convolutional networks for scene-adapted human detection, TIP 2018. [[Paper]](https://ieeexplore.ieee.org/abstract/document/8125769/)
     - Deep learning approaches on pedestrian detection in hazy weather, TIE 2019. [[Paper]](https://ieeexplore.ieee.org/abstract/document/8880634/)
@@ -254,7 +260,9 @@
     - Oriented spatial transformer network for pedestrian detection using fish-eye camera, TMM 2020. [[Paper]](https://ieeexplore.ieee.org/abstract/document/8772168/)
     - Semi-supervised human detection via region proposal networks aided by verification, TIP 2020. [[Paper]](https://ieeexplore.ieee.org/abstract/document/8858040/)
     - Task-conditioned Domain Adaptation for Pedestrian Detection in Thermal Imagery, ECCV 2020. [[Paper]](http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123670545.pdf)
-
+    - Self-bootstrapping pedestrian detection in downward-viewing fisheye cameras using pseudo-labeling, ICME 2020. [[Paper]](https://ieeexplore.ieee.org/document/9102923)
+    - Joint pedestrian detection and risk-level prediction with motion-representation-by-detection, ICRA 2020. [[Paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9197399)
+    - Adversarial training-based hard example mining for pedestrian detection in fish-eye images, TITS 2020. [[Paper]](https://ieeexplore.ieee.org/document/9145843)
 ## 3. Multispectral pedestrian detection <a name="3"></a>
 #### 3.1. Deep feature fusion <a name="3.1"></a>
   - Multispectral deep neural networks for pedestrian detection, BMVC 2016. [[Paper]](https://arxiv.org/pdf/1611.02644.pdf)
@@ -311,6 +319,7 @@
    - Self-Mimic Learning for Small-scale Pedestrian Detection, ACM-MM 2020. [[Paper]](https://cse.buffalo.edu/~jsyuan/papers/2020/SML.pdf)
    - Box Guided Convolution for Pedestrian Detection, ACM-MM 2020. [[Paper]](https://dl.acm.org/doi/pdf/10.1145/3394171.3413989)
    - Effective Fusion Factor in FPN for Tiny Object Detection, WACV 2021. [[Paper]](https://arxiv.org/pdf/2011.02298.pdf)
+   - KGSNet: Key-point-guided super-resolution network for pedestrian detection in the wild, TNNLS 2020. [[Paper]](https://ieeexplore.ieee.org/document/9137724/)   
 #### 5.2. Occlusion <a name="5.2"></a>
    - An hog-lbp human detector with partial occlusion handling, ICCV 2010. [[Paper]](https://www.researchgate.net/profile/Tony_Han3/publication/224135946_An_HOG-LBP_human_detector_with_partial_occlusion_handling/links/0046351affdef73b37000000.pdf)
    - Handling occlusions with franken-classifiers, CVPR 2013. [[Paper]](https://openaccess.thecvf.com/content_iccv_2013/papers/Mathias_Handling_Occlusions_with_2013_ICCV_paper.pdf)
@@ -337,7 +346,9 @@
    - Few-shot adaptive faster r-cnn, CVPR 2019. [[Paper]](https://openaccess.thecvf.com/content_CVPR_2019/papers/Wang_Few-Shot_Adaptive_Faster_R-CNN_CVPR_2019_paper.pdf)
    - Multi-level domain adaptive learning for cross-domain detection, ICCVW 2019. [[Paper]](https://openaccess.thecvf.com/content_ICCVW_2019/papers/TASK-CV/Xie_Multi-Level_Domain_Adaptive_Learning_for_Cross-Domain_Detection_ICCVW_2019_paper.pdf)
    - Adapting object detectors via selective cross-domain alignment, CVPR 2019. [[Paper]](https://openaccess.thecvf.com/content_CVPR_2019/papers/Zhu_Adapting_Object_Detectors_via_Selective_Cross-Domain_Alignment_CVPR_2019_paper.pdf)
-
+   - Conditional weighted ensemble of transferred models for camera based onboard pedestrian detection in railway driver support systems, TVT 2020. [[Paper]](https://ieeexplore.ieee.org/document/9050835)
+   - Progressive latent models for self-learning scene-specific pedestrian detectors, TITS 2020. [[Paper]](https://ieeexplore.ieee.org/document/8701617)
+   
 ## Citation 
 
 If this project help your research, please consider to cite our survey paper.
