@@ -88,7 +88,7 @@
 |  Adaptive-NMS  | CVPR2019   | 1.3x  | 10.8 |   54.2 † | [Paper](http://openaccess.thecvf.com/content_CVPR_2019/papers/Liu_Adaptive_NMS_Refining_Pedestrian_Detection_in_a_Crowd_CVPR_2019_paper.pdf)  | 
 |  HGPD  | ACM-MM2020   | 1.3x  | 10.9 |   40.9  | [Paper](https://dl.acm.org/doi/pdf/10.1145/3394171.3413983)  |  
 |  IoU+Sign  | CVPR2019   | 1.3x  | 10.8 |   54.3†  | [Paper](https://arxiv.org/abs/1911.11449.pdf)  |  
-|  NOH-NMS  | ACM-MM2020   | 1.3x  | 10.8 |   53.0†  | [Paper](https://arxiv.org/pdf/2007.13376.pdf)  |  
+|  NOH-NMS  | ACM-MM2020   | 1.3x  | 10.8 |   53.0  | [Paper](https://arxiv.org/pdf/2007.13376.pdf)  |  
 |  FRCNN+A+DT  | CVPR2019   | 1.3x  | 11.1 |   44.3  | [Paper](https://openaccess.thecvf.com/content_ICCV_2019/papers/Zhou_Discriminative_Feature_Transformation_for_Occluded_Pedestrian_Detection_ICCV_2019_paper.pdf)  |  
 |  SML      | ACMMM2020   | 1.3x  |  10.6|  -  |  [Paper](https://cse.buffalo.edu/~jsyuan/papers/2020/SML.pdf)   |  
 |  MGAN      | ICCV2019   | 1.3x  |  10.5|  39.4  |  [Paper](https://openaccess.thecvf.com/content_ICCV_2019/papers/Pang_Mask-Guided_Attention_Network_for_Occluded_Pedestrian_Detection_ICCV_2019_paper.pdf)   |  
