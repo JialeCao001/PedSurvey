@@ -92,7 +92,7 @@
 |  FRCNN+A+DT  | CVPR2019   | 1.3x  | 11.1 |   44.3  | [Paper](https://openaccess.thecvf.com/content_ICCV_2019/papers/Zhou_Discriminative_Feature_Transformation_for_Occluded_Pedestrian_Detection_ICCV_2019_paper.pdf)  |  
 |  SML      | ACMMM2020   | 1.3x  |  10.6|  -  |  [Paper](https://cse.buffalo.edu/~jsyuan/papers/2020/SML.pdf)   |  
 |  MGAN      | ICCV2019   | 1.3x  |  10.5|  39.4  |  [Paper](https://openaccess.thecvf.com/content_ICCV_2019/papers/Pang_Mask-Guided_Attention_Network_for_Occluded_Pedestrian_Detection_ICCV_2019_paper.pdf)   |  
-|  CaSe   | ECCV2020   | 1.0x  |  9.8 |   37.4  |  [Paper](http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123620086.pdf)  | 
+|  CaSe   | ECCV2020   | 1.3x  |  9.8 |   37.4  |  [Paper](http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123620086.pdf)  | 
 |  JointDet  | CVPR2019   | 1.3x  | 10.2 |   -  |  [Paper](https://arxiv.org/pdf/1909.10674.pdf) |  
 |  0.5-stage  | WACV2020   | 1.3x  | 8.1 |   -  | [Paper](https://openaccess.thecvf.com/content_WACV_2020/papers/Ujjwal_A_one-and-half_stage_pedestrian_detector_WACV_2020_paper.pdf)  |  
 |  PedHutter  | AAAI2020   | 1.3x  | 8.3 |   43.5†  | [Paper](https://www.aaai.org/Papers/AAAI/2020GB/AAAI-ChiC.961.pdf)  |  
