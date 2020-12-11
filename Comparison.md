@@ -118,7 +118,7 @@
 |  STNet  | -    |  8.92 |   11.13  |    34.31     |     29.54  | -  |
 |  YT-PedDet | -    |  8.41 |   10.60 |    37.88     |     37.22   |  - |
 |  APD | arXiv2019    |  8.27 |   11.03  |    35.45     |     35.65   | [Paper](https://arxiv.org/pdf/1910.09188.pdf)  |
-|  Pedestron  | arXiv2020    |  11.32 |   14.19  |    51.43     |     40.19   |  [Paper](https://arxiv.org/pdf/2003.08799.pdf)  |
+|  Pedestron  | arXiv2020    |  7.69 |   9.16  |    27.08     |     28.33   |  [Paper](https://arxiv.org/pdf/2003.08799.pdf)  |
 
 - **RS** represents the pedestrians over 50 pixels and under 75 pixels with less than 0.35 occlusion, while **A** the pedestrians over 20 pixels with
 less than 0.8 occlusion.
