@@ -36,7 +36,7 @@ This project provides a paper list about pedestrian detection following the taxo
     1.4 [Post processing](#1.4)  
 2. [Single-spectral pedestrian detection](#2)  
     2.1 [Handcrafted features based pedestrian detection](#2.1)  
-         *2.1.1 [Decision forests based methods](#2.1.1)*    
+         *2.1.1 [Channel features based methods](#2.1.1)*    
          *2.1.2 [Deformable part based methods](#2.1.2)*  
     2.2 [Deep features based pedestrian detection](#2.2)  
          *2.2.1 [Hybrid methods](#2.2.1)*  
@@ -97,7 +97,7 @@ This project provides a paper list about pedestrian detection following the taxo
 ## 2. Single-spectral pedestrian detection <a name="2"></a>
 
 #### 2.1. Handcrafted features based pedestrian detection <a name="2.1"></a>
-- **2.1.1. Decision forests based methods**  <a name="2.1.1"></a>
+- **2.1.1. Channel features based methods**  <a name="2.1.1"></a>
   - Robust real-time face detection, IJCV 2004. [[Paper]](https://www.face-rec.org/algorithms/Boosting-Ensemble/16981346.pdf)
   - Integral channel features, BMVC 2009. [[Paper]](https://pdollar.github.io/files/papers/DollarBMVC09ChnFtrsAbstract.pdf)
   - New features and insights for pedestrian detection, CVPR 2010. [[Paper]](https://ethz.ch/content/dam/ethz/special-interest/baug/igp/photogrammetry-remote-sensing-dam/documents/pdf/walk10cvpr.pdf)
