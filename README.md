@@ -14,7 +14,7 @@ This project provides a paper list about pedestrian detection following the taxo
 </table>
 <table>
     <tr>
-        <td ><center><img src="imgs/fig-pipeline.png" height="180"> </center></td>
+        <td ><center><img src="imgs/fig-detection.png" height="180"> </center></td>
     </tr>
 </table>
 
