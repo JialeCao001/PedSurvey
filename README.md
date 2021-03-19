@@ -19,6 +19,7 @@ This project provides a paper list about pedestrian detection following the taxo
 </table>
 
 ## News
+- [Mar. 19, 2021]: [DRNet](https://arxiv.org/pdf/2103.10091.pdf)
 - [Jan. 07, 2021]: [DETR for Pedestrian Detection](https://arxiv.org/abs/2012.06785)
 - [Dec. 05, 2020]: Some methods ([KGSNet](https://ieeexplore.ieee.org/document/9137724), [SSAM](https://ieeexplore.ieee.org/document/9186837), [SSD-MR](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9197399), [MGAN](https://ieeexplore.ieee.org/document/9282190), [PEN](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9109304), [ADGN](https://ieeexplore.ieee.org/document/9145843), [RSA-YOLO](https://ieeexplore.ieee.org/document/9272650), [CWETM](https://ieeexplore.ieee.org/document/9050835), [PLM](https://ieeexplore.ieee.org/document/8701617), [GRPN](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9091903)) in IEEE Trans. or Conf. 
 - [Nov. 19, 2020]: A newly built deverse pedestrian detection dataset ([TJU-DHD-Pedestrian](https://arxiv.org/pdf/2011.09170.pdf)) 
@@ -235,6 +236,7 @@ This project provides a paper list about pedestrian detection following the taxo
     - Learning lightweight pedestrian detector with hierarchical knowledge distillation, ICIP 2019. [[Paper]](https://arxiv.org/pdf/1909.09325.pdf)
     - Discriminative feature transformation for occluded pedestrian detection, ICCV 2019. [[Paper]](https://openaccess.thecvf.com/content_ICCV_2019/papers/Zhou_Discriminative_Feature_Transformation_for_Occluded_Pedestrian_Detection_ICCV_2019_paper.pdf)
     - Count- and Similarity-aware R-CNN for Pedestrian Detection, ECCV 2020. [[Paper]](http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123620086.pdf)
+    - Which to Match? Selecting Consistent GT-Proposal Assignment for Pedestrian Detection, Arxiv 2021. [[Paper]](https://arxiv.org/pdf/2103.10091.pdf)
   - **Post-processing methods**
     - End-to-end people detection in crowded scenes, CVPR 2016. [[Paper]](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Stewart_End-To-End_People_Detection_CVPR_2016_paper.pdf)
     - Led: Localization-quality estimation embedded detector, ICIP 2018. [[Paper]](http://resources.dbgns.com/study/ObjectDetection/NMS-LED.pdf)
