@@ -19,7 +19,7 @@ This project provides a paper list about pedestrian detection following the taxo
 </table>
 
 ## News
-- [Mar. 19, 2021]: [DRNet](https://arxiv.org/pdf/2103.10091.pdf)
+- [Mar. 19, 2021]: [DRNet ](https://arxiv.org/pdf/2103.10091.pdf) 
 - [Jan. 07, 2021]: [DETR for Pedestrian Detection](https://arxiv.org/abs/2012.06785)
 - [Dec. 05, 2020]: Some methods ([KGSNet](https://ieeexplore.ieee.org/document/9137724), [SSAM](https://ieeexplore.ieee.org/document/9186837), [SSD-MR](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9197399), [MGAN](https://ieeexplore.ieee.org/document/9282190), [PEN](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9109304), [ADGN](https://ieeexplore.ieee.org/document/9145843), [RSA-YOLO](https://ieeexplore.ieee.org/document/9272650), [CWETM](https://ieeexplore.ieee.org/document/9050835), [PLM](https://ieeexplore.ieee.org/document/8701617), [GRPN](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9091903)) in IEEE Trans. or Conf. 
 - [Nov. 19, 2020]: A newly built deverse pedestrian detection dataset ([TJU-DHD-Pedestrian](https://arxiv.org/pdf/2011.09170.pdf)) 
