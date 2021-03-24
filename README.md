@@ -9,7 +9,7 @@ This project provides a paper list about pedestrian detection following the taxo
 <table>
     <tr>
         <td ><center><img src="imgs/fig-mr.png" height="200"> </center></td>
-        <td ><center><img src="imgs/fig-mr.png" height="200" > </center></td>
+        <td ><center><img src="imgs/fig-mr-ho.png" height="200" > </center></td>
     </tr>
 </table>
 <table>
