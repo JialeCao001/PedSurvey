@@ -1,7 +1,7 @@
 ## From Handcrafted to Deep Features for Pedestrian Detection: A Survey
 
 This project provides a paper list about pedestrian detection following the taxonomy in "*[From Handcrafted to Deep Features for Pedestrian Detection: A Survey
-](https://arxiv.org/pdf/2010.00456.pdf)*". 
+(IEEE TPAMI 2021)](https://arxiv.org/pdf/2010.00456.pdf)*". 
 - **Single-spectral pedestrian detection** and **multispectral pedestrian detection** are both summarized.
 - The performance of some methods on different datasets are shown in [Leaderboard](Comparison.md).
 - If you find a new paper or an error, please feel free to contact us.  
@@ -362,11 +362,11 @@ This project provides a paper list about pedestrian detection following the taxo
 
 If this project help your research, please consider to cite our survey paper.
 ```
-@article{Cao_PDR_arXiv_2020,
+@article{Cao_PDR_TPAMI_2020,
          author = {Jiale Cao and Yanwei Pang and Jin Xie and Fahad Shahbaz Khan and Ling Shao},
          title = {From Handcrafted to Deep Features for Pedestrian Detection: A Survey},
-         journal = {arXiv:2010.00456},
-         year = 2020
+         journal = {IEEE Transactions on Pattern Analysis and Machine Intelligence},
+         year = 2021
         }
 ```
 
