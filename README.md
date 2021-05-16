@@ -4,6 +4,7 @@ This project provides a paper list about pedestrian detection following the taxo
 (IEEE TPAMI 2021)](https://arxiv.org/pdf/2010.00456.pdf)*". 
 - **Single-spectral pedestrian detection** and **multispectral pedestrian detection** are both summarized.
 - The performance of some methods on different datasets are shown in [Leaderboard](Comparison.md).
+- We release a **new pedestrian detection dataset** ([TJU-DHD-Pedestrian, IEEE TIP](https://arxiv.org/pdf/2011.09170.pdf)) .
 - If you find a new paper or an error, please feel free to contact us.  
 
 <table>
@@ -23,7 +24,7 @@ This project provides a paper list about pedestrian detection following the taxo
 - [Mar. 19, 2021]: ArXiv: [DRNet ](https://arxiv.org/pdf/2103.10091.pdf)
 - [Jan. 07, 2021]: ArXiv: [DETR for Pedestrian Detection](https://arxiv.org/abs/2012.06785)
 - [Dec. 05, 2020]: Trans. or Conf.: [KGSNet](https://ieeexplore.ieee.org/document/9137724), [SSAM](https://ieeexplore.ieee.org/document/9186837), [SSD-MR](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9197399), [MGAN](https://ieeexplore.ieee.org/document/9282190), [PEN](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9109304), [ADGN](https://ieeexplore.ieee.org/document/9145843), [RSA-YOLO](https://ieeexplore.ieee.org/document/9272650), [CWETM](https://ieeexplore.ieee.org/document/9050835), [PLM](https://ieeexplore.ieee.org/document/8701617), [GRPN](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9091903)
-- [Nov. 19, 2020]: **A newly built deverse pedestrian detection dataset** ([TJU-DHD-Pedestrian](https://arxiv.org/pdf/2011.09170.pdf)) 
+- [Nov. 19, 2020]: A newly built deverse pedestrian detection dataset ([TJU-DHD-Pedestrian](https://arxiv.org/pdf/2011.09170.pdf)) 
 - [Nov. 05, 2020]: WACV2021 methods ([TinyCityPersons](https://arxiv.org/pdf/2011.02298.pdf)) 
 - [Oct. 22, 2020]: ACM MM2020 methods ([BGCNet](https://dl.acm.org/doi/pdf/10.1145/3394171.3413989), [NOH-NMS](https://arxiv.org/pdf/2007.13376.pdf), [SML](https://cse.buffalo.edu/~jsyuan/papers/2020/SML.pdf), [HGPD](https://dl.acm.org/doi/pdf/10.1145/3394171.3413983))
 - [Oct. 07, 2020]: The comparison of multispectral pedestrian detection in leaderboard
