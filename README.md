@@ -4,7 +4,7 @@ This project provides a paper list about pedestrian detection following the taxo
 (IEEE TPAMI 2021)](https://arxiv.org/pdf/2010.00456.pdf)*". 
 - **Single-spectral pedestrian detection** and **multispectral pedestrian detection** are both summarized.
 - The performance of some methods on different datasets are shown in [Leaderboard](Comparison.md).
-- We release a **new pedestrian detection dataset** ([TJU-DHD-Pedestrian, IEEE TIP](https://arxiv.org/pdf/2011.09170.pdf)) .
+- We release a new pedestrian detection dataset (**TJU-DHD-Pedestrian**) (see [Paper](https://arxiv.org/pdf/2011.09170.pdf), [Website](https://github.com/tjubiit/TJU-DHD)) .
 - If you find a new paper or an error, please feel free to contact us.  
 
 <table>
