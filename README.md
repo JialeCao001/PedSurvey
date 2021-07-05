@@ -20,16 +20,19 @@ This project provides a paper list about pedestrian detection following the taxo
 </table>
 
 ## News
-- [April 16, 2021]: ArXiv: [NMS-Loss](https://arxiv.org/abs/2106.02426), [SCDN](https://arxiv.org/abs/2105.12713), [SBBG](https://arxiv.org/abs/2104.13764), [VPD](https://arxiv.org/abs/2104.12389)
-- [April 16, 2021]: ArXiv: [LLA](https://arxiv.org/pdf/2101.04307.pdf), [Box Re-Ranking](https://arxiv.org/pdf/2102.00595.pdf), [V2F-Net](https://arxiv.org/pdf/2104.03106.pdf)
-- [Mar. 19, 2021]: ArXiv: [DRNet ](https://arxiv.org/pdf/2103.10091.pdf)
-- [Jan. 07, 2021]: ArXiv: [DETR for Pedestrian Detection](https://arxiv.org/abs/2012.06785)
-- [Dec. 05, 2020]: Trans. or Conf.: [KGSNet](https://ieeexplore.ieee.org/document/9137724), [SSAM](https://ieeexplore.ieee.org/document/9186837), [SSD-MR](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9197399), [MGAN](https://ieeexplore.ieee.org/document/9282190), [PEN](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9109304), [ADGN](https://ieeexplore.ieee.org/document/9145843), [RSA-YOLO](https://ieeexplore.ieee.org/document/9272650), [CWETM](https://ieeexplore.ieee.org/document/9050835), [PLM](https://ieeexplore.ieee.org/document/8701617), [GRPN](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9091903)
-- [Nov. 19, 2020]: A newly built deverse pedestrian detection dataset ([TJU-DHD-Pedestrian](https://arxiv.org/pdf/2011.09170.pdf)) 
-- [Nov. 05, 2020]: WACV2021 methods ([TinyCityPersons](https://arxiv.org/pdf/2011.02298.pdf)) 
-- [Oct. 22, 2020]: ACM MM2020 methods ([BGCNet](https://dl.acm.org/doi/pdf/10.1145/3394171.3413989), [NOH-NMS](https://arxiv.org/pdf/2007.13376.pdf), [SML](https://cse.buffalo.edu/~jsyuan/papers/2020/SML.pdf), [HGPD](https://dl.acm.org/doi/pdf/10.1145/3394171.3413983))
+```
+**PD**: Pedestrian Detection; **MPD**: Multispectral Pedestrian Detection; **Others**: Pedestrian Detection with Special Devices
+```
+- [July 4, 2021]: **PD**: [NMS-Loss](https://arxiv.org/abs/2106.02426), [VPD](https://arxiv.org/abs/2104.12389), **MPD**: [SCDN](https://arxiv.org/abs/2105.12713), **Others**: [SBBG](https://arxiv.org/abs/2104.13764)
+- [April 16, 2021]: **PD**: [LLA](https://arxiv.org/pdf/2101.04307.pdf), [Box Re-Ranking](https://arxiv.org/pdf/2102.00595.pdf), [V2F-Net](https://arxiv.org/pdf/2104.03106.pdf)
+- [Mar. 19, 2021]: **PD**: [DRNet ](https://arxiv.org/pdf/2103.10091.pdf)
+- [Jan. 07, 2021]: **PD**: [DETR for Pedestrian Detection](https://arxiv.org/abs/2012.06785)
+- [Dec. 05, 2020]: **PD**: [KGSNet](https://ieeexplore.ieee.org/document/9137724), [SSAM](https://ieeexplore.ieee.org/document/9186837), [MGAN](https://ieeexplore.ieee.org/document/9282190), [PEN](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9109304), [RSA-YOLO](https://ieeexplore.ieee.org/document/9272650), [CWETM](https://ieeexplore.ieee.org/document/9050835), [PLM](https://ieeexplore.ieee.org/document/8701617), [GRPN](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9091903) **Others**: [SSD-MR](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9197399), [ADGN](https://ieeexplore.ieee.org/document/9145843)
+- [Nov. 19, 2020]: **Dataset**: A newly built deverse pedestrian detection dataset ([TJU-DHD-Pedestrian](https://arxiv.org/pdf/2011.09170.pdf)) 
+- [Nov. 05, 2020]: WACV2021: **PD**: ([TinyCityPersons](https://arxiv.org/pdf/2011.02298.pdf)) 
+- [Oct. 22, 2020]: ACM MM2020: **PD**: ([BGCNet](https://dl.acm.org/doi/pdf/10.1145/3394171.3413989), [NOH-NMS](https://arxiv.org/pdf/2007.13376.pdf), [SML](https://cse.buffalo.edu/~jsyuan/papers/2020/SML.pdf), [HGPD](https://dl.acm.org/doi/pdf/10.1145/3394171.3413983))
 - [Oct. 07, 2020]: The comparison of multispectral pedestrian detection in leaderboard
-- [Oct. 01, 2020]: ECCV2020 methods ([PRNet](http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123680035.pdf), [Case](http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123620086.pdf), [TCDet](http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123670545.pdf), [MBNet](https://arxiv.org/abs/2008.03043.pdf))
+- [Oct. 01, 2020]: ECCV2020: **PD**: [PRNet](http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123680035.pdf), [Case](http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123620086.pdf); **MPD**: [MBNet](https://arxiv.org/abs/2008.03043.pdf); **Others**: [TCDet](http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123670545.pdf); 
 
 
 ## Table of Contents
