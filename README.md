@@ -20,6 +20,7 @@ This project provides a paper list about pedestrian detection following the taxo
 </table>
 
 ## News
+- [April 16, 2021]: ArXiv: [NMS-Loss](https://arxiv.org/abs/2106.02426), [SCDN](https://arxiv.org/abs/2105.12713), [SBBG](https://arxiv.org/abs/2104.13764), [VPD](https://arxiv.org/abs/2104.12389)
 - [April 16, 2021]: ArXiv: [LLA](https://arxiv.org/pdf/2101.04307.pdf), [Box Re-Ranking](https://arxiv.org/pdf/2102.00595.pdf), [V2F-Net](https://arxiv.org/pdf/2104.03106.pdf)
 - [Mar. 19, 2021]: ArXiv: [DRNet ](https://arxiv.org/pdf/2103.10091.pdf)
 - [Jan. 07, 2021]: ArXiv: [DETR for Pedestrian Detection](https://arxiv.org/abs/2012.06785)
@@ -250,6 +251,7 @@ This project provides a paper list about pedestrian detection following the taxo
     - Nms by representative region: Towards crowded pedestrian detection by proposal pairing, CVPR 2020. [[Paper]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Huang_NMS_by_Representative_Region_Towards_Crowded_Pedestrian_Detection_by_Proposal_CVPR_2020_paper.pdf)
     - NOH-NMS: Improving Pedestrian Detection by Nearby Objects Hallucination, ACM-MM 2020. [[Paper]](https://arxiv.org/pdf/2007.13376.pdf)
     - DETR for Pedestrian Detection, Arxiv 2020. [[Paper]](https://arxiv.org/abs/2012.06785)
+    - NMS-Loss: Learning with Non-Maximum Suppression for Crowded Pedestrian Detection, ICMR 2021. [[Paper]](https://arxiv.org/abs/2106.02426)
   - **Multi-task methods**
     - What can help pedestrian detection? CVPR 2017. [[Paper]](https://openaccess.thecvf.com/content_cvpr_2017/papers/Mao_What_Can_Help_CVPR_2017_paper.pdf)
     - Accurate pedestrian detection by human pose regression, TIP 2019. [[Paper]](https://ieeexplore.ieee.org/abstract/document/8850309/)
@@ -271,6 +273,7 @@ This project provides a paper list about pedestrian detection following the taxo
     - Self-bootstrapping pedestrian detection in downward-viewing fisheye cameras using pseudo-labeling, ICME 2020. [[Paper]](https://ieeexplore.ieee.org/document/9102923)
     - Joint pedestrian detection and risk-level prediction with motion-representation-by-detection, ICRA 2020. [[Paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9197399)
     - Adversarial training-based hard example mining for pedestrian detection in fish-eye images, TITS 2020. [[Paper]](https://ieeexplore.ieee.org/document/9145843)
+    - Segmentation-Based Bounding Box Generation for Omnidirectional Pedestrian Detection, CVIU 2021.  [[Paper]](https://arxiv.org/abs/2104.13764)
 ## 3. Multispectral pedestrian detection <a name="3"></a>
 #### 3.1. Deep feature fusion <a name="3.1"></a>
   - Multispectral deep neural networks for pedestrian detection, BMVC 2016. [[Paper]](https://arxiv.org/pdf/1611.02644.pdf)
@@ -280,6 +283,7 @@ This project provides a paper list about pedestrian detection following the taxo
   - Illuminationaware faster r-cnn for robust multispectral pedestrian detection, PR 2019. [[Paper]](https://arxiv.org/pdf/1803.05347.pdf)
   - Cross-modality interactive attention network for multispectral pedestrian detection, IF 2019. [[Paper]](https://www.researchgate.net/profile/Shifeng_Zhang4/publication/327885485_Cross-Modality_Interactive_Attention_Network_for_Multispectral_Pedestrian_Detection/links/5c718c8f458515831f699042/Cross-Modality-Interactive-Attention-Network-for-Multispectral-Pedestrian-Detection.pdf)
   - Improving Multispectral Pedestrian Detection by Addressing Modality Imbalance Problems, ECCV 2020. [[Paper]](http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123630766.pdf)
+  - Spatio-Contextual Deep Network Based Multimodal Pedestrian Detection For Autonomous Driving, arXiv 2021. [[Paper]](https://arxiv.org/abs/2105.12713)
 #### 3.2. Data processing <a name="3.2"></a>
   - Multispectral pedestrian detection via simultaneous detection and segmentation, BMVC 2018. [[Paper]](https://arxiv.org/pdf/1808.04818.pdf)
   - Weakly aligned cross-modal learning for multispectral pedestrian detection, ICCV 2019. [[Paper]](https://openaccess.thecvf.com/content_ICCV_2019/papers/Zhang_Weakly_Aligned_Cross-Modal_Learning_for_Multispectral_Pedestrian_Detection_ICCV_2019_paper.pdf)
@@ -345,6 +349,7 @@ This project provides a paper list about pedestrian detection following the taxo
    - Pedhunter: Occlusion robust pedestrian detector in crowded scenes, AAAI 2020. [[Paper]](https://www.aaai.org/Papers/AAAI/2020GB/AAAI-ChiC.961.pdf)
    - Relational learning for joint head and human detection, AAAI 2020. [[Paper]](https://arxiv.org/pdf/1909.10674.pdf)
    - V2F-Net: Explicit Decomposition of Occluded Pedestrian Detection, ArXiv 2021. [[Paper]](https://arxiv.org/pdf/2104.03106.pdf)
+   - Variational Pedestrian Detection, arXiv 2021. [[Paper]](https://arxiv.org/abs/2104.12389)
 #### 5.3. Domain adaptation <a name="5.3"></a>
    - Domain adaptive faster r-cnn for object detection in the wild, CVPR 2018. [[Paper]](http://openaccess.thecvf.com/content_cvpr_2018/papers/Chen_Domain_Adaptive_Faster_CVPR_2018_paper.pdf)
    - Progressive domain adaptation for object detection, CVPRW 2018. [[Paper]](https://openaccess.thecvf.com/content_WACV_2020/papers/Hsu_Progressive_Domain_Adaptation_for_Object_Detection_WACV_2020_paper.pdf)
