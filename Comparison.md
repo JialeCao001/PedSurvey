@@ -166,4 +166,4 @@ less than 0.8 occlusion.
 |MSDS-RCNN|BMVC2018|11.34|10.53|12.94|[Paper](https://arxiv.org/abs/1808.04818)|
 |AR-CNN|ICCV2019|9.34|9.94|8.38|[Paper](https://arxiv.org/abs/1901.02645)|
 |MBNet|ECCV2020|8.13|8.28|7.86|[Paper](https://arxiv.org/abs/2008.03043)|
-
+|SCDN|ArXiv2021|8.07|8.16|7.51|[Paper](https://arxiv.org/abs/2105.12713)|
