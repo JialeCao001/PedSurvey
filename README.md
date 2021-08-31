@@ -23,6 +23,7 @@ This project provides a paper list about pedestrian detection following the taxo
 ```
 **PD**: Pedestrian Detection; **MPD**: Multispectral Pedestrian Detection; **Others**: Pedestrian Detection with Special Devices
 ```
+- [Aug. 31, 2021]: **PD**: [MOTSynth](https://arxiv.org/pdf/2108.09518.pdf), **MPD**: [LLVIP](https://arxiv.org/pdf/2108.10831.pdf), [MRMIoU](https://arxiv.org/pdf/2107.11196.pdf)
 - [July 4, 2021]: **PD**: [NMS-Loss](https://arxiv.org/abs/2106.02426), [VPD](https://arxiv.org/abs/2104.12389), **MPD**: [SCDN](https://arxiv.org/abs/2105.12713), **Others**: [SBBG](https://arxiv.org/abs/2104.13764)
 - [April 16, 2021]: **PD**: [LLA](https://arxiv.org/pdf/2101.04307.pdf), [Box Re-Ranking](https://arxiv.org/pdf/2102.00595.pdf), [V2F-Net](https://arxiv.org/pdf/2104.03106.pdf)
 - [Mar. 19, 2021]: **PD**: [DRNet ](https://arxiv.org/pdf/2103.10091.pdf)
@@ -290,6 +291,7 @@ This project provides a paper list about pedestrian detection following the taxo
 #### 3.2. Data processing <a name="3.2"></a>
   - Multispectral pedestrian detection via simultaneous detection and segmentation, BMVC 2018. [[Paper]](https://arxiv.org/pdf/1808.04818.pdf)
   - Weakly aligned cross-modal learning for multispectral pedestrian detection, ICCV 2019. [[Paper]](https://openaccess.thecvf.com/content_ICCV_2019/papers/Zhang_Weakly_Aligned_Cross-Modal_Learning_for_Multispectral_Pedestrian_Detection_ICCV_2019_paper.pdf)
+  - Multi-Modal Pedestrian Detection with Large Misalignment Based on Modal-Wise Regression and Multi-Modal IoU, MVA 2021. [[Paper]](https://arxiv.org/pdf/2107.11196.pdf) 
 #### 3.3. Domain adaptation <a name="3.3"></a>
   - Learning cross-modal deep representations for robust pedestrian detection, CVPR 2017. [[Paper]](https://openaccess.thecvf.com/content_cvpr_2017/papers/Xu_Learning_Cross-Modal_Deep_CVPR_2017_paper.pdf)
   - Unsupervised domain adaptation for multispectral pedestrian detection, CVPRW 2019. [[Paper]](https://openaccess.thecvf.com/content_CVPRW_2019/papers/MULA/Guan_Unsupervised_Domain_Adaptation_for_Multispectral_Pedestrian_Detection_CVPRW_2019_paper.pdf)
@@ -312,10 +314,12 @@ This project provides a paper list about pedestrian detection following the taxo
    - Eurocity persons: A novel benchmark for person detection in traffic scenes, PAMI 2019. [[Paper]](https://www.researchgate.net/profile/Dariu_Gavrila/publication/330891380_EuroCity_Persons_A_Novel_Benchmark_for_Person_Detection_in_Traffic_Scenes/links/5d395fdb299bf1995b487c21/EuroCity-Persons-A-Novel-Benchmark-for-Person-Detection-in-Traffic-Scenes.pdf)
    - Widerperson: A diverse dataset for dense pedestrian detection in the wild, TMM 2020. [[Paper]](https://arxiv.org/pdf/1909.12118.pdf)
    - TJU-DHD: A Diverse High-Resolution Dataset for Object Detection, TIP 2020. [[Paper]](https://arxiv.org/pdf/2011.09170.pdf)
-   
+   - MOTSynth: How Can Synthetic Data Help Pedestrian Detection and Tracking? ICCV 2021. [[Paper]](https://arxiv.org/pdf/2108.09518.pdf)
+     
 #### 4.3. Multispectral pedestrian datasets <a name="4.3"></a>
    - Multispectral pedestrian detection: Benchmark dataset and baseline, CVPR 2015. [[Paper]](https://openaccess.thecvf.com/content_cvpr_2015/papers/Hwang_Multispectral_Pedestrian_Detection_2015_CVPR_paper.pdf)
    - Pedestrian detection at day/night time with visible and fir cameras: A comparison, PR 2016. [[Paper]](https://www.mdpi.com/1424-8220/16/6/820)
+   - LLVIP: A Visible-infrared Paired Dataset for Low-light Vision, ICCV workshop 2021. [[Paper]](https://arxiv.org/pdf/2108.10831.pdf)
 
 
 ## 5. Challenges <a name="5"></a>
