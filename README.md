@@ -23,7 +23,7 @@ This project provides a paper list about pedestrian detection following the taxo
 ```
 **PD**: Pedestrian Detection; **MPD**: Multispectral Pedestrian Detection; **Others**: Pedestrian Detection with Special Devices
 ```
-- [Aug. 31, 2021]: **PD**: [MOTSynth](https://arxiv.org/pdf/2108.09518.pdf), **MPD**: [LLVIP](https://arxiv.org/pdf/2108.10831.pdf), [MRMIoU](https://arxiv.org/pdf/2107.11196.pdf)
+- [Aug. 31, 2021]: **Dataset**: [MOTSynth](https://arxiv.org/pdf/2108.09518.pdf), [LLVIP](https://arxiv.org/pdf/2108.10831.pdf), **MPD**: [MRMIoU](https://arxiv.org/pdf/2107.11196.pdf)
 - [July 4, 2021]: **PD**: [NMS-Loss](https://arxiv.org/abs/2106.02426), [VPD](https://arxiv.org/abs/2104.12389), **MPD**: [SCDN](https://arxiv.org/abs/2105.12713), **Others**: [SBBG](https://arxiv.org/abs/2104.13764)
 - [April 16, 2021]: **PD**: [LLA](https://arxiv.org/pdf/2101.04307.pdf), [Box Re-Ranking](https://arxiv.org/pdf/2102.00595.pdf), [V2F-Net](https://arxiv.org/pdf/2104.03106.pdf)
 - [Mar. 19, 2021]: **PD**: [DRNet ](https://arxiv.org/pdf/2103.10091.pdf)
