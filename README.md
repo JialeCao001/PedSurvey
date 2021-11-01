@@ -23,6 +23,7 @@ This project provides a paper list about pedestrian detection following the taxo
 ```
 **PD**: Pedestrian Detection; **MPD**: Multispectral Pedestrian Detection; **Others**: Pedestrian Detection with Special Devices
 ```
+- [Nov. 1, 2021]: **PD**: [CRML](https://openaccess.thecvf.com/content/ICCV2021/papers/Kim_Robust_Small-Scale_Pedestrian_Detection_With_Cued_Recall_via_Memory_Learning_ICCV_2021_paper.pdf), **MPD**: [GAFF](https://openaccess.thecvf.com/content/WACV2021/papers/Zhang_Guided_Attentive_Feature_Fusion_for_Multispectral_Pedestrian_Detection_WACV_2021_paper.pdf)
 - [Aug. 31, 2021]: **Dataset**: [MOTSynth](https://arxiv.org/pdf/2108.09518.pdf), [LLVIP](https://arxiv.org/pdf/2108.10831.pdf), **MPD**: [MRMIoU](https://arxiv.org/pdf/2107.11196.pdf)
 - [July 4, 2021]: **PD**: [NMS-Loss](https://arxiv.org/abs/2106.02426), [VPD](https://arxiv.org/abs/2104.12389), **MPD**: [SCDN](https://arxiv.org/abs/2105.12713), **Others**: [SBBG](https://arxiv.org/abs/2104.13764)
 - [April 16, 2021]: **PD**: [LLA](https://arxiv.org/pdf/2101.04307.pdf), [Box Re-Ranking](https://arxiv.org/pdf/2102.00595.pdf), [V2F-Net](https://arxiv.org/pdf/2104.03106.pdf)
@@ -288,10 +289,11 @@ This project provides a paper list about pedestrian detection following the taxo
   - Cross-modality interactive attention network for multispectral pedestrian detection, IF 2019. [[Paper]](https://www.researchgate.net/profile/Shifeng_Zhang4/publication/327885485_Cross-Modality_Interactive_Attention_Network_for_Multispectral_Pedestrian_Detection/links/5c718c8f458515831f699042/Cross-Modality-Interactive-Attention-Network-for-Multispectral-Pedestrian-Detection.pdf)
   - Improving Multispectral Pedestrian Detection by Addressing Modality Imbalance Problems, ECCV 2020. [[Paper]](http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123630766.pdf)
   - Spatio-Contextual Deep Network Based Multimodal Pedestrian Detection For Autonomous Driving, arXiv 2021. [[Paper]](https://arxiv.org/abs/2105.12713)
+  - Spatio-Contextual Deep Network Based Multimodal Pedestrian Detection For Autonomous Driving, arXiv 2021. [[Paper]](https://arxiv.org/abs/2105.12713)
 #### 3.2. Data processing <a name="3.2"></a>
   - Multispectral pedestrian detection via simultaneous detection and segmentation, BMVC 2018. [[Paper]](https://arxiv.org/pdf/1808.04818.pdf)
   - Weakly aligned cross-modal learning for multispectral pedestrian detection, ICCV 2019. [[Paper]](https://openaccess.thecvf.com/content_ICCV_2019/papers/Zhang_Weakly_Aligned_Cross-Modal_Learning_for_Multispectral_Pedestrian_Detection_ICCV_2019_paper.pdf)
-  - Multi-Modal Pedestrian Detection with Large Misalignment Based on Modal-Wise Regression and Multi-Modal IoU, MVA 2021. [[Paper]](https://arxiv.org/pdf/2107.11196.pdf) 
+  - Guided Attentive Feature Fusion for Multispectral Pedestrian Detection, WACV 2021. [[Paper]](https://openaccess.thecvf.com/content/WACV2021/papers/Zhang_Guided_Attentive_Feature_Fusion_for_Multispectral_Pedestrian_Detection_WACV_2021_paper.pdf) 
 #### 3.3. Domain adaptation <a name="3.3"></a>
   - Learning cross-modal deep representations for robust pedestrian detection, CVPR 2017. [[Paper]](https://openaccess.thecvf.com/content_cvpr_2017/papers/Xu_Learning_Cross-Modal_Deep_CVPR_2017_paper.pdf)
   - Unsupervised domain adaptation for multispectral pedestrian detection, CVPRW 2019. [[Paper]](https://openaccess.thecvf.com/content_CVPRW_2019/papers/MULA/Guan_Unsupervised_Domain_Adaptation_for_Multispectral_Pedestrian_Detection_CVPRW_2019_paper.pdf)
@@ -339,6 +341,7 @@ This project provides a paper list about pedestrian detection following the taxo
    - Box Guided Convolution for Pedestrian Detection, ACM-MM 2020. [[Paper]](https://dl.acm.org/doi/pdf/10.1145/3394171.3413989)
    - Effective Fusion Factor in FPN for Tiny Object Detection, WACV 2021. [[Paper]](https://arxiv.org/pdf/2011.02298.pdf)
    - KGSNet: Key-point-guided super-resolution network for pedestrian detection in the wild, TNNLS 2020. [[Paper]](https://ieeexplore.ieee.org/document/9137724/)   
+   - Robust Small-scale Pedestrian Detection with Cued Recall via Memory Learning, ICCV 2021. [[Paper]](https://openaccess.thecvf.com/content/ICCV2021/papers/Kim_Robust_Small-Scale_Pedestrian_Detection_With_Cued_Recall_via_Memory_Learning_ICCV_2021_paper.pdf)  
 #### 5.2. Occlusion <a name="5.2"></a>
    - An hog-lbp human detector with partial occlusion handling, ICCV 2010. [[Paper]](https://www.researchgate.net/profile/Tony_Han3/publication/224135946_An_HOG-LBP_human_detector_with_partial_occlusion_handling/links/0046351affdef73b37000000.pdf)
    - Handling occlusions with franken-classifiers, CVPR 2013. [[Paper]](https://openaccess.thecvf.com/content_iccv_2013/papers/Mathias_Handling_Occlusions_with_2013_ICCV_paper.pdf)
