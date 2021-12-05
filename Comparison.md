@@ -8,11 +8,16 @@
 1. [Caltech test set](#1)  
 2. [Citypersons validation set](#2)  
 3. [Citypersons test set](#3)  
-4. [KITTI test set](#4)  
-5. [KAIST test set](#5)
+4. [TJU-Ped-campus validation set](#4)  
+5. [TJU-Ped-campus validation set](#5)  
+6. [KITTI test set](#6)  
+7. [KAIST test set](#7)
 
 #### Caltech test set <a name="1"></a>
-   
+- The original annotations, while the bottom table uses the new annotations.
+- CNN indicates whether or not deep features are used.
+- P. Dollár, C. Wojek, B. Schiele, and P. Perona, Pedestrian Detection: An Evaluation of the State of the Art, IEEE TPAMI 2010.
+
 |    Method       | publication  | CNN |  **R**  | **HO** | **R+HO** | **A**| link |
 | :--------      | :-----: | :-----: | :-------: | :-----: | :------: | :------: | :------: |
 |  ACF            | PAMI2014   | no  |  44.2 |   90.2  |    54.6     |     79.6       | [Paper](https://vision.cornell.edu/se3/wp-content/uploads/2014/09/DollarPAMI14pyramids_0.pdf) |
@@ -57,11 +62,14 @@
 |  JointDet       | AAAI2020   | yes  |  3.0 |  -  |    -     |     -       | [Paper](https://arxiv.org/pdf/1909.10674.pdf)  |
 |  PedHutter      | AAAI2020   | yes  |  2.3 |   - |    -     |     -       | [Paper](https://www.aaai.org/Papers/AAAI/2020GB/AAAI-ChiC.961.pdf)  |
 
-- The top table uses the original annotations, while the bottom table uses the new annotations.
-- CNN indicates whether or not deep features are used.
+
+
 
 
 #### Citypersons validation set <a name="2"></a>
+- Usually, **HO** represents pedestrians over 50 pixels in height with 35-80% occlusion. 
+- † indicates the pedestrians over 50 pixels in height with more than 35% occlusion. Thus, † suggest higher difficulty.
+- Shanshan Zhang, Rodrigo Benenson, Bernt Schiele, CityPersons: A Diverse Dataset for Pedestrian Detection, CVPR 2017.
 
 |    Method       | publication  | scale |  **R**  | **HO** | link |
 | :--------      | :-----: | :-----: | :-------: | :-----: | :-----: |
@@ -74,33 +82,45 @@
 |  Cascade RCNN        | CVPR2018   | 1.0x  |  12.0 |   49.4  |  [Paper](https://arxiv.org/abs/1712.00726.pdf)  |  
 |  LBST      | TIP2019   | 1.0x  |  12.6 |  48.7  | [Paper](https://ieeexplore.ieee.org/abstract/document/8931263/)  |  
 |  CSP            | CVPR2019   | 1.0x |  11.0 |   49.3†  |  [Paper](https://openaccess.thecvf.com/content_CVPR_2019/papers/Liu_High-Level_Semantic_Feature_Detection_A_New_Perspective_for_Pedestrian_Detection_CVPR_2019_paper.pdf)   |  
-|  Adaptive-NMS  | CVPR2019   | 1.0x  | 11.9 |   55.2 † | [Paper](http://openaccess.thecvf.com/content_CVPR_2019/papers/Liu_Adaptive_NMS_Refining_Pedestrian_Detection_in_a_Crowd_CVPR_2019_paper.pdf)  |  
-|  MGAN      | ICCV2019   | 1.0x  |  11.3|   42.0 |  [Paper](https://openaccess.thecvf.com/content_ICCV_2019/papers/Pang_Mask-Guided_Attention_Network_for_Occluded_Pedestrian_Detection_ICCV_2019_paper.pdf)   |  
-|  R2NMS   | CVPR2020   | 1.0x  |  11.1 |   53.3†  |  [Paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Huang_NMS_by_Representative_Region_Towards_Crowded_Pedestrian_Detection_by_Proposal_CVPR_2020_paper.pdf)  | 
+|  Adaptive-NMS  | CVPR2019   | 1.0x  | 11.9 |   55.2† | [Paper](http://openaccess.thecvf.com/content_CVPR_2019/papers/Liu_Adaptive_NMS_Refining_Pedestrian_Detection_in_a_Crowd_CVPR_2019_paper.pdf)  |  
+|  EGCL   | arXiv2021   | 1.0x  |  11.5 |   51.1†  |  [Paper](https://arxiv.org/abs/2111.08974)  | 
+|  MGAN      | ICCV2019   | 1.0x  |  11.5|   51.7 |  [Paper](https://openaccess.thecvf.com/content_ICCV_2019/papers/Pang_Mask-Guided_Attention_Network_for_Occluded_Pedestrian_Detection_ICCV_2019_paper.pdf)   |  
+|  HGPD      | ACM-MM2020   | 1.0x  |  11.3|   51.7 |  [Paper](https://dl.acm.org/doi/pdf/10.1145/3394171.3413983)   |  
+|  AutoPedestrian      | TIP2021   | 1.0x  |  11.3|  50.5†  |  [Paper](https://ieeexplore.ieee.org/document/9563123/)   |  
+|  R2NMS   | CVPR2020   | 1.0x  |  11.1 |   53.3  |  [Paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Huang_NMS_by_Representative_Region_Towards_Crowded_Pedestrian_Detection_by_Proposal_CVPR_2020_paper.pdf)  | 
 |  PRNet   | ECCV2020   | 1.0x  |  10.8 |   42.0  |  [Paper](http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123680035.pdf)  | 
-|  CaSe   | ECCV2020   | 1.0x  |  10.5 |   40.5  |  [Paper](http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123620086.pdf)  | 
-|  BGRNet   | ACM-MM2020   | 1.0x  |  9.4 |   45.9†  |  [Paper](https://dl.acm.org/doi/pdf/10.1145/3394171.3413989)  | 
+|  APD   | TMM2021   | 1.0x  |  10.6 |   46.6†  |  [Paper](https://arxiv.org/pdf/1910.09188.pdf)  | 
+|  CaSe   | ECCV2020   | 1.0x  |  11.0 |   50.3  |  [Paper](http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123620086.pdf)  | 
+|  SADet   | ACM-MM2020   | 1.0x  |  9.7 |   52.8†  |  [Paper](https://ieeexplore.ieee.org/document/9484371)  | 
+|  BGCNet   | ACM-MM2020   | 1.0x  |  9.4 |   45.9†  |  [Paper](https://dl.acm.org/doi/pdf/10.1145/3394171.3413989)  | 
+
+
+
+|    Method       | publication  | scale |  **R**  | **HO** | link |
+| :--------      | :-----: | :-----: | :-------: | :-----: | :-----: |
 |  Adapted FRCNN  | CVPR2017   |  1.3x |  12.8 |   - |  [Paper](https://openaccess.thecvf.com/content_cvpr_2017/papers/Zhang_CityPersons_A_Diverse_CVPR_2017_paper.pdf)  |  
 |  RepLoss       | CVPR2018   |  1.3x |  11.6 |   55.3†  |  [Paper](https://openaccess.thecvf.com/content_cvpr_2018/papers/Wang_Repulsion_Loss_Detecting_CVPR_2018_paper.pdf) |  
 |  OR-CNN    | ECCV2018   | 1.3x  |  11.0 |   51.3†  |  [Paper](https://openaccess.thecvf.com/content_ECCV_2018/papers/Shifeng_Zhang_Occlusion-aware_R-CNN_Detecting_ECCV_2018_paper.pdf)   |  
 |  PDOE      | ECCV2018   | 1.3x  |  11.2 |   44.2  | [Paper](https://openaccess.thecvf.com/content_ECCV_2018/papers/CHUNLUAN_ZHOU_Bi-box_Regression_for_ECCV_2018_paper.pdf)   | 
 |  LBST      | TIP2019   | 1.3x  |  11.4 |  45.2  | [Paper](https://ieeexplore.ieee.org/abstract/document/8931263/)  |  
-|  Adaptive-NMS  | CVPR2019   | 1.3x  | 10.8 |   54.2 † | [Paper](http://openaccess.thecvf.com/content_CVPR_2019/papers/Liu_Adaptive_NMS_Refining_Pedestrian_Detection_in_a_Crowd_CVPR_2019_paper.pdf)  | 
+|  FRCNN+A+DT  | CVPR2019   | 1.3x  | 11.1 |   44.3  | [Paper](https://openaccess.thecvf.com/content_ICCV_2019/papers/Zhou_Discriminative_Feature_Transformation_for_Occluded_Pedestrian_Detection_ICCV_2019_paper.pdf)  |  
+|  Adaptive-NMS  | CVPR2019   | 1.3x  | 10.8 |   54.2† | [Paper](http://openaccess.thecvf.com/content_CVPR_2019/papers/Liu_Adaptive_NMS_Refining_Pedestrian_Detection_in_a_Crowd_CVPR_2019_paper.pdf)  | 
 |  HGPD  | ACM-MM2020   | 1.3x  | 10.9 |   40.9  | [Paper](https://dl.acm.org/doi/pdf/10.1145/3394171.3413983)  |  
 |  IoU+Sign  | ICIP2019   | 1.3x  | 10.8 |   54.3†  | [Paper](https://arxiv.org/abs/1911.11449.pdf)  |  
-|  NOH-NMS  | ACM-MM2020   | 1.3x  | 10.8 |   53.0  | [Paper](https://arxiv.org/pdf/2007.13376.pdf)  |  
-|  FRCNN+A+DT  | CVPR2019   | 1.3x  | 11.1 |   44.3  | [Paper](https://openaccess.thecvf.com/content_ICCV_2019/papers/Zhou_Discriminative_Feature_Transformation_for_Occluded_Pedestrian_Detection_ICCV_2019_paper.pdf)  |  
+|  NOH-NMS  | ACM-MM2020   | 1.3x  | 10.8 |   53.0†  | [Paper](https://arxiv.org/pdf/2007.13376.pdf)  |  
+|  CrowdDet  |  CVPR2020  | 1.3x  | 10.7 |   -  | [Paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Chu_Detection_in_Crowded_Scenes_One_Proposal_Multiple_Predictions_CVPR_2020_paper.pdf)  |  
 |  SML      | ACMMM2020   | 1.3x  |  10.6|  -  |  [Paper](https://cse.buffalo.edu/~jsyuan/papers/2020/SML.pdf)   |  
-|  MGAN      | ICCV2019   | 1.3x  |  10.5|  39.4  |  [Paper](https://openaccess.thecvf.com/content_ICCV_2019/papers/Pang_Mask-Guided_Attention_Network_for_Occluded_Pedestrian_Detection_ICCV_2019_paper.pdf)   |  
-|  CaSe   | ECCV2020   | 1.3x  |  9.8 |   37.4  |  [Paper](http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123620086.pdf)  | 
+|  EGCL   | arXiv2021   | 1.3x  |  10.5 |   45.3†  |  [Paper](https://arxiv.org/abs/2111.08974)  | 
+|  MGAN      | ICCV2019   | 1.3x  |  10.3|  49.6  |  [Paper](https://openaccess.thecvf.com/content_ICCV_2019/papers/Pang_Mask-Guided_Attention_Network_for_Occluded_Pedestrian_Detection_ICCV_2019_paper.pdf)   |  
+|  AutoPedestrian      | TIP2021   | 1.3x  |  10.3|  49.4†  |  [Paper](https://ieeexplore.ieee.org/document/9563123/)   |  
+|  CaSe   | ECCV2020   | 1.3x  |  9.6 |   48.2  |  [Paper](http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123620086.pdf)  | 
 |  JointDet  | CVPR2019   | 1.3x  | 10.2 |   -  |  [Paper](https://arxiv.org/pdf/1909.10674.pdf) |  
 |  0.5-stage  | WACV2020   | 1.3x  | 8.1 |   -  | [Paper](https://openaccess.thecvf.com/content_WACV_2020/papers/Ujjwal_A_one-and-half_stage_pedestrian_detector_WACV_2020_paper.pdf)  |  
 |  PedHutter  | AAAI2020   | 1.3x  | 8.3 |   43.5†  | [Paper](https://www.aaai.org/Papers/AAAI/2020GB/AAAI-ChiC.961.pdf)  |  
 
-- Usually, **HO** represents pedestrians over 50 pixels in height with 35-80% occlusion. 
-- † indicates the pedestrians over 50 pixels in height with more than 35% occlusion. Thus, † suggest higher difficulty.
 
 #### Citypersons test set <a name="3"></a>
+- Shanshan Zhang, Rodrigo Benenson, and Bernt Schiele, CityPersons: A Diverse Dataset for Pedestrian Detection, CVPR 2017.
    
 |    Method       | publication  |  **R**  | **RS** | **HO** | **A**| link |
 | :--------      | :-----:  | :-------: | :-----: | :------: | :------: | :------: |
@@ -123,7 +143,36 @@
 - **RS** represents the pedestrians over 50 pixels and under 75 pixels with less than 0.35 occlusion, while **A** the pedestrians over 20 pixels with
 less than 0.8 occlusion.
 
-#### KITTI test set <a name="4"></a>
+
+
+
+#### TJU-Ped-campus validation set <a name="4"></a>
+- Yanwei Pang, Jiale Cao, Yazhao Li, Jin Xie, Hanqing Sun, and Jinfeng Gong, TJU-DHD: A Diverse High-Resolution Dataset for Object Detection, IEEE TIP2021.
+
+|    Method       | publication  |  **R**  | **RS** | **HO** | **R+HO** | **A**| link |
+| :--------      | :-----:  | :-------: | :-------: | :-----: | :------: | :------: | :------: |
+|  RetinaNet       | ICCV2017    |  34.73 | 82.99 |   71.31  |    42.26     |     44.34   |  [Paper](https://arxiv.org/abs/1708.02002)   |
+|  FCOS  | ICCV2019    |  31.89 |   69.04  |  81.28 |   39.38     |     41.62   |  [Paper](https://arxiv.org/abs/1904.01355)   |
+|  FPN | ICCV2017    |  27.92 |   67.52 | 73.14 |    35.67     |     38.08  |  [Paper](https://arxiv.org/abs/1612.03144)    |
+|  CrowdDet  | CVPR2019    | 25.73 | - |   66.38 |    33.63     |     35.90   |  [Paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Chu_Detection_in_Crowded_Scenes_One_Proposal_Multiple_Predictions_CVPR_2020_paper.pdf)   |
+|  EGCL | arXiv2021    |  24.84 |- |    65.27  |   32.39     |     34.87  |  [Paper](https://arxiv.org/abs/2111.08974)  |
+
+
+#### TJU-Ped-traffic validation set <a name="5"></a>
+- Yanwei Pang, Jiale Cao, Yazhao Li, Jin Xie, Hanqing Sun, Jinfeng Gong, TJU-DHD: A Diverse High-Resolution Dataset for Object Detection, IEEE TIP2021.
+
+|    Method       | publication  |  **R**  | **RS** |**HO** | **R+HO** | **A**| link |
+| :--------      | :-----:  | :-------: | :-----: | :-----: | :------: | :------: | :------: |
+|  RetinaNet       | ICCV2017    |  23.89 | 37.92 |    61.60  |    28.45     |     41.40   |  [Paper](https://arxiv.org/abs/1708.02002)   |
+|  FCOS  | ICCV2019    |  24.35 | 37.40|     63.73  |    28.86     |     40.02   |  [Paper](https://arxiv.org/abs/1904.01355)   |
+|  FPN | ICCV2017    |  22.30 | 35.19|     60.30 |    26.71     |     37.78  |  [Paper](https://arxiv.org/abs/1612.03144)    |
+|  CrowdDet  | CVPR2019    | 20.82 | -|     61.22  |    25.28     |     36.94   |  [Paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Chu_Detection_in_Crowded_Scenes_One_Proposal_Multiple_Predictions_CVPR_2020_paper.pdf)   |
+|  EGCL | arXiv2021    |  19.73 | -|     60.05  |   24.19     |     35.76  |  [Paper](https://arxiv.org/abs/2111.08974)  |
+
+
+
+#### KITTI test set <a name="6"></a>
+- Andreas Geiger, Philip Lenz, and Raquel Urtasun, Are we ready for Autonomous Driving? The KITTI Vision Benchmark Suite, CVPR 2012.
 
    
 |    Method       | publication  | Medium |  Easy  | Hard | link |
@@ -153,7 +202,10 @@ less than 0.8 occlusion.
 |  Aston-EAS  | TITS2019   | 76.07  | 86.71 |   70.02  |   [Paper](https://ieeexplore.ieee.org/document/8694965) 
 |  AR-Ped  | CVPR2019   | 73.44  | 83.66 |   68.12  |   [Paper](https://openaccess.thecvf.com/content_CVPR_2019/papers/Brazil_Pedestrian_Detection_With_Autoregressive_Network_Phases_CVPR_2019_paper.pdf)  | 
 
-#### KAIST test set <a name="5"></a>
+
+
+#### KAIST test set <a name="7"></a>
+- Soonmin Hwang, Jaesik Park, Namil Kim, Yukyung Choi, and In So Kweon, Multispectral Pedestrian Detection: Benchmark Dataset and Baselines, CVPR 2015.
 
    
 |    Method       | publication  | MR(All)|MR(Day)| MR(Nighy)| link |
