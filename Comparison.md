@@ -9,7 +9,7 @@
 2. [Citypersons validation set](#2)  
 3. [Citypersons test set](#3)  
 4. [TJU-Ped-campus validation set](#4)  
-5. [TJU-Ped-campus validation set](#5)  
+5. [TJU-Ped-traffic validation set](#5)  
 6. [KITTI test set](#6)  
 7. [KAIST test set](#7)
 
