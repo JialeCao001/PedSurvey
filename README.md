@@ -384,7 +384,7 @@ This project provides a paper list about pedestrian detection following the taxo
    - Box Re-Ranking: Unsupervised False Positive Suppression for Domain Adaptive Pedestrian Detection, ArXiv 2021. [[Paper]](https://arxiv.org/pdf/2102.00595.pdf)
    - SAN: Selective Alignment Network for Cross-Domain Pedestrian Detection, TIP 2021. [[Paper]](https://ieeexplore.ieee.org/document/9329171)
 
-## 6. Challenges <a name="6"></a>
+## 6. Related survey <a name="6"></a>
   - Survey of Pedestrian Detection for Advanced Driver Assistance Systems, TPAMI 2009. [[Paper]](https://ieeexplore.ieee.org/document/5010438)
   - Ten Years of Pedestrian Detection, What Have We Learned, ECCV 2014. [[Paper]](https://arxiv.org/pdf/1411.4304.pdf)  
   - Pedestrian Detection in Automotive Safety: Understanding State-of-the-Art, IEEE Access 2019. [[Paper]](https://ieeexplore.ieee.org/document/8684823)
