@@ -219,3 +219,4 @@ less than 0.8 occlusion.
 |AR-CNN|ICCV2019|9.34|9.94|8.38|[Paper](https://arxiv.org/abs/1901.02645)|
 |MBNet|ECCV2020|8.13|8.28|7.86|[Paper](https://arxiv.org/abs/2008.03043)|
 |SCDN|ArXiv2021|8.07|8.16|7.51|[Paper](https://arxiv.org/abs/2105.12713)|
+|UGCML|TCSVT2022|7.89|8.18|6.96|[Paper](https://ieeexplore.ieee.org/document/9419080)|
