@@ -23,6 +23,7 @@ This project provides a paper list about pedestrian detection following the taxo
 ```
 **PD**: Pedestrian Detection; **MPD**: Multispectral Pedestrian Detection; **Others**: Pedestrian Detection with Special Devices
 ```
+- [May 10, 2022]: **PD**: [OAF-Net](https://ieeexplore.ieee.org/document/9770474), [F2DNet](https://arxiv.org/abs/2203.02331), [Pedstron](https://arxiv.org/abs/2201.03176); **MPD**: [CMPD](https://ieeexplore.ieee.org/document/9739079/); **Others**: [STCrowd](https://arxiv.org/abs/2204.01026),
 - [Mar. 4, 2022]: **PD**: [DMSFLN(TITS2021)](https://ieeexplore.ieee.org/document/9507387), [SA-DPM(TITS2022)](https://ieeexplore.ieee.org/document/9694517), [SSC(TITS2022)](https://ieeexplore.ieee.org/document/9690771), [CFL(TITS2022)](https://ieeexplore.ieee.org/document/9690771); **MPD**: [UGCML(TCSVT2021)](https://ieeexplore.ieee.org/document/9419080/), [[MuFEm(TITS2022)]](https://arxiv.org/pdf/2105.12713.pdf), [BAANet(arXiv2021)](https://arxiv.org/abs/2112.02277); **Others**: [UAVPed(TMM2021)](https://ieeexplore.ieee.org/document/9417704), [RAHD(TMM2022)](https://arxiv.org/abs/2112.08743)
 - [Dec. 5, 2021]: **PD**: [EGCL(arXiv2021)](https://arxiv.org/abs/2111.08974), [AutoPedestrian(TIP2021)](https://ieeexplore.ieee.org/document/9563123/), [SADet(IJCB2021)](https://ieeexplore.ieee.org/document/9484371), [PAMS-FCN(TITS2021)](https://ieeexplore.ieee.org/abstract/document/8960286), [SAN(TIP2021)](https://ieeexplore.ieee.org/document/9329171), [Un2Reliab(TMM2021)](https://ieeexplore.ieee.org/document/9352521)
 - [Nov. 1, 2021]: **PD**: [CRML(ICCV2021)](https://openaccess.thecvf.com/content/ICCV2021/papers/Kim_Robust_Small-Scale_Pedestrian_Detection_With_Cued_Recall_via_Memory_Learning_ICCV_2021_paper.pdf); **MPD**: [GAFF(WACV2021)](https://openaccess.thecvf.com/content/WACV2021/papers/Zhang_Guided_Attentive_Feature_Fusion_for_Multispectral_Pedestrian_Detection_WACV_2021_paper.pdf)
@@ -228,10 +229,12 @@ This project provides a paper list about pedestrian detection following the taxo
     - A one-and-half stage pedestrian detector, WACV 2020. [[Paper]](https://openaccess.thecvf.com/content_WACV_2020/papers/Ujjwal_A_one-and-half_stage_pedestrian_detector_WACV_2020_paper.pdf)
     - Progressive Refinement Network for Occluded Pedestrian Detection, ECCV 2020. [[Paper]](http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123680035.pdf)
     - SADet: Learning An Efficient and Accurate Pedestrian Detector, IJCB 2021. [[Paper]](https://ieeexplore.ieee.org/document/9484371)
+    - F2DNet: Fast Focal Detection Network for Pedestrian Detection, ICPR 2022. [[Paper]](https://arxiv.org/abs/2203.02331)
   - **Anchor-free methods**
     - Small-scale pedestrian detection based on topological line localization and temporal feature aggregation, ECCV 2018. [[Paper]](https://openaccess.thecvf.com/content_ECCV_2018/papers/Tao_Song_Small-scale_Pedestrian_Detection_ECCV_2018_paper.pdf)
     - High-level semantic feature detection: A new perspective for pedestrian detection, CVPR 2019. [[Paper]](https://openaccess.thecvf.com/content_CVPR_2019/papers/Liu_High-Level_Semantic_Feature_Detection_A_New_Perspective_for_Pedestrian_Detection_CVPR_2019_paper.pdf)
     - Attribute-aware pedestrian detection in a crowd, TMM 2021. [[Paper]](https://arxiv.org/pdf/1910.09188.pdf)
+    - OAF-Net: An Occlusion-Aware Anchor-Free Network for Pedestrian Detection in a Crowd, TITS 2022. [[Paper]](https://ieeexplore.ieee.org/document/9770474)
   - **Data-augmentation methods**
     - Synthesizing a scene-specific pedestrian detector and pose estimator for static video surveillance, IJCV 2018. [[Paper]](http://hal.cse.msu.edu/assets/pdfs/papers/2018-ijcv-visual-compiler.pdf)
     - Training cascade compact cnn with region-iou for accurate pedestrian detection, TITS 2019. [[Paper]](https://ieeexplore.ieee.org/abstract/document/8796403/)
@@ -277,6 +280,9 @@ This project provides a paper list about pedestrian detection following the taxo
     - PEN: Pose-embedding network for pedestrian detection, TCSVT 2020. [[Paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9109304) 
     - A unified multi-task learning architecture for fast and accurate pedestrian detection, TITS 2020. [[Paper]](https://ieeexplore.ieee.org/document/9186837)
     - Enhanced Multi-Task Learning Architecture for Detecting Pedestrian at Far Distance, TITS 2022. [[Paper]](https://ieeexplore.ieee.org/document/9690771)
+  - **Generalization**
+    - Generalizable Pedestrian Detection: The Elephant In The Room, CVPR 2021. [[Paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/Hasan_Generalizable_Pedestrian_Detection_The_Elephant_in_the_Room_CVPR_2021_paper.pdf) 
+    - Pedestrian Detection: Domain Generalization, CNNs, Transformers and Beyond, arXiv 2022. [[Paper]](https://arxiv.org/abs/2201.03176) 
   - **others**
     - Exploiting target data to learn deep convolutional networks for scene-adapted human detection, TIP 2018. [[Paper]](https://ieeexplore.ieee.org/abstract/document/8125769/)
     - Deep learning approaches on pedestrian detection in hazy weather, TIE 2019. [[Paper]](https://ieeexplore.ieee.org/abstract/document/8880634/)
@@ -293,6 +299,7 @@ This project provides a paper list about pedestrian detection following the taxo
     - Unreliable-to-Reliable Instance Translation for Semi-Supervised Pedestrian Detection, TMM 2021. [[Paper]](https://ieeexplore.ieee.org/document/9352521)
     - Real-time and Accurate UAV Pedestrian Detection for Social Distancing Monitoring in COVID-19 Pandemic, TMM 2021. [[Paper]](https://ieeexplore.ieee.org/document/9417704)
     - Radio-Assisted Human Detection, TMM 2022. [[Paper]](https://arxiv.org/abs/2112.08743)
+    - STCrowd: A Multimodal Dataset for Pedestrian Perception in Crowded Scenes, CVPR 2022. [[Paper]](https://arxiv.org/abs/2204.01026)
 ## 3. Multispectral pedestrian detection <a name="3"></a>
 #### 3.1. Deep feature fusion <a name="3.1"></a>
   - Multispectral deep neural networks for pedestrian detection, BMVC 2016. [[Paper]](https://arxiv.org/pdf/1611.02644.pdf)
@@ -308,6 +315,7 @@ This project provides a paper list about pedestrian detection following the taxo
   - Deep Cross-Modal Representation Learning and Distillation for Illumination-Invariant Pedestrian Detection, TCSVT 2022. [[Paper]](https://ieeexplore.ieee.org/document/9357413)
   - Spatio-Contextual Deep Network Based Multimodal Pedestrian Detection For Autonomous Driving, TITS 2021. [[Paper]](https://arxiv.org/pdf/2105.12713.pdf)
   - BAANet: Learning Bi-directional Adaptive Attention Gates for Multispectral Pedestrian Detection, ArXiv 2021. [[Paper]](https://arxiv.org/abs/2112.02277)
+  - Confidence-aware Fusion using Dempster-Shafer Theory for Multispectral Pedestrian Detection, TMM 2022. [[Paper]](https://ieeexplore.ieee.org/document/9739079)
 #### 3.2. Data processing <a name="3.2"></a>
   - Multispectral pedestrian detection via simultaneous detection and segmentation, BMVC 2018. [[Paper]](https://arxiv.org/pdf/1808.04818.pdf)
   - Weakly aligned cross-modal learning for multispectral pedestrian detection, ICCV 2019. [[Paper]](https://openaccess.thecvf.com/content_ICCV_2019/papers/Zhang_Weakly_Aligned_Cross-Modal_Learning_for_Multispectral_Pedestrian_Detection_ICCV_2019_paper.pdf)
