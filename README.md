@@ -1,7 +1,7 @@
 ## From Handcrafted to Deep Features for Pedestrian Detection: A Survey
 
 This project provides a paper list about pedestrian detection following the taxonomy in "*[From Handcrafted to Deep Features for Pedestrian Detection: A Survey
-(IEEE TPAMI 2021)](https://arxiv.org/pdf/2010.00456.pdf)*". 
+(IEEE TPAMI 2022)](https://arxiv.org/pdf/2010.00456.pdf)*". 
 - **Single-spectral pedestrian detection** and **multispectral pedestrian detection** are both summarized.
 - The performance of some methods on different datasets are shown in [Leaderboard](Comparison.md).
 - We release a new large-scae pedestrian detection dataset **TJU-DHD-Pedestrian**: [arXiv2021](https://arxiv.org/pdf/2011.09170.pdf), [TIP2021](https://ieeexplore.ieee.org/document/9247499), [website](https://github.com/tjubiit/TJU-DHD), [Learderboard](https://paperswithcode.com/dataset/tju-dhd)
