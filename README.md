@@ -471,10 +471,13 @@ This project provides a paper list about pedestrian detection following the taxo
 If this project help your research, please consider to cite our survey paper.
 ```
 @article{Cao_PDR_TPAMI_2020,
-         author = {Jiale Cao and Yanwei Pang and Jin Xie and Fahad Shahbaz Khan and Ling Shao},
-         title = {From Handcrafted to Deep Features for Pedestrian Detection: A Survey},
-         journal = {IEEE Transactions on Pattern Analysis and Machine Intelligence},
-         year = 2021
+        author = {Jiale Cao and Yanwei Pang and Jin Xie and Fahad Shahbaz Khan and Ling Shao},
+        title = {From Handcrafted to Deep Features for Pedestrian Detection: A Survey},
+        journal = {IEEE Transactions on Pattern Analysis and Machine Intelligence},
+        volume = {44},
+        number = {9},
+        year = {2022},
+        pages = {4913-4934},
         }
 ```
 
